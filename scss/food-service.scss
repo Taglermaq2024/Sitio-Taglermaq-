@@ -1,0 +1,454 @@
+@mixin title-foodservice {
+    .titulos-foodservice2024 {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 6em 0 4em;
+
+        @media(max-width: 900px) {
+            width: 90%;
+        }
+
+        @media(max-width: 800px) {
+            padding: 5em 0 4em;
+        }
+
+        @media(max-width: 500px) {
+            padding: 3em 0;
+        }
+
+        span {
+            color: #6C6C6C;
+            font-weight: bold;
+
+            &:before,
+            &:after {
+                color: #9AC62D;
+            }
+
+            &:before {
+                content: "───";
+                margin: 0 1em 0 0;
+            }
+
+            &:after {
+                content: "───";
+                margin: 0 0 0 1em;
+            }
+        }
+
+        h2 {
+            font-size: 3.5em;
+            margin: .2em 0 0;
+            color: #3E3E3E;
+            -webkit-text-stroke: 3px;
+            line-height: 1;
+
+            @media(max-width: 900px) {
+                font-size: 2.5em;
+            }
+
+            @media(max-width: 600px) {
+                font-size: 2em;
+            }
+        }
+
+        h3 {
+            font-size: 2.5em;
+            line-height: .5;
+            margin: .4em 0 0;
+            color: #86c800;
+            -webkit-text-stroke: 2px;
+
+            @media(max-width: 900px) {
+                font-size: 2em;
+            }
+
+            @media(max-width: 600px) {
+                font-size: 1.5em;
+                line-height: 1;
+            }
+        }
+    }
+}
+
+
+
+.banner-foodservice2024 {
+    width: 100%;
+    margin-top: 108px;
+
+    @media(max-width: 900px) {
+        margin-top: 78px;
+    }
+
+    @media(max-width: 500px) {
+        margin-top: 68px;
+    }
+
+    .borde-color {
+        border-bottom: 7px solid #232b37;
+    }
+}
+
+
+.fondo-service2024 {
+    background-color: #f7f7f7;
+
+    @include title-foodservice();
+
+
+    .grid-foodservice2024 {
+        max-width: 1300px;
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-auto-rows: minmax(200px, auto);
+        gap: 20px;
+        padding: 0 0 5em 0;
+        grid-auto-flow: dense;
+
+        @media(max-width: 1300px) {
+            width: 90%;
+        }
+
+        @media(max-width: 800px) {
+            grid-template-columns: inherit;
+            grid-auto-rows: inherit;
+            display: flex;
+            overflow-x: scroll;
+        }
+
+        @media(max-width: 500px) {
+            padding: 0 0 2em 0;
+        }
+
+        .grid-item {
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            box-shadow: 0 0 10px #e8e8e8;
+
+            @media(max-width: 800px) {
+                padding: 1em;
+            }
+
+            .logotipos {
+                width: 180px;
+            }
+
+            .sormac {
+                width: 230px;
+            }
+
+            .dick {
+                width: 260px;
+            }
+
+            .handtmann {
+                width: 180px;
+            }
+        }
+    }
+}
+
+
+.fondo-foodservice2024-maquinas {
+    width: 100%;
+    padding: 0 0 4em 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media(max-width: 700px) {
+        padding: 3em 0 4em 0;
+    }
+
+    @include title-foodservice();
+
+
+    .fondo-hoja {
+        max-width: 1300px;
+        width: 100%;
+        margin: 0 0 4em 0;
+        background-color: white;
+        box-shadow: 0 0 10px #ccc;
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        @media(max-width: 1300px) {
+            width: 90%;
+            margin: 0 0 2em 0;
+        }
+
+        .anritsu-opacity,
+        .irinox-opacity,
+        .sormac-opacity,
+        .groen-opacity,
+        .dick-opacity {
+            font-size: 14em;
+            position: absolute;
+            color: rgba(0, 0, 0, 0.03);
+            font-family: 'Montserrat';
+            font-weight: bold;
+            width: 100%;
+            text-align: center;
+            z-index: 1;
+            letter-spacing: -15px;
+            overflow: hidden;
+        }
+
+        .anritsu-opacity {
+            transform: translateY(200px);
+
+            @media(max-width: 1100px) {
+                transform: translateY(100px);
+            }
+        }
+
+        .irinox-opacity {
+            transform: translateY(150px);
+        }
+
+        .sormac-opacity {
+            transform: translateY(100px);
+        }
+
+        .groen-opacity {
+            transform: translateY(130px);
+        }
+
+        .dick-opacity {
+            transform: translateY(160px);
+        }
+
+
+
+        .img-background {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+            .wrapper-title-marcas {
+                position: absolute;
+                text-align: center;
+                z-index: 1;
+
+                h2,
+                h3 {
+                    color: white;
+                    text-shadow: 0 0 6px #7c7c7c;
+                }
+
+                h2 {
+                    font-size: 2.3em;
+                    padding: 0 1em;
+                    background-color: #009870;
+
+                    @media(max-width: 800px) {
+                        font-size: 1.5em;
+                    }
+
+                    @media(max-width: 500px) {
+                        font-size: 1.2em;
+                    }
+                }
+
+                h3 {
+                    font-size: 2em;
+
+                    @media(max-width: 800px) {
+                        font-size: 1.5em;
+                    }
+
+                    @media(max-width: 500px) {
+                        font-size: 1.2em;
+                    }
+                }
+            }
+
+            .waves {
+                position: absolute;
+                bottom: -110px;
+                opacity: .8;
+
+                @media(max-width: 700px) {
+                    bottom: -40px;
+                }
+            }
+
+            .waves-anritsu {
+                position: absolute;
+                top: 180px;
+                opacity: .4;
+            }
+
+            .circle-sormac {
+                width: 300px;
+                position: absolute;
+                left: 0;
+                top: 150px;
+
+                @media(max-width: 1100px) {
+                    opacity: .2;
+                }
+            }
+
+            .triangle-groen {
+                width: 400px;
+                position: absolute;
+                left: 0;
+                top: 200px;
+
+                @media(max-width: 1100px) {
+                    opacity: .2;
+                }
+            }
+
+            .circle-dick {
+                width: 300px;
+                position: absolute;
+                left: 0;
+                top: 200px;
+
+                @media(max-width: 1100px) {
+                    opacity: .2;
+                }
+            }
+
+            .line-handtmann {
+                width: 100%;
+                position: absolute;
+                left: 0;
+                bottom: -150px;
+                opacity: .4;
+
+                @media(max-width: 1000px) {
+                    bottom: -100px;
+                }
+            }
+
+            .lines-maha1 {
+                width: 100%;
+                position: absolute;
+                left: 0;
+                top: 150px;
+                opacity: .5;
+            }
+        }
+
+
+
+        .content-block {
+            max-width: 1000px;
+            display: flex;
+            margin: 2em 0;
+            gap: 50px;
+
+            @media(max-width: 1100px) {
+                max-width: 90%;
+            }
+
+            @media(max-width: 700px) {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .block1,
+            .block2 {
+                width: 400px;
+                padding: 2em 0;
+
+                // border: 1px solid #ededed;
+                @media(max-width: 700px) {
+                    width: 100%;
+                    padding: 0;
+                }
+            }
+
+            .block1 {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                justify-content: center;
+                text-align: right;
+                position: relative;
+                z-index: 1;
+
+                @media(max-width: 700px) {
+                    align-items: center;
+                    text-align: center;
+                    padding: 0;
+                }
+
+                img {
+                    width: 100px;
+                    margin: .5em 0;
+                }
+
+                h2 {
+                    font-size: 1.5em;
+                    line-height: 1;
+                    margin: 0 0 .5em 0;
+                }
+
+                p {
+                    color: #9b9b9b;
+                    font-size: .9em;
+                    margin: 0 0 1em 0;
+                }
+
+                button {
+                    padding: 1em 3em;
+                    border-radius: 5px;
+                    background-color: #767676;
+                    color: white;
+                    text-transform: uppercase;
+
+                    @media(max-width: 600px) {
+                        padding: 1em 6em;
+                    }
+                }
+            }
+
+            .block2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+
+                .img-machine {
+                    width: 400px;
+
+                    @media(max-width: 900px) {
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// Visitas
+.wrapper-visitante {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #585858;
+    padding: .2em 0;
+    color: white;
+
+    .numero {
+        margin: 0 0 0 .5em;
+    }
+}

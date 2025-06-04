@@ -1,0 +1,1117 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.min-sat {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 1537px) {
+  .min-sat {
+    width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+
+
+.btn-sat {
+  background-color: #95c11f;
+  color: #f7f8fa;
+  text-align: center;
+  padding: 10px 20px;
+  min-width: 100px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.btn-sat:hover {
+  background-color: #212121;
+  color: #ffffff;
+}
+
+.principal_sat {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  /* overflow: hidden; */
+  padding: 0;
+  position: relative;
+}
+
+.principal_sat_int {
+  height: 80vh;
+  overflow: hidden;
+}
+
+.principal_sat img {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+  transform: translateY(90px);
+}
+
+.principal_sat_int img {
+  height: 8s0vh;
+}
+
+@media(max-width: 900px) {
+  .principal_sat img {
+    transform: translateY(0);
+  }
+
+}
+
+
+
+.principal_sat .tecnicos {
+  position: absolute;
+  width: 43%;
+  height: auto;
+  left: 5%;
+  bottom: 0;
+}
+
+.principal_sat .texto {
+  position: absolute;
+  right: 4rem;
+  width: 40%;
+  color: #f7f8fa;
+  top: 28%;
+  text-align: center;
+  z-index: 1;
+}
+
+.principal_sat .texto img {
+  width: 90%;
+  height: auto;
+  margin: 0 auto 1rem;
+}
+
+.principal_sat .desktop {
+  display: block;
+}
+
+.principal_sat .mobile {
+  display: none;
+}
+
+@media screen and (max-width: 990px) {
+  .principal_sat .texto img {
+    width: 100%;
+  }
+}
+
+.principal_sat .texto .btn-sat {
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  top: 75px;
+}
+
+@media screen and (max-width: 800px) {
+  .principal_sat .texto .btn-sat {
+    float: right;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .principal_sat .texto {
+    top: 3%;
+    text-align: center;
+    width: 90%;
+    left: 7%;
+  }
+
+  .principal_sat .desktop {
+    display: none;
+  }
+
+  .principal_sat .mobile {
+    display: block;
+  }
+}
+
+/*@media screen and (max-width: 1440px) {
+  .principal_sat {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 990px) {
+  .principal_sat {
+    height: 44vh;
+  }
+}*/
+@media screen and (max-width: 800px) {
+  .principal_sat {
+    width: 100%;
+  }
+}
+
+.soluciones_sat {
+  background-image: url(https://www.taglermaq.cl/wp-content/themes/taglermaq/img/sat/bg-soluciones.jpg);
+  background-repeat: no-repeat;
+
+  /* background-position: center;
+  background-size: cover;
+  padding: 6rem 5% 1rem;
+  padding: 18rem 5% 1rem; */
+
+  position: relative;
+  margin: 10em 0;
+}
+
+.soluciones_sat .min-sat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.soluciones_sat .texto {
+  width: 40%;
+}
+
+@media screen and (max-width: 800px) {
+  .soluciones_sat {
+    margin: 5em 0;
+  }
+
+  .soluciones_sat .texto {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1536px) {
+  .soluciones_sat .min-sat {
+    padding: 0 5%;
+  }
+}
+
+.soluciones_sat .imagen {
+  width: 55%;
+}
+
+@media screen and (max-width: 800px) {
+  .soluciones_sat .imagen {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .soluciones_sat .imagen {
+    width: 100%;
+  }
+}
+
+.soluciones_sat .texto h2 {
+  font-size: 40px;
+  margin: 0 0 0.5rem;
+  font-weight: 700;
+  color: #2f2f2e;
+}
+
+.soluciones_sat .texto h3 {
+  color: #95c11f;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 10px 0 15px;
+}
+
+.soluciones_sat .texto p {
+  color: #626161;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.soluciones_sat .texto .experiencia {
+  width: 150px;
+  height: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .soluciones_sat {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.cifras_sat {
+  background-image: url(https://www.taglermaq.cl/wp-content/themes/taglermaq/img-temporal/bg-cifras.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 6rem 5% 15%;
+}
+
+@media screen and (min-width: 1537px) {
+  .cifras_sat {
+    background-image: url(https://www.taglermaq.cl/wp-content/themes/taglermaq/img-temporal/bg-cifras-min.jpg);
+    background-size: 60%;
+    background-position: center 166px;
+  }
+}
+
+.cifras_sat h2 {
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  top: -45px;
+  font-weight: 700;
+  color: #2f2f2e;
+}
+
+.cifras_sat h2:before,
+.cifras_sat h2:after {
+  content: "";
+  width: 50px;
+  height: 3px;
+  display: inline-block;
+  background-color: #95c11f;
+
+  transform: translateY(-12px);
+  /* vertical-align: bottom; */
+}
+
+.cifras_sat h2:before {
+  margin-right: 5px;
+}
+
+.cifras_sat h2:after {
+  margin-left: 5px;
+}
+
+.cifras_sat h2 span {
+  display: inline-block;
+}
+
+.cifras_sat .box-cifras {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 8rem 0;
+  gap: 3rem;
+}
+
+.cifras_sat .box-cifras .cifra {
+  width: 250px;
+  height: 250px;
+  padding: 5px 10px 5px 0;
+  background-image: url(https://www.taglermaq.cl/wp-content/themes/taglermaq/img-temporal/cifras-circle.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+
+  line-height: 1;
+  font-weight: bold;
+}
+
+.cifras_sat .box-cifras .cifra .num {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.cifras_sat .box-cifras .cifra .detalle {
+  font-size: 17px;
+  color: #626161;
+}
+
+.cifras_sat .box-cifras .cifra .verde {
+  color: #95c11f;
+}
+
+.cifras_sat .box-cifras .cifra::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 331px;
+  height: 197px;
+  position: absolute;
+  left: -10%;
+}
+
+.cifras_sat .box-cifras .cifra:first-child::before {
+  content: "";
+  background-image: url(https://www.taglermaq.cl/wp-content/themes/taglermaq/img/sat/cifras-02.png);
+  left: -15%;
+  bottom: -18%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.cifras_sat .box-cifras .cifra:nth-child(2)::before {
+  content: "";
+  background-image: url(https://www.taglermaq.cl/wp-content/themes/taglermaq/img/sat/cifras-01.png);
+  left: -17%;
+  top: -20%;
+  z-index: 9;
+}
+
+.cifras_sat .box-cifras .cifra:nth-child(3)::before {
+  content: "";
+  background-image: url(https://www.taglermaq.cl/wp-content/themes/taglermaq/img/sat/cifras-02.png);
+  left: -17%;
+  bottom: -18%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+/*@media screen and (min-width: 1600px) {
+  .cifras_sat {
+    padding: 6rem 5% 800px;
+  }
+}*/
+@media screen and (max-width: 800px) {
+  .cifras_sat .box-cifras {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cifras_sat {
+    width: 100%;
+  }
+}
+
+.title-servicios_sat h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #2f2f2e;
+
+  margin: 0 0 1em 0;
+
+}
+
+.title-servicios_sat h2:before,
+.title-servicios_sat h2:after {
+  content: "";
+  width: 50px;
+  height: 3px;
+  display: inline-block;
+  background-color: #95c11f;
+
+  transform: translateY(-10px);
+  /* vertical-align: middle; */
+}
+
+.title-servicios_sat h2:before {
+  margin-right: 30px;
+}
+
+.title-servicios_sat h2:after {
+  margin-left: 30px;
+}
+
+.title-servicios_sat h2 span {
+  display: inline-block;
+}
+
+.servicios_sat {
+  background: rgba(236, 236, 236, 0.5294117647);
+  padding: 4rem 5% 8rem;
+}
+
+
+
+.servicios_sat .box-servicios {
+  width: 31.3%;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  border-radius: 5px;
+  background-color: #f7f8fa;
+  overflow: hidden;
+  padding: 0 0 25px;
+}
+
+.servicios_sat .box-servicios .imagen {
+  width: 100%;
+  position: relative;
+}
+
+.servicios_sat .box-servicios .imagen figure {
+  line-height: 1;
+  margin: 0;
+}
+
+.servicios_sat .box-servicios .imagen .icon {
+  position: absolute;
+  left: 5%;
+  bottom: -10%;
+  width: 100px;
+  height: 100px;
+  background-color: #95c11f;
+  border: 10px solid #f7f8fa;
+  border-radius: 50%;
+}
+
+.servicios_sat .box-servicios .imagen .icon img {
+  width: 98%;
+  height: auto;
+  border: 5px solid #95c11f;
+  border-radius: 50%;
+}
+
+.servicios_sat .box-servicios .texto {
+  padding: 1rem;
+  position: relative;
+}
+
+.servicios_sat .box-servicios .texto h2 {
+  color: #444444;
+  font-size: 22px;
+  text-transform: uppercase;
+  line-height: 120%;
+  min-height: 73px;
+  padding: 20px 0 0;
+  font-weight: 600;
+}
+
+
+.wrapper_fondo_sat_servicios {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #585858;
+}
+
+@media(max-width: 800px) {
+  .wrapper_fondo_sat_servicios {
+    height: 400px;
+  }
+}
+
+.img_sat_box {
+  width: 80%;
+}
+
+
+
+.img_sat_taglermaq {
+  width: 130px;
+  position: relative;
+  top: 15px;
+}
+
+
+
+.servicios_sat .box-servicios .texto p {
+  font-size: 16px;
+  line-height: 120%;
+  margin: 10px 0;
+  padding: 0;
+  min-height: 75px;
+}
+
+.servicios_sat .box-servicios .texto .btn-sat {
+  font-weight: 600;
+  float: right;
+}
+
+@media screen and (max-width: 800px) {
+  .servicios_sat .box-servicios {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .servicios_sat {
+    width: 100%;
+  }
+}
+
+.equipo_sat {
+  background-image: url(https://www.taglermaq.cl/wp-content/themes/taglermaq/img/sat/bg-equipo.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  padding: 6rem 5%;
+}
+
+.equipo_sat .min-sat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.equipo_sat .texto {
+  width: 40%;
+}
+
+@media screen and (max-width: 800px) {
+  .equipo_sat .texto {
+    width: 100%;
+  }
+}
+
+.equipo_sat .imagen {
+  width: 55%;
+}
+
+@media screen and (max-width: 800px) {
+  .equipo_sat .imagen {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .equipo_sat .imagen img {
+    margin-bottom: 2rem;
+  }
+}
+
+.equipo_sat .texto h2 {
+  font-size: 40px;
+  margin: 0 0 0.5rem;
+  font-weight: 700;
+  color: #2f2f2e;
+}
+
+.equipo_sat .texto h3 {
+  color: #95c11f;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.equipo_sat .texto p {
+  color: #626161;
+  font-weight: 500;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 800px) {
+  .equipo_sat {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+.contacto_sat {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: colum;
+  flex-direction: colum;
+  background-image: url(https://www.taglermaq.cl/wp-content/themes/taglermaq/img/sat/bg-contacto.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10rem 5%;
+  color: #f7f8fa;
+}
+
+.contacto_sat .form {
+  width: 40%;
+}
+
+.contacto_sat .form h2 {
+  font-size: 40px;
+  color: #f7f8fa;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contacto_sat .form p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+  margin-top: 15px;
+}
+
+.contacto_sat .form form {
+  color: #f7f8fa;
+  margin: 3rem 0 0;
+}
+
+.contacto_sat .form form .form-group {
+  width: 49%;
+  display: inline-block;
+  margin: 0 0 30px;
+  vertical-align: middle;
+}
+
+.contacto_sat .form form .form-group label {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 13px;
+  color: #f7f8fa;
+}
+
+.contacto_sat .form form .form-group input,
+.contacto_sat .form form .form-group textarea {
+  width: 100%;
+  background-color: #f7f8fa;
+  border-radius: 25px;
+  border: none;
+  min-height: 35px;
+  font-weight: 600;
+}
+
+.contacto_sat .form form .form-group input {
+  width: 95%;
+}
+
+.contacto_sat .wpcf7-response-output {
+  clear: both;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  .contacto_sat .form form .form-group input {
+    width: 100%;
+  }
+}
+
+.contacto_sat .form form .form-group textarea {
+  width: 100%;
+  height: 55px;
+}
+
+.contacto_sat .form form .form-group .right {
+  float: right;
+}
+
+@media screen and (max-width: 800px) {
+  .contacto_sat .form form .form-group {
+    width: 100%;
+  }
+}
+
+.contacto_sat .form form .btn-sat {
+  border: none;
+  float: right;
+  font-weight: bold;
+  margin-right: 1%;
+  font-size: 1.5rem;
+  padding: 0.7rem 1.7rem;
+  width: 150px;
+  transform: translateY(-10px);
+
+}
+
+.contacto_sat .form form .form-group-max {
+  width: 99%;
+  display: inline-block;
+}
+
+.contacto_sat .form form .form-group-max input,
+.contacto_sat .form form .form-group-max textarea {
+  width: 100%;
+  padding: 1.2em 1em;
+  color: #555555;
+  resize: none;
+}
+
+@media screen and (max-width: 800px) {
+  .contacto_sat .form {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contacto_sat {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+.capacitaciones_sat {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10rem 5%;
+  gap: 3rem;
+  background-image: url(https://www.taglermaq.cl/wp-content/themes/taglermaq/img/sat/bg-capacitaciones.jpg?v=0.5);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.capacitaciones_sat h2 {
+  font-size: 40px;
+  margin: 0 0 0.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.capacitaciones_sat p {
+  font-size: 20px;
+  color: #2f2f2e;
+  margin-top: 20px;
+  ;
+}
+
+.capacitaciones_sat p span {
+  color: #95c11f;
+  font-weight: bold;
+}
+
+.capacitaciones_sat .info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 1537px) {
+  .capacitaciones_sat .info {
+    width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+.capacitaciones_sat .info .texto {
+  width: 20%;
+  margin-right: 5%;
+}
+
+.capacitaciones_sat .info .imagen {
+  width: 73%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1537px) {
+  .capacitaciones_sat .info .imagen {
+    width: 100%;
+  }
+}
+
+.capacitaciones_sat .info .imagen .box {
+  width: 100%;
+  max-height: 430px;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  border-radius: 5px;
+  background-color: #f7f8fa;
+  position: relative;
+}
+
+.capacitaciones_sat_int .info .imagen .box {
+  max-height: 420px;
+}
+
+@media screen and (min-width: 1920px) {
+  .capacitaciones_sat .info .imagen .box {
+    max-height: 530px;
+  }
+}
+
+.capacitaciones_sat .info .imagen .box-01:first-child {
+  margin-top: 4rem;
+}
+
+.capacitaciones_sat .info .imagen .box-01:before {
+  content: "";
+  width: 200px;
+  height: 100px;
+  background-image: url(https://www.taglermaq.cl/wp-content/themes/taglermaq/img/sat/mascara-01.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100%;
+  display: block;
+  position: absolute;
+  top: -12px;
+  left: -11px;
+  z-index: 9;
+}
+
+.capacitaciones_sat .info .imagen .box-02:before {
+  content: "";
+  width: 130px;
+  height: 110px;
+  background-image: url(https://www.taglermaq.cl/wp-content/themes/taglermaq/img/sat/mascara-02.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100%;
+  display: block;
+  position: absolute;
+  bottom: -17px;
+  left: -13px;
+  z-index: 9;
+}
+
+.capacitaciones_sat .info .imagen .box-03 {
+  margin-top: 8rem;
+}
+
+.capacitaciones_sat .info .imagen .box-03:before {
+  content: "";
+  width: 80px;
+  height: 246px;
+  background-image: url(https://www.taglermaq.cl/wp-content/themes/taglermaq/img/sat/mascara-03.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100%;
+  display: block;
+  position: absolute;
+  bottom: -119px;
+  right: -13px;
+  z-index: 9;
+}
+
+.capacitaciones_sat .info .imagen .box h2 {
+  color: #2f2f2e;
+  font-size: 1.5em;
+  padding: 20px 15px;
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.capacitaciones_sat .info .imagen .box p {
+  color: #2f2f2e;
+  font-size: 1em;
+  padding: 20px 15px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.capacitaciones_sat .info .imagen .box .detalle p {
+  font-weight: 500;
+  padding: 0 13px !important;
+  font-size: 1em;
+}
+
+@media screen and (min-width: 1537px) {
+  .capacitaciones_sat .info .imagen .box .detalle p {
+    padding: 0 15px !important;
+  }
+}
+
+.capacitaciones_sat .info .imagen .box p span {
+  display: block;
+  color: #2f2f2e;
+  font-weight: 400;
+  padding: 20px 15px 0;
+}
+
+.capacitaciones_sat .info .imagen .box p .pais {
+  font-size: 1.7rem;
+  padding: 5px 0 0;
+}
+
+.capacitaciones_sat .info .imagen .box p .pais:before {
+  content: "";
+  width: 20px;
+  height: 25px;
+  background-image: url(https://www.taglermaq.cl/wp-content/themes/taglermaq/img/sat/icon-map.png?v=0.6);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100%;
+  display: inline-block;
+  position: relative;
+  margin-right: 5px;
+  left: 0;
+  top: 0;
+  vertical-align: middle;
+}
+
+.capacitaciones_sat .info .imagen .box .marca {
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 44%;
+  right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #585858;
+}
+
+.capacitaciones_sat .info .imagen .box .marca img {
+  width: 80%;
+}
+
+.capacitaciones_sat .info .imagen .slick-slide {
+  margin: 0 1.6rem !important;
+}
+
+
+.capacitaciones_sat .info .imagen .box .detalle {
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateY(90deg);
+  transform-origin: 50%;
+  background: rgba(255, 255, 255);
+  opacity: 0;
+  transition: all 0.4s ease-in;
+}
+
+.capacitaciones_sat .info .imagen .box:hover .detalle {
+  transform: translate(-50%, -50%) rotateY(0deg);
+  opacity: 1;
+}
+
+.capacitaciones_sat_int .info {
+  flex-direction: column;
+  margin: 6em;
+}
+
+.capacitaciones_sat_int .info .texto {
+  width: 100%;
+  margin-right: 0;
+}
+
+.capacitaciones_sat_int .info .imagen {
+  width: 100%;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .capacitaciones_sat,
+  .capacitaciones_sat .info {
+    flex-direction: column;
+  }
+
+  .capacitaciones_sat .info .texto {
+    width: 100%;
+  }
+
+  .capacitaciones_sat .info .imagen {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .capacitaciones_sat .info .imagen .box {
+    width: 100%;
+    margin: 0 0 20px;
+    max-height: inherit;
+    perspective: 500px;
+    position: relative;
+  }
+
+  .capacitaciones_sat .info .imagen .box:first-child {
+    margin-top: 2rem;
+  }
+
+  .capacitaciones_sat .info .imagen .box:last-child {
+    margin-top: 2rem;
+  }
+
+  .capacitaciones_sat .info .imagen .box:first-child:before,
+  .capacitaciones_sat .info .imagen .box:nth-child(2):before,
+  .capacitaciones_sat .info .imagen .box:last-child:before {
+    display: none;
+  }
+}
