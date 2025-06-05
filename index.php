@@ -447,6 +447,21 @@
 
 
         <div class="content-box-2024-feb">
+            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/06/destacada-vc999.jpg" alt="Imagen Destacada">
+            <div class="block-color-2024" style="background-color: #f70001">
+                <div class="content-txt-notice-2024">
+                    <h2>05 JUNIO</h2>
+                    <h3>VC999</h3>
+                    <p>Tecnología que garantiza precisión y seguridad en cada etapa</p>
+                    <hr>
+                    <a href="<?php bloginfo('url')?>/contenido_noticias/automatizacion-farmaceutica-en-chile/">
+                        <button>Leer Noticia</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-box-2024-feb">
             <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/05/destacasa-sumando-conocimiento.jpg" alt="Imagen Destacada" />
             <div class="block-color-2024" style="background-color: #1e3859">
                 <div class="content-txt-notice-2024">
@@ -477,20 +492,6 @@
             </div>
         </div>
 
-        <div class="content-box-2024-feb">
-            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/04/destacada-iba2025.jpg" alt="Imagen Destacada">
-            <div class="block-color-2024" style="background-color: #ffc500">
-                <div class="content-txt-notice-2024">
-                    <h2>17 ABRIL</h2>
-                    <h3>IBA 2025</h3>
-                    <p>Soluciones avanzadas de envasado para sector bakery en Iba 2025</p>
-                    <hr>
-                    <a href="<?php bloginfo('url')?>/contenido_noticias/soluciones-avanzadas-de-envasado-para-sector-bakery-en-iba-2025/">
-                        <button>Leer Noticia</button>
-                    </a>
-                </div>
-            </div>
-        </div>
 
         
 
