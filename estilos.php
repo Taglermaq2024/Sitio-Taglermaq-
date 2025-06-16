@@ -33,7 +33,7 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/sat.css?0.0.225">
 
 
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/config.css?0.0.0.8">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/config.css?0.0.0.9">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/banner-slider.css?0.0.285">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/detalle-productos.css?0.0.22">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/filtros.css?0.0.48">

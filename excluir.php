@@ -1,32 +1,52 @@
 <?php
 
-// TODO: EXCLUYE BÚSQUEDAS DE MARCAS Y PALABRAS EN PARTICULAR
-function exclude_posts_in_specific_search($query) {
-    if (!is_admin() && $query->is_search() && $query->is_main_query()) {
-        $search_term = $query->get('s'); // Obtiene el término de búsqueda
-        
-        // Definir términos de búsqueda y los posts a excluir
-        $exclusions = [
-            'ulma'        => [1427, 1425, 1423, 1421, 1419, 1417, 1415, 1413, 1411, 1409],
-            'envasadora'  => [430, 428, 423, 421, 419],
-            'detecto'     => [1133, 1131, 1118, 1116, 1127, 1125, 1123, 1136, 1114, 1111]
-        ];
 
-        $post_ids_to_exclude = [];
+function custom_search_modifications($where, $query) {
+    global $wpdb;
 
-        // Verificar si el término de búsqueda coincide con algún término en el array
-        foreach ($exclusions as $keyword => $post_ids) {
-            if (stripos($search_term, $keyword) !== false) {
-                $post_ids_to_exclude = array_merge($post_ids_to_exclude, $post_ids);
+    if ($query->is_search() && !is_admin()) {
+        $search_term = $query->get('s');
+
+        if (!empty($search_term)) {
+            $like = '%' . $wpdb->esc_like($search_term) . '%';
+            
+            // TODO: ✴️ EXTENDER BÚSQUEDA A ETIQUETAS Y CATEGORÍAS (Mejora la búsqueda por SQL)
+            $where .= " OR {$wpdb->posts}.ID IN (
+                SELECT object_id
+                FROM {$wpdb->term_relationships} tr
+                INNER JOIN {$wpdb->term_taxonomy} tt ON tr.term_taxonomy_id = tt.term_taxonomy_id
+                INNER JOIN {$wpdb->terms} t ON tt.term_id = t.term_id
+                WHERE (tt.taxonomy = 'post_tag' OR tt.taxonomy = 'category')
+                AND t.name LIKE '{$like}'
+            )";
+
+            
+            // TODO: ✴️ EXCLUSIONES POR PALABRA CLAVE (Agrega el id del posts y lo ignora en la búsqueda)
+            $exclusions = [
+                'ulma'       => [1427, 1425, 1423, 1421, 1419, 1417, 1415, 1413, 1411, 1409],
+                'envasadora' => [430, 428, 423, 421, 419],
+                'rayos'      => [1114, 1116, 1118],
+            ];
+
+            $posts_to_exclude = [];
+
+            foreach ($exclusions as $keyword => $ids) {
+                if (stripos($search_term, $keyword) !== false) {
+                    $posts_to_exclude = array_merge($posts_to_exclude, $ids);
+                }
+            }
+
+            if (!empty($posts_to_exclude)) {
+                // Construir cláusula SQL para excluir
+                $exclude_ids_sql = implode(',', array_map('intval', $posts_to_exclude));
+                $where .= " AND {$wpdb->posts}.ID NOT IN ($exclude_ids_sql)";
             }
         }
-
-        if (!empty($post_ids_to_exclude)) {
-            $query->set('post__not_in', array_unique($post_ids_to_exclude));
-        }
     }
+
+    return $where;
 }
-add_action('pre_get_posts', 'exclude_posts_in_specific_search');
+add_filter('posts_where', 'custom_search_modifications', 10, 2);
 
 
 
