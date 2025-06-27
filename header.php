@@ -57,7 +57,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li class="txt-sub-menu-principal">Noticias</li>
         </a>
         <a href="<?php bloginfo('url'); ?>/multimedia/">
-            <li class="txt-sub-menu-principal">Multimedia</li>
+            <li class="txt-sub-menu-principal">Videos</li>
         </a>
         <a href="<?php bloginfo('url'); ?>/quienes-somos/">
             <li class="txt-sub-menu-principal">Quiénes Somos</li>
@@ -903,7 +903,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="">Noticias</div>
             </a>
             <a class="color-nav-mobile" href="<?php bloginfo('url'); ?>/multimedia/">
-                <div class=""><span class="globo">Nuevo</span>Multimedia</div>
+                <div class=""><span class="globo">Nuevo</span>Videos</div>
             </a>
             <a class="color-nav-mobile" href="<?php bloginfo('url'); ?>/quienes-somos/">
                 <div class="">Quienes Somos</div>

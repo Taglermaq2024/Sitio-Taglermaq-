@@ -29,7 +29,7 @@
                 <li class="li-enlace"><a href="<?php bloginfo('url'); ?>/hortofruticolamaq">Hortofrutícolas</a></li>
                 <li class="li-enlace"><a href="<?php bloginfo('url'); ?>/logisticmaq">Intralogística</a></li>
                 <li class="li-enlace"><a href="<?php bloginfo('url'); ?>/lactomaq">Lácteos y Quesos</a></li>
-                <li class="li-enlace"><a href="<?php bloginfo('url'); ?>/aquamaq">Pescados y Maricos</a></li>
+                <li class="li-enlace"><a href="<?php bloginfo('url'); ?>/aquamaq">Pescados y Mariscos</a></li>
                 <li class="li-enlace"><a href="<?php bloginfo('url'); ?>/petfoodmaq">Petfood</a></li>
                 <li class="li-enlace"><a href="<?php bloginfo('url'); ?>/vegmaq">Veggie & Vegan</a>
                 </li>

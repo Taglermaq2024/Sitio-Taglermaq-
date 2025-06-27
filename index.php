@@ -6,7 +6,7 @@
 
 
 
-
+<?php @include("contactos.php");?>
 
 
 <div class="wrapper-mi-swiper">
@@ -447,6 +447,36 @@
 
 
         <div class="content-box-2024-feb">
+            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/06/desatacada-irinox1.jpg" alt="Imagen Destacada" />
+            <div class="block-color-2024" style="background-color: #182742">
+                <div class="content-txt-notice-2024">
+                    <h2>26 JUNIO</h2>
+                    <h3>IRINOX</h3>
+                    <p>Revoluciona la conservación de frutas con tecnología de enfriamiento controlado</p>
+                    <hr>
+                    <a href="<?php bloginfo('url')?>/contenido_noticias/irinox-revoluciona-la-conservacion-de-frutas-con-tecnologia-de-enfriamiento-controlado/">
+                        <button>Leer Noticia</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-box-2024-feb">
+            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/06/desatacada-flowpack.jpg" alt="Imagen Destacada" />
+            <div class="block-color-2024" style="background-color: #085d9e">
+                <div class="content-txt-notice-2024">
+                    <h2>18 JUNIO</h2>
+                    <h3>ULMA PACKAGING</h3>
+                    <p>Flow Pack: la solución higiénica que exige la industria cárnica</p>
+                    <hr>
+                    <a href="<?php bloginfo('url')?>/contenido_noticias/flow-pack-ulma-la-solucion-higienica-que-exige-la-industria-carnica/">
+                        <button>Leer Noticia</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-box-2024-feb">
             <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/06/destacada-vc999.jpg" alt="Imagen Destacada">
             <div class="block-color-2024" style="background-color: #f70001">
                 <div class="content-txt-notice-2024">
@@ -461,40 +491,7 @@
             </div>
         </div>
 
-        <div class="content-box-2024-feb">
-            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/05/destacasa-sumando-conocimiento.jpg" alt="Imagen Destacada" />
-            <div class="block-color-2024" style="background-color: #1e3859">
-                <div class="content-txt-notice-2024">
-                    <h2>06 MAYO</h2>
-                    <h3>Marel TREIF GmbH</h3>
-                    <p>Sumando conocimiento para la industria nacional</p>
-                    <hr>
-                    <a href="<?php bloginfo('url')?>/contenido_noticias/sumando-conocimiento-para-la-industria-nacional/">
-                        <button>Leer Noticia</button>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="content-box-2024-feb">
-            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/04/destacada-carnica4-0.jpg" alt="Imagen Destacada" />
-            <div class="block-color-2024" style="background-color: #09a0ea">
-                <div class="content-txt-notice-2024">
-                    <h2>25 ABRIL</h2>
-                    <h3>IFFA 2025</h3>
-                    <p>Industria Cárnica 4.0: Automatización, Datos y Nuevos Estándares</p>
-                    <hr>
-                    <a href="<?php bloginfo('url')?>/contenido_noticias/industria-carnica-4-0-automatizacion-datos-y-nuevos-estandares/">
-                        <button>Leer Noticia</button>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-
         
-
         <!-- <div class="content-box-2024-feb">
             <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/flex-destacada.jpg">
             <div class="block-color-2024" style="background-color: #ff7d1b">

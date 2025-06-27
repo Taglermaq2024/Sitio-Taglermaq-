@@ -1,2 +1,13 @@
 {
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Configura prettier
+  "editor.formatOnSave": true, // Formatea linea al guardar cambios
+  "editor.guides.bracketPairs": true, // Colorea llaves y ciclos
+  "workbench.colorTheme": "Moonlight II", // Theme de colores
+  "workbench.iconTheme": "material-icon-theme", // Tema para iconos de archivos
+  "editor.wordWrap": "on", // Salta a la siguiente línea sin desbordamiento de código
+  "editor.occurrencesHighlight": "off", // Elimina el resaltado al hacer click en el comando
+  "editor.renderLineHighlight": "none", // Desactiva el marcado de fondo de la línea de código
+  "editor.matchBrackets": "never", // Desactiva el resaltado de llaves con un borde feo
+  "terminal.integrated.fontFamily": "MesloLGS NF", // Fuente compatible con Powerlevel10k
+  "[html]": { "editor.formatOnSave": false } // Desactiva el autoformato de prettier(sólo para HTML)
 }

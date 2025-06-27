@@ -1,6 +1,5 @@
 <?php
 
-
 function custom_search_modifications($where, $query) {
     global $wpdb;
 

@@ -1,0 +1,86 @@
+.block-links {
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .block-links .links1,
+  .block-links .links2,
+  .block-links .links3 {
+    width: 70px;
+    height: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #3b3b3b; }
+    .block-links .links1:hover,
+    .block-links .links2:hover,
+    .block-links .links3:hover {
+      background-color: #9ed117; }
+    .block-links .links1 img,
+    .block-links .links2 img,
+    .block-links .links3 img {
+      width: 50px; }
+    .block-links .links1 p,
+    .block-links .links2 p,
+    .block-links .links3 p {
+      width: -webkit-max-content;
+      width: -moz-max-content;
+      width: max-content;
+      position: absolute;
+      right: 0;
+      z-index: -1;
+      font-size: 0.8em;
+      padding: 0.5em 1.5em;
+      border-radius: 5px;
+      color: white;
+      background-color: #2f2f2f;
+      visibility: hidden;
+      opacity: 0;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+      .block-links .links1 p:before,
+      .block-links .links2 p:before,
+      .block-links .links3 p:before {
+        content: "";
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: 10px;
+        right: -5px;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        background-color: #2f2f2f; }
+    .block-links .links1:hover p,
+    .block-links .links2:hover p,
+    .block-links .links3:hover p {
+      opacity: 1;
+      right: 85px;
+      visibility: visible; }
+  .block-links .links1 {
+    border-radius: 10px 0 0 0; }
+  .block-links .links3 {
+    border-radius: 0 0 0 10px; }
+  @media (max-width: 600px) {
+    .block-links {
+      display: none; } }

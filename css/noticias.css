@@ -45,9 +45,9 @@
   background: linear-gradient(-100deg, rgba(80, 47, 123, 0) 0%, #132350 100%); }
 
 .overlay3 {
-  background: -webkit-linear-gradient(190deg, rgba(80, 47, 123, 0) 20%, #1f0e02 100%);
-  background: -o-linear-gradient(190deg, rgba(80, 47, 123, 0) 20%, #1f0e02 100%);
-  background: linear-gradient(-100deg, rgba(80, 47, 123, 0) 20%, #1f0e02 100%); }
+  background: -webkit-linear-gradient(190deg, rgba(80, 47, 123, 0) 40%, #1f0e02 100%);
+  background: -o-linear-gradient(190deg, rgba(80, 47, 123, 0) 40%, #1f0e02 100%);
+  background: linear-gradient(-100deg, rgba(80, 47, 123, 0) 40%, #1f0e02 100%); }
 
 .overlay4 {
   background: -webkit-linear-gradient(190deg, rgba(80, 47, 123, 0) 30%, #171f4a 100%);
