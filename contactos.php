@@ -1,6 +1,6 @@
 
 <!-- Links Accesos directos -->
-<div class="block-links" data-aos="fade-left">
+<div class="block-links">
 
     <a href="https://taglermaq.cl/servicio-asistencia-tecnica/">
         <div class="links1">
@@ -9,7 +9,7 @@
         </div>
     </a>
 
-    <a href="https://taglermaq.cl/multimedia/">
+    <a href="https://taglermaq.cl/videos/?brand_filter=admix/">
         <div class="links2">
             <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/06/videos1.svg">
             <p>Videos</p>

@@ -56,7 +56,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="<?php bloginfo('url'); ?>/noticias/">
             <li class="txt-sub-menu-principal">Noticias</li>
         </a>
-        <a href="<?php bloginfo('url'); ?>/multimedia/">
+        <a href="<?php bloginfo('url'); ?>/videos/?brand_filter=admix/">
             <li class="txt-sub-menu-principal">Videos</li>
         </a>
         <a href="<?php bloginfo('url'); ?>/quienes-somos/">
@@ -902,7 +902,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a class="color-nav-mobile" href="<?php bloginfo('url'); ?>/noticias/">
                 <div class="">Noticias</div>
             </a>
-            <a class="color-nav-mobile" href="<?php bloginfo('url'); ?>/multimedia/">
+            <a class="color-nav-mobile" href="<?php bloginfo('url'); ?>/videos/?brand_filter=admix/">
                 <div class=""><span class="globo">Nuevo</span>Videos</div>
             </a>
             <a class="color-nav-mobile" href="<?php bloginfo('url'); ?>/quienes-somos/">

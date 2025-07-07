@@ -63,8 +63,7 @@
 					</div>
 
 					<iframe class="iframe-pdf" src="https://drive.google.com/file/d/<?php the_field('ficha_tecnica_drive') ?>/preview" width="100%" height="100%"></iframe>
-					
-
+				
 				</div>
 				
 				<button class="btn-ficha" id="BtnLogin"><img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/04/pdf.svg">Ver Ficha Técnica</button>

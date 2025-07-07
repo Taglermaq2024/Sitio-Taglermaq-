@@ -38,11 +38,14 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/detalle-productos.css?0.0.22">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/filtros.css?0.0.48">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/multimedia.css?0.0.5">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/search.css?0.0.7">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/form-sat.css?0.0.34">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/proveedores.css?0.0.24">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/noticias.css?0.0.144">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/food-service.css?0.0.181">
 
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/links-chatbox.css?0.0.27">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/links-chatbox.css?0.0.32">
+
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/search.css?0.0.32">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/videos.css?0.0.23">
+
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/index.css?0.0.74">

@@ -28,7 +28,7 @@ get_header();
             <button class="filtrar" data-filter="gunther">Gunther</button>
             <button class="filtrar" data-filter="handtmann">Handtmann</button>
             <button class="filtrar" data-filter="insort">Insort</button>
-            <button class="filtrar" data-filter="intray">Intray</button>
+            <!-- <button class="filtrar" data-filter="intray">Intray</button> -->
             <button class="filtrar" data-filter="irinox">Irinox</button>
             <button class="filtrar" data-filter="itec">Itec</button>
             <button class="filtrar" data-filter="laska">Laska</button>
@@ -4145,21 +4145,7 @@ get_header();
                 <h3 class="fecha__multimedia">Mayo 2023</h3>
             </div>
         </div>
-        <div class="box__play tile" data-category="intray">
-            <div class="img__play"><a class="venobox no-preload" href="https://vimeo.com/825862204" data-vbtype="video"><img
-                        class="img__encajar alignnone"
-                        src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/05/1094intray.jpg" alt="" width="1316"
-                        height="974" /></a></div>
-            <div class="box__play__datos">
-
-                <img class="logo__multimedia" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/04/intray.svg" alt="" />
-                <h2 class="title__multimedia">1094 bandejas por minuto</h2>
-
-                <hr />
-
-                <h3 class="fecha__multimedia">Mayo 2023</h3>
-            </div>
-        </div>
+        
         <div class="box__play tile" data-category="sormac">
             <div class="img__play"><a class="venobox no-preload" href="https://vimeo.com/825589763" data-vbtype="video"><img
                         class="img__encajar alignnone"
@@ -4838,21 +4824,6 @@ get_header();
                 <h3 class="fecha__multimedia">Marzo 2023</h3>
             </div>
         </div>
-        <div class="box__play tile" data-category="intray">
-            <div class="img__play"><a class="venobox no-preload" href="https://vimeo.com/806307804" data-vbtype="video"><img
-                        class="img__encajar alignnone"
-                        src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/05/bandeja-intray.jpg" alt="" width="1316"
-                        height="974" /></a></div>
-            <div class="box__play__datos">
-
-                <img class="logo__multimedia" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/04/intray.svg" alt="" />
-                <h2 class="title__multimedia">Cargador escalonado bandejas</h2>
-
-                <hr />
-
-                <h3 class="fecha__multimedia">Marzo 2023</h3>
-            </div>
-        </div>
         <div class="box__play tile" data-category="handtmann">
             <div class="img__play"><a class="venobox no-preload" href="https://vimeo.com/806308170" data-vbtype="video"><img
                         class="img__encajar alignnone"
@@ -5336,21 +5307,7 @@ get_header();
                 <h3 class="fecha__multimedia">Febrero 2023</h3>
             </div>
         </div>
-        <div class="box__play tile" data-category="intray">
-            <div class="img__play"><a class="venobox no-preload" href="https://vimeo.com/792938470" data-vbtype="video"><img
-                        class="img__encajar alignnone"
-                        src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/05/bandejas.jpg" alt="" width="1316"
-                        height="974" /></a></div>
-            <div class="box__play__datos">
-
-                <img class="logo__multimedia" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/04/intray.svg" alt="" />
-                <h2 class="title__multimedia">Intray, calidad garantizada</h2>
-
-                <hr />
-
-                <h3 class="fecha__multimedia">Febrero 2023</h3>
-            </div>
-        </div>
+        
         <div class="box__play tile" data-category="anritsu">
             <div class="img__play"><a class="venobox no-preload" href="https://vimeo.com/792938699" data-vbtype="video"><img
                         class="img__encajar alignnone"
@@ -5857,21 +5814,7 @@ get_header();
                 <h3 class="fecha__multimedia">Noviembre 2022</h3>
             </div>
         </div>
-        <div class="box__play tile" data-category="intray">
-            <div class="img__play"><a class="venobox no-preload" href="https://vimeo.com/774422671" data-vbtype="video"><img
-                        class="img__encajar alignnone"
-                        src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/05/hamburguesas2.jpg" alt="" width="1316"
-                        height="974" /></a></div>
-            <div class="box__play__datos">
-
-                <img class="logo__multimedia" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/04/intray.svg" alt="" />
-                <h2 class="title__multimedia">300 hamburguesas por minuto</h2>
-
-                <hr />
-
-                <h3 class="fecha__multimedia">Noviembre 2022</h3>
-            </div>
-        </div>
+        
         <div class="box__play tile" data-category="astech">
             <div class="img__play"><a class="venobox no-preload" href="https://vimeo.com/772153386" data-vbtype="video"><img
                         class="img__encajar alignnone"
@@ -8750,20 +8693,7 @@ get_header();
                 <h3 class="fecha__multimedia">Octubre 2021</h3>
             </div>
         </div>
-        <div class="box__play tile" data-category="intray">
-            <div class="img__play"><a class="venobox no-preload" href="https://vimeo.com/753088804" data-vbtype="video"><img
-                        class="img__encajar alignnone" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/05/envasado-para-cultivo.jpg"
-                        alt="" width="1316" height="974" /></a></div>
-            <div class="box__play__datos">
-
-                <img class="logo__multimedia" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/04/intray.svg" alt="" />
-                <h2 class="title__multimedia">Envasado para cultivo</h2>
-
-                <hr />
-
-                <h3 class="fecha__multimedia">Octubre 2021</h3>
-            </div>
-        </div>
+        
         <div class="box__play tile" data-category="anritsu">
             <div class="img__play"><a class="venobox no-preload" href="https://vimeo.com/623362840" data-vbtype="video"><img
                         class="img__encajar alignnone" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/05/tour-electrico.jpg" alt=""
@@ -8823,20 +8753,7 @@ get_header();
                 <h3 class="fecha__multimedia">Septiembre 2021</h3>
             </div>
         </div>
-        <div class="box__play tile" data-category="intray">
-            <div class="img__play"><a class="venobox no-preload" href="https://vimeo.com/609918122" data-vbtype="video"><img
-                        class="img__encajar alignnone" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/05/volteador-de-bandejas.jpg"
-                        alt="" width="1316" height="974" /></a></div>
-            <div class="box__play__datos">
-
-                <img class="logo__multimedia" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/04/intray.svg" alt="" />
-                <h2 class="title__multimedia">Volteador de bandejas</h2>
-
-                <hr />
-
-                <h3 class="fecha__multimedia">Septiembre 2021</h3>
-            </div>
-        </div>
+        
         <div class="box__play tile" data-category="ulma">
             <div class="img__play"><a class="venobox no-preload" href="https://vimeo.com/604197995" data-vbtype="video"><img
                         class="img__encajar alignnone" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/05/envasador-de-quesos.jpg" alt=""
@@ -9443,20 +9360,7 @@ get_header();
                 <h3 class="fecha__multimedia">Junio 2021</h3>
             </div>
         </div>
-        <div class="box__play tile" data-category="intray">
-            <div class="img__play"><a class="venobox no-preload" href="https://vimeo.com/567562363" data-vbtype="video"><img
-                        class="img__encajar alignnone" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/05/Bandeja-desechable.jpg" alt=""
-                        width="1316" height="974" /></a></div>
-            <div class="box__play__datos">
-
-                <img class="logo__multimedia" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/04/intray.svg" alt="" />
-                <h2 class="title__multimedia">Bandeja desechable</h2>
-
-                <hr />
-
-                <h3 class="fecha__multimedia">Junio 2021</h3>
-            </div>
-        </div>
+        
         <div class="box__play tile" data-category="laska">
             <div class="img__play"><a class="venobox no-preload" href="https://vimeo.com/567562116" data-vbtype="video"><img
                         class="img__encajar alignnone" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/05/Moledora-carne-congelada-G-530.jpg"
@@ -10177,20 +10081,7 @@ get_header();
             </div>
         </div>
 
-        <div class="box__play tile" data-category="intray">
-            <div class="img__play"><a class="venobox no-preload" href="https://vimeo.com/551661241" data-vbtype="video"><img
-                        class="img__encajar alignnone" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/05/envasado-automatico.jpg" alt=""
-                        width="1316" height="974" /></a></div>
-            <div class="box__play__datos">
-
-                <img class="logo__multimedia" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/04/intray.svg" alt="" />
-                <h2 class="title__multimedia">Envasado automático</h2>
-
-                <hr />
-
-                <h3 class="fecha__multimedia">Mayo 2021</h3>
-            </div>
-        </div>
+        
         <div class="box__play tile" data-category="handtmann">
             <div class="img__play"><a class="venobox no-preload" href="https://vimeo.com/551661333" data-vbtype="video"><img
                         class="img__encajar alignnone" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/05/sistema-de-formado.jpg" alt=""

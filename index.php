@@ -42,7 +42,7 @@
 
                 <div class="wrapper-izq-der">
                     <div class="content-txt-izq">
-                        <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/06/titulo-vc999.png" alt="">
+                        <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/titulo-vc999-1.png" alt="">
                         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/06/sutitle-vc999.png" alt="">
                     </div>
 
@@ -80,7 +80,7 @@
 
         <div class="swiper-pagination"></div>
         <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+        <div class="swiper-button-next" style="z-index: 3;"></div>
         
         <!-- <div class="swiper-scrollbar"></div> -->
     </div>
@@ -447,6 +447,21 @@
 
 
         <div class="content-box-2024-feb">
+            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/destacada-5claves1.jpg" alt="Imagen Destacada">
+            <div class="block-color-2024" style="background-color: #289b7d">
+                <div class="content-txt-notice-2024">
+                    <h2>03 JULIO</h2>
+                    <h3>ANRITSU</h3>
+                    <p>5 consideraciones al migrar de detección de metales a inspección por Rayos X</p>
+                    <hr>
+                    <a href="<?php bloginfo('url')?>/contenido_noticias/5-consideraciones-al-migrar-de-deteccion-de-metales/">
+                        <button>Leer Noticia</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-box-2024-feb">
             <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/06/desatacada-irinox1.jpg" alt="Imagen Destacada" />
             <div class="block-color-2024" style="background-color: #182742">
                 <div class="content-txt-notice-2024">
@@ -470,21 +485,6 @@
                     <p>Flow Pack: la solución higiénica que exige la industria cárnica</p>
                     <hr>
                     <a href="<?php bloginfo('url')?>/contenido_noticias/flow-pack-ulma-la-solucion-higienica-que-exige-la-industria-carnica/">
-                        <button>Leer Noticia</button>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="content-box-2024-feb">
-            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/06/destacada-vc999.jpg" alt="Imagen Destacada">
-            <div class="block-color-2024" style="background-color: #f70001">
-                <div class="content-txt-notice-2024">
-                    <h2>05 JUNIO</h2>
-                    <h3>VC999</h3>
-                    <p>Tecnología que garantiza precisión y seguridad en cada etapa</p>
-                    <hr>
-                    <a href="<?php bloginfo('url')?>/contenido_noticias/automatizacion-farmaceutica-en-chile/">
                         <button>Leer Noticia</button>
                     </a>
                 </div>
