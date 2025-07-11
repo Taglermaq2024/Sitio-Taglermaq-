@@ -132,35 +132,24 @@
                	<span class="close">&times;</span>
 
 				<!-- Dropdown -->
-				<!-- <div class="wrapper-par">
-                  <div class="content-dropdown">
-                     <div class="container">
-                        <div class="setting-description">
-                           <div class="setting-description-text">
-                           <h2>Segmento</h2>
-                           </div>
-                        </div>
-						<select	class="dropdown" name="segmento">
-							<option class="item">Bakery</option>
-							<option class="item">Carnes</option>
-							<option class="item">Cecinas</option>
-							<option class="item">Foodservice</option>
-							<option class="item">Hortofrutícola</option>
-							<option class="item">Industria</option>
-							<option class="item">Lácteos</option>
-							<option class="item">Logística</option>
-							<option class="item">Minería e Ingeniería</option>
-							<option class="item">Otros</option>
-							<option class="item">Petfood</option>
-							<option class="item">Pharma</option>
-							<option class="item">Retail</option>
-							<option class="item">Seafood</option>
-							<option class="item">Vegano</option>
-						</select>
-                     </div>
-                  </div>
-
+				<div class="wrapper-par">
 					<div class="content-dropdown">
+						<div class="blocks">
+							<div class="setting-description">
+								<div class="setting-description-text">
+								<h2>¿Cómo supiste de nosotros</h2>
+								</div>
+							</div>
+							<select	class="dropdown" name="segmento">
+								<option class="item">Google</option>
+								<option class="item">LinkedIn</option>
+								<option class="item">Recomendación</option>
+								<option class="item">Eventos Corporativos</option>
+							</select>
+						</div>
+					</div>
+
+					<!-- <div class="content-dropdown">
 						<div class="container">
 							<div class="setting-description">
 								<div class="setting-description-text">
@@ -174,53 +163,60 @@
 								<option class="item">Consulta General</option>
 							</select>
 						</div>
-					</div>
-               	</div> -->
+					</div> -->
+               	</div>
 
 
                <!-- Inputs -->
-				<div class="input-form">
-					<input type="text" name="empresa" required>
-					<label class="lbl-nombre">
-						<span class="text-nomb">Nombre Completo</span>
-					</label>
-               	</div>
+				<div class="blocks-fields">
+					<div class="input-form">
+						<input type="text" name="empresa" required>
+						<label class="lbl-nombre">
+							<span class="text-nomb">Nombre Completo</span>
+						</label>
+					</div>
 
-				<div class="input-form">
-					<input type="text" name="rut" required>
-					<label class="lbl-nombre">
-						<span class="text-nomb">Rut Empresa</span>
-					</label>
+					<div class="input-form">
+						<input type="text" name="rut" required>
+						<label class="lbl-nombre">
+							<span class="text-nomb">Rut Empresa</span>
+						</label>
+					</div>
 				</div>
 
-				<div class="input-form">
-					<input type="text" name="nombre_apellido" required>
-					<label class="lbl-nombre">
-						<span class="text-nomb">Nombre Apellido</span>
-					</label>
+				<div class="blocks-fields">
+					<div class="input-form">
+						<input type="text" name="nombre_apellido" required>
+						<label class="lbl-nombre">
+							<span class="text-nomb">Nombre Apellido</span>
+						</label>
+					</div>
+
+					<div class="input-form">
+						<input type="text" name="email" required>
+						<label class="lbl-nombre">
+							<span class="text-nomb">Correo Corporativo</span>
+						</label>
+					</div>
 				</div>
 
-				<div class="input-form">
-					<input type="text" name="email" required>
-					<label class="lbl-nombre">
-						<span class="text-nomb">Correo Corporativo</span>
-					</label>
+				<div class="blocks-fields">
+					<div class="input-form">
+						<input type="text" name="telefono" required>
+						<label class="lbl-nombre">
+							<span class="text-nomb">Teléfono</span>
+						</label>
+					</div>
+
+					<div class="input-form">
+						<input type="text" name="direccion" required>
+						<label class="lbl-nombre">
+							<span class="text-nomb">Dirección</span>
+						</label>
+					</div>
 				</div>
 
-				<div class="input-form">
-					<input type="text" name="telefono" required>
-					<label class="lbl-nombre">
-						<span class="text-nomb">Teléfono</span>
-					</label>
-				</div>
-
-				<div class="input-form">
-					<input type="text" name="direccion" required>
-					<label class="lbl-nombre">
-						<span class="text-nomb">Dirección</span>
-					</label>
-				</div>
-
+				
 				<textarea class="text-arera" id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Ingrese un comentario"></textarea>
 
 				<!-- Campo oculto para capturar URL -->

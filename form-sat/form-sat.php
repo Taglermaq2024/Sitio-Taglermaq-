@@ -28,49 +28,93 @@
 		<div class="box-txt-form">
 
 			<form class="content-formulario" action="https://www.taglermaq.cl/wp-content/themes/taglermaq/form-sat/enviar_form_sat.php" method="post">
+				
+				
+				<!-- Dropdown -->
+				<div class="wrapper-par">
+					<div class="content-dropdown">
+						<div class="blocks">
+							<div class="setting-description">
+								<div class="setting-description-text">
+								<h2>¿Cómo supiste de nosotros?</h2>
+								</div>
+							</div>
+							<select	class="dropdown" name="segmento_sat">
+								<option class="item">Google</option>
+								<option class="item">LinkedIn</option>
+								<option class="item">Recomendación</option>
+								<option class="item">Eventos Corporativos</option>
+							</select>
+						</div>
+					</div>
+
+					<!-- <div class="content-dropdown">
+						<div class="container">
+							<div class="setting-description">
+								<div class="setting-description-text">
+								<h2>Área</h2>
+								</div>
+							</div>
+							<select class="dropdown" name="area">
+								<option class="item">Maquinarias</option>
+								<option class="item">Higiene e Inocuidad</option>
+								<option class="item">Asistencia Técnica</option>
+								<option class="item">Consulta General</option>
+							</select>
+						</div>
+					</div> -->
+               	</div>
+
 
 				<!-- Inputs -->
-				<div class="input-form">
-					<input type="text" name="nombre_apellido" required>
-					<label class="lbl-nombre">
-						<span class="text-nomb">Nombre apellido</span>
-					</label>
+				<div class="blocks-fields">
+					<div class="input-form">
+						<input type="text" name="nombre_apellido" required>
+						<label class="lbl-nombre">
+							<span class="text-nomb">Nombre apellido</span>
+						</label>
+					</div>
+
+					<div class="input-form">
+						<input type="text" name="rut" required>
+						<label class="lbl-nombre">
+							<span class="text-nomb">Rut Empresa</span>
+						</label>
+					</div>
 				</div>
 
-				<div class="input-form">
-					<input type="text" name="rut" required>
-					<label class="lbl-nombre">
-						<span class="text-nomb">Rut Empresa</span>
-					</label>
+				<div class="blocks-fields">
+					<div class="input-form">
+						<input type="text" name="empresa" required>
+						<label class="lbl-nombre">
+							<span class="text-nomb">Nombre Empresa</span>
+						</label>
+					</div>
+
+					<div class="input-form">
+						<input type="text" name="email" required>
+						<label class="lbl-nombre">
+							<span class="text-nomb">Correo Corporativo</span>
+						</label>
+					</div>
 				</div>
 
-				<div class="input-form">
-					<input type="text" name="empresa" required>
-					<label class="lbl-nombre">
-						<span class="text-nomb">Nombre Empresa</span>
-					</label>
-				</div>
+				<div class="blocks-fields">
+					<div class="input-form">
+						<input type="text" name="telefono" required>
+						<label class="lbl-nombre">
+							<span class="text-nomb">Teléfono</span>
+						</label>
+					</div>
 
-				<div class="input-form">
-					<input type="text" name="email" required>
-					<label class="lbl-nombre">
-						<span class="text-nomb">Correo Corporativo</span>
-					</label>
+					<div class="input-form">
+						<input type="text" name="solicitud" required>
+						<label class="lbl-nombre">
+							<span class="text-nomb">Indique la máquina cotizada</span>
+						</label>
+					</div>
 				</div>
-
-				<div class="input-form">
-					<input type="text" name="telefono" required>
-					<label class="lbl-nombre">
-						<span class="text-nomb">Teléfono</span>
-					</label>
-				</div>
-
-				<div class="input-form">
-					<input type="text" name="solicitud" required>
-					<label class="lbl-nombre">
-						<span class="text-nomb">Indique la máquina cotizada</span>
-					</label>
-				</div>
+				
 
 				<!-- <textarea class="text-arera" id="comentarios" name="comentarios" rows="4" cols="50" required placeholder="Ingrese un comentario"></textarea> -->
 

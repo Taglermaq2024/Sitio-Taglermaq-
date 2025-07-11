@@ -1,6 +1,9 @@
 <!-- CDN Librerias -->
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.2.1.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/slick.js"></script>
+
+<script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
+
 <script src="<?php echo get_template_directory_uri(); ?>/venobox/venobox.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.1/swiper-bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -13,45 +16,6 @@
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
-<script>
-	// TODO: Progress BAR, Espera a que la página se cargue para ejecutar el código
-	window.onscroll = function() {
-		scrollProgress();
-	};
-
-	function scrollProgress() {
-		// Selecciona los elementos del DOM
-		const progressBar = document.getElementById("progressBar");
-		const progressContainer = document.querySelector(".progress-container");
-
-		// Calcula cuánto se ha scrolleado
-		const scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
-		const scrollHeight = document.documentElement.scrollHeight;
-		const clientHeight = document.documentElement.clientHeight;
-
-		// Evita la división por cero si el contenido no es scrolleable
-		if (scrollHeight <= clientHeight) {
-			progressBar.style.width = "0%";
-			progressContainer.classList.remove("show");
-			return;
-		}
-
-		// Calcula el alto total que se puede scrollear
-		const windowHeight = scrollHeight - clientHeight;
-		// Calcula el porcentaje de scroll
-		const scrolled = (scrollTop / windowHeight) * 110;
-
-		// Actualiza el ancho de la barra de progreso
-		progressBar.style.width = scrolled + "%";
-
-		// Muestra u oculta la barra
-		if (scrollTop > 50) { // Aparece después de scrollear 50px
-			progressContainer.classList.add("show");
-		} else {
-			progressContainer.classList.remove("show");
-		}
-	}
-</script>
 
 
 <script>
@@ -81,7 +45,7 @@ const swiper1 = new Swiper('.swiper-carrusel-principal', {
 	},
 
 	autoplay: {
-        delay: 6000,
+        delay: 2500,
         disableOnInteraction: false,
     },
 
@@ -582,8 +546,8 @@ window.onload = function() {
 
 
 <script>
-// TODO: SI "NO QUIERES" MOSTRAR EL PRELOADER AGREGA LA CLASE "no-preload" AL ENLACE <a href="">
-// TODO: ANIMACIÓN PRELOADER PARA TODO EL SITIO WEB (CUANDO SE HACE CLICK EN CUALQUIER ENLACE <a href="">)
+// TODO: SI "NO QUIERES" MOSTRAR EL PRELOADER AGREGA LA CLASE "no-preload" AL ENLACE
+// TODO: ANIMACIÓN PRELOADER PARA TODO EL SITIO WEB (CUANDO SE HACE CLICK EN CUALQUIER ENLACE)
 document.addEventListener('DOMContentLoaded', function () {
     
 	// !Mostrar el preloader al hacer clic en cualquier enlace
@@ -614,6 +578,42 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 </script>
+
+
+
+
+
+
+
+<!-- Cuenta regresiva IFFA-->
+<!-- <script>
+    function iniciarCuentaRegresiva() {
+        const fechaObjetivo = new Date("2025-05-03T00:00:00").getTime();
+
+        const intervalo = setInterval(() => {
+            const ahora = new Date().getTime();
+            const tiempoRestante = fechaObjetivo - ahora;
+
+            if (tiempoRestante <= 0) {
+                document.getElementById("countdown").innerHTML = "¡La feria ha comenzado!";
+                clearInterval(intervalo);
+                return;
+            }
+
+            const dias = Math.floor(tiempoRestante / (1000 * 60 * 60 * 24));
+            const horas = Math.floor((tiempoRestante % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutos = Math.floor((tiempoRestante % (1000 * 60 * 60)) / (1000 * 60));
+            const segundos = Math.floor((tiempoRestante % (1000 * 60)) / 1000);
+
+            document.getElementById("days").textContent = dias.toString().padStart(2, '0');
+            document.getElementById("hours").textContent = horas.toString().padStart(2, '0');
+            document.getElementById("minutes").textContent = minutos.toString().padStart(2, '0');
+            document.getElementById("seconds").textContent = segundos.toString().padStart(2, '0');
+        }, 1000);
+    }
+
+    iniciarCuentaRegresiva();
+</script> -->
 
 
 

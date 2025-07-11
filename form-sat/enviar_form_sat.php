@@ -10,12 +10,13 @@ require '../PHPMailer/src/SMTP.php';
 
 
 // Destinatarios del correo
-$destino = ["rsanchez@taglermaq.cl", "dfernandez@taglermaq.cl", "jdroguett@taglermaq.cl", "jnino@taglermaq.cl", "ngarfe@taglermaq.cl"];
+$destino = ["rsanchez@taglermaq.cl", "dfernandez@taglermaq.cl", "jnino@taglermaq.cl"];
 
 
 
 
 // Recibir datos del formulario
+$segmento_sat = htmlspecialchars(trim($_POST['segmento_sat']));
 $empresa = htmlspecialchars(trim($_POST['empresa']));
 $rut = htmlspecialchars(trim($_POST['rut']));
 $nombre_apellido = htmlspecialchars(trim($_POST['nombre_apellido']));
@@ -132,6 +133,11 @@ try {
             <body>
                 <h2>Datos de la cotización:</h2>
                 <table>
+
+                    <tr>
+                        <th>Cómo supiste de nosotros:</th>
+                        <td>$segmento_sat</td>
+                    </tr>
                     <tr>
                         <th>Nombre Empresa:</th>
                         <td>$empresa</td>
