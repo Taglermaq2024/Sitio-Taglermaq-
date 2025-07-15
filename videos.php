@@ -5,19 +5,26 @@
  */
 ?>
 
-<?php get_header();
+<?php get_header();?>
 
-// Llama a la función de backend para obtener los datos iniciales de la primera página (página 1, 8 videos).
-$data = get_video_filter_data(1, 8);
+<?php
+    // Llama a la función de backend para obtener los datos iniciales de la primera página (página 1, 8 videos).
+    $data = get_video_filter_data(1, 8);
 
-// Extrae las variables del array $data.
-$current_page_url = $data['current_page_url'];
-$current_filter   = $data['current_filter'];
-$brands           = $data['brands'];
-$videos_query     = $data['videos_query']; // Esta WP_Query ahora contiene solo la primera página
-$video_count      = $data['video_count']; // El total de videos para el filtro actual
-$max_num_pages    = $data['max_num_pages']; // El total de páginas para el filtro actual
+    // Extrae las variables del array $data.
+    $current_page_url = $data['current_page_url'];
+    $current_filter   = $data['current_filter'];
+    $brands           = $data['brands'];
+    $videos_query     = $data['videos_query']; // Esta WP_Query ahora contiene solo la primera página
+    $video_count      = $data['video_count']; // El total de videos para el filtro actual
+    $max_num_pages    = $data['max_num_pages']; // El total de páginas para el filtro actual
 ?>
+
+
+<div class="progress-container">
+    <div class="progress-bar" id="progressBar"></div>
+</div>
+
 
 <div class="fondo-color-filter">
     <div class="wrapper-menu-filter">

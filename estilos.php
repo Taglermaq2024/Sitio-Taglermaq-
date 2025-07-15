@@ -52,5 +52,5 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/historietas.css?0.0.22">
 
 
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/videos.css?0.0.41">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/videos.css?0.0.43">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/index.css?0.0.74">
