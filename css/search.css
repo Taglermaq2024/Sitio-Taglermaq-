@@ -1,24 +1,3 @@
-.progress-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  width: 100%;
-  height: 8px;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: opacity 0.3s ease, visibility 0.3s ease;
-  -o-transition: opacity 0.3s ease, visibility 0.3s ease;
-  transition: opacity 0.3s ease, visibility 0.3s ease; }
-  .progress-container .progress-bar {
-    height: 100%;
-    width: 0%;
-    background-color: #8bc442; }
-
-.progress-container.show {
-  opacity: 1;
-  visibility: visible; }
-
 .modal-search {
   display: none;
   position: fixed;
@@ -393,3 +372,16 @@
   -webkit-transform: translateY(57px);
   -ms-transform: translateY(57px);
   transform: translateY(57px); }
+
+.progress-container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999; }
+
+.progress-bar {
+  height: 10px;
+  background-color: #8bc43e;
+  width: 0%;
+  /* Ancho inicial de la barra */ }

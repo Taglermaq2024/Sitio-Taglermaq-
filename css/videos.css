@@ -10,6 +10,9 @@
     margin: 0 auto;
     padding: 2em 0; }
     .fondo-color-filter .wrapper-menu-filter .box-filter-buttons {
+      font-size: 0.85em;
+      font-weight: 500;
+      text-transform: uppercase;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -28,7 +31,7 @@
         color: white; }
 
 .fondo-color-videos {
-  padding: 3em 0;
+  padding: 3.5em 0;
   background: -webkit-gradient(linear, left top, left bottom, from(white), to(#f7f7f7));
   background: -webkit-linear-gradient(top, white 0%, #f7f7f7 100%);
   background: -o-linear-gradient(top, white 0%, #f7f7f7 100%);

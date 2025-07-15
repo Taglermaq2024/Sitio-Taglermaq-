@@ -1,16 +1,12 @@
 <!-- CDN Librerias -->
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.2.1.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/slick.js"></script>
-
-<script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
-
-<script src="<?php echo get_template_directory_uri(); ?>/venobox/venobox.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.1/swiper-bundle.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/venobox/venobox.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-
-
+<script src="<?php echo get_template_directory_uri(); ?>/js/script.js?0.0.4"></script>
 
 <!-- Api Recaptcha -->
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -19,6 +15,9 @@
 
 
 <script>
+
+
+
 // TODO: INICIALIZA VENOBOX.JS
 $(document).ready(function() {
   $('.venobox').venobox(); 
@@ -29,153 +28,10 @@ AOS.init({
 	offset: 200,
 	duration: 1000	
 });
-</script>
 
 
 
 
-<script>
-// TODO: INICIALIZACIÓN SWIPER - Carrusel Slider principal
-const swiper1 = new Swiper('.swiper-carrusel-principal', {
-	loop: true,
-
-	pagination: {
-	el: '.swiper-pagination',
-	clickable: true,
-	},
-
-	autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
-
-	navigation: {
-	nextEl: '.swiper-button-next',
-	prevEl: '.swiper-button-prev',
-	},
-
-	scrollbar: {
-	el: '.swiper-scrollbar',
-	},
-});
-</script>
-
-
-
-
-<script>
-// TODO: INILIZACIÓN SWIPER - SECTORES INDUSTRIALES
-const swiper2 = new Swiper(".swiper1", {
-	direction: "horizontal",
-	loop: true,
-	autoHeight: false,
-	centeredSlides: true,
-	slidesPerView: 1,
-
-	breakpoints: {
-		640: {
-		slidesPerView: 2,
-		spaceBetween: 40,
-		},
-		992: {
-		slidesPerView: 3,
-		spaceBetween: 40,
-		}
-	},
-
-	pagination: {
-		el: ".swiper-pagination"
-	},
-
-	navigation: {
-		nextEl: ".swiper-button-next",
-		prevEl: ".swiper-button-prev"
-	}
-
-	// And if we need scrollbar
-	/*scrollbar: {
-	el: '.swiper-scrollbar',
-	},*/
-});
-</script>
-
-
-
-
-<script>
-// TODO: Swiper SAT - SERVICIOS Y ASISTENCIAS
-var sat_servicios = new Swiper(".sat-servicios", {
-	slidesPerView: 1,
-	spaceBetween: 30,
-	loop: true,
-	pagination: {
-		el: ".swiper-pagination",
-		clickable: true,
-	},
-	
-	autoplay: {
-		delay: 2500,
-		disableOnInteraction: false,
-	},
-
-	navigation: {
-		nextEl: ".swiper-button-next",
-		prevEl: ".swiper-button-prev",
-	},
-
-	pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
-	
-});
-</script>
-
-
-
-
-<script>
-// TODO: Swiper CAPACITACIONES
-var capacitaciones = new Swiper(".capacitaciones", {
-	slidesPerView: 3,
-	spaceBetween: 30,
-	loop: true,
-
-	autoplay: {
-		delay: 2500,
-		disableOnInteraction: false,
-	},
-
-	navigation: {
-		nextEl: ".swiper-button-next",
-		prevEl: ".swiper-button-prev",
-	},
-
-	breakpoints: {
-		380: {
-			slidesPerView: 1,
-			spaceBetween: 40,
-		},
-		640: {
-			slidesPerView: 2,
-			spaceBetween: 40,
-		},
-		768: {
-			slidesPerView: 2,
-			spaceBetween: 40,
-		},
-		1024: {
-			slidesPerView: 3,
-			spaceBetween: 50,
-		},
-    },
-});
-</script>
-
-
-
-
-<script>
 // TODO: Mostrar navegación Sub-menu principal
 $("#mostrar-nav").click(function(){
 	$(".wrapper--nav--mobile").toggleClass("encender-nav-mobile");
@@ -240,97 +96,13 @@ $(".icon-close").on("click", function() {
 
 
 
-// TODO: Slider Detalle - Productos Relacionados
-document.addEventListener( 'DOMContentLoaded', function () {
-	new Splide( '#destacados', {
-		type : 'loop',
-		keyboard: 'global',
-		pagination   : 'true',
-		arrows : 'false',
-		drag   : true,
-		perPage: 4,
-		perMove: 1,
-		autoplay: true,
-		interval: 1000,
-
-		breakpoints: {
-		1200: {
-			perPage: 3,
-		},
-		1024: {
-			perPage: 2,
-		},
-		768: {
-			perPage: 1,
-		},
-		480: {
-			perPage: 1,
-		},
-		},
-
-	} ).mount();
-});
-
-
-
-// TODO: Slick para Galería de imagenes
-$(document).ready(function(){
-	$('.slider-for').slick({
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		arrows: false,
-		fade: true,
-		asNavFor: '.slider-nav'
-	});
-
-	$('.slider-nav').slick({
-		slidesToShow: 6,
-		slidesToScroll: 1,
-		vertical: true,
-		asNavFor: '.slider-for',
-		dots: false,
-		arrows: false,
-		focusOnSelect: true,
-		verticalSwiping: true,
-		responsive: [
-			{
-				breakpoint: 992,
-				settings: {
-				vertical: true,
-				}
-			},
-			{
-				breakpoint: 580,
-				settings: {
-					vertical: true,
-					slidesToShow: 3,
-				}
-			},
-			{
-				breakpoint: 380,
-				settings: {
-					vertical: true,
-					slidesToShow: 2,
-				}
-			}
-		]
-	});
-
-	// FORZAR ACTUALIZACIÓN DEL SLIDER
-    setTimeout(function() {
-        $('.slider-for').slick('setPosition');
-        $('.slider-nav').slick('setPosition');
-    }, 500);
-	
-});
-
-
-</script>
 
 
 
 
-<script>
+
+
+
 // TODO: SLIDER SPLIDE QUIENES SOMOS - PERSONAS
 document.addEventListener( 'DOMContentLoaded', function () {
 	new Splide('#image-slider', {
@@ -344,13 +116,13 @@ document.addEventListener( 'DOMContentLoaded', function () {
 		autoplay: true,
 	}).mount();
 });
-</script>
 
 
 
 
 
-<script>
+
+
 // TODO: MUESTRA PANTALLA MODAL PARA PDFs
 $(document).ready(function() {
 	$("#BtnLogin").click(function(){
@@ -362,13 +134,13 @@ $(document).ready(function() {
 	});
 
 });
-</script>
 
 
 
 
 
-<script>
+
+
 // TODO: INICIO MODAL
 $(document).ready(function () {
 	function openModal() {
@@ -403,12 +175,12 @@ $(document).ready(function () {
 		}
 	});
 });
-</script>
 
 
 
 
-<script>
+
+
 // TODO: BÚSQUEDA DE PRODUCTOS (ICONO LUPA)
 $(document).ready(function(){
 	$("#openModal").click(function(){
@@ -428,7 +200,6 @@ $(document).ready(function(){
 		}
 	});
 });
-</script>
 
 
 
@@ -436,7 +207,8 @@ $(document).ready(function(){
 
 
 
-<script>
+
+
 // TODO: APlica para los 2 formularios (Genérico y Maquinarias)
 document.addEventListener('DOMContentLoaded', function() {
 	var form = document.querySelector('.content-formulario');
@@ -487,7 +259,6 @@ document.addEventListener('DOMContentLoaded', function() {
 		});
 	});
 });
-</script>
 
 
 
@@ -497,17 +268,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-<script>
+
+
 // TODO: OBTENER Y ESTABLECER LA URL ACTUAL EN EL CAMPO OCULTO
 document.addEventListener('DOMContentLoaded', function() {
 	document.getElementById('url_referencia').value = window.location.href;
 });
-</script>
 
 
 
 
-<script>
+
+
 // TODO: ORGANIZACIÓN
 $('#box__organigram2 li:first-child').addClass('active');
 $('.cubox-content').hide();
@@ -523,12 +295,12 @@ $('#box__organigram2 li').mouseenter(function(){
 	$(activeTab).fadeIn();
 	return false;
 });
-</script>
 
 
 
 
-<script>
+
+
 // TODO: DEJA ACTIVA LAS CATEGORIAS CON UN COLOR
 window.onload = function() {
 	const buttons = document.querySelectorAll('#tv-category-image');
@@ -540,12 +312,12 @@ window.onload = function() {
 	}
 	});
 };
-</script>
 
 
 
 
-<script>
+
+
 // TODO: SI "NO QUIERES" MOSTRAR EL PRELOADER AGREGA LA CLASE "no-preload" AL ENLACE
 // TODO: ANIMACIÓN PRELOADER PARA TODO EL SITIO WEB (CUANDO SE HACE CLICK EN CUALQUIER ENLACE)
 document.addEventListener('DOMContentLoaded', function () {
@@ -583,37 +355,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-
-
-<!-- Cuenta regresiva IFFA-->
-<!-- <script>
-    function iniciarCuentaRegresiva() {
-        const fechaObjetivo = new Date("2025-05-03T00:00:00").getTime();
-
-        const intervalo = setInterval(() => {
-            const ahora = new Date().getTime();
-            const tiempoRestante = fechaObjetivo - ahora;
-
-            if (tiempoRestante <= 0) {
-                document.getElementById("countdown").innerHTML = "¡La feria ha comenzado!";
-                clearInterval(intervalo);
-                return;
-            }
-
-            const dias = Math.floor(tiempoRestante / (1000 * 60 * 60 * 24));
-            const horas = Math.floor((tiempoRestante % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutos = Math.floor((tiempoRestante % (1000 * 60 * 60)) / (1000 * 60));
-            const segundos = Math.floor((tiempoRestante % (1000 * 60)) / 1000);
-
-            document.getElementById("days").textContent = dias.toString().padStart(2, '0');
-            document.getElementById("hours").textContent = horas.toString().padStart(2, '0');
-            document.getElementById("minutes").textContent = minutos.toString().padStart(2, '0');
-            document.getElementById("seconds").textContent = segundos.toString().padStart(2, '0');
-        }, 1000);
-    }
-
-    iniciarCuentaRegresiva();
-</script> -->
 
 
 

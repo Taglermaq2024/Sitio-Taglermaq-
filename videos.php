@@ -3,8 +3,9 @@
  * Template Name: videos-multimedia
  * Description: Muestra videos "videos_multimedia" filtrados por botones por "Etiquetas".
  */
+?>
 
-get_header();
+<?php get_header();
 
 // Llama a la función de backend para obtener los datos iniciales de la primera página (página 1, 8 videos).
 $data = get_video_filter_data(1, 8);
@@ -106,11 +107,10 @@ $max_num_pages    = $data['max_num_pages']; // El total de páginas para el filt
                 <div class="spinner-animation"></div>
                 <p>Cargando más videos...</p>
             </div>
-
-
         <?php endif; ?>
 
     </article>
 </div>
+
 
 <?php get_footer(); ?>

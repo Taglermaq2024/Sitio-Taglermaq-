@@ -33,12 +33,12 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/sat.css?0.0.225">
 
 
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/config.css?0.0.0.9">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/config.css?0.0.0.10">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/banner-slider.css?0.0.285">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/detalle-productos.css?0.0.23">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/detalle-productos.css?0.0.24">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/filtros.css?0.0.48">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/multimedia.css?0.0.5">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/search.css?0.0.21">
+
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/form-sat.css?0.0.36">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/proveedores.css?0.0.24">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/noticias.css?0.0.143">
@@ -46,5 +46,11 @@
 
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/links-chatbox.css?0.0.40">
 
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/videos.css?0.0.25">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/index.css?0.0.73">
+
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/search.css?0.0.40">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/comics.css?0.0.41">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/historietas.css?0.0.22">
+
+
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/videos.css?0.0.41">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/index.css?0.0.74">

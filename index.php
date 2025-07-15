@@ -61,13 +61,11 @@
                     <img src="/wp-content/uploads/2025/05/fondo-maquito.jpg" alt="Maquito Iffa-2025">
                 </div>
 
-                <a class="no-preload" href="#conoce-la-historia-de-maq">
-                    <div class="wrapper-dibujo-maquito">
-                        <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/05/maquito2025-3.png" alt="maquito 2025">
-                    </div>
-                </a>
+                <div class="wrapper-dibujo-maquito">
+                    <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/05/maquito2025-3.png" alt="maquito 2025">
+                </div>
 
-                <a class="no-preload" href="#conoce-la-historia-de-maq">
+                <a class="no-preload" href="<?php bloginfo('url'); ?>/comics-maquito/">
                     <img class="btn-maq2025" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/05/btn-new-historia.png" alt="">
                 </a>
             </div>
@@ -372,9 +370,28 @@
     <a href="<?php bloginfo('url'); ?>/proveedores">
         <button class="btn--noticiasv2">VER TODAS NUESTRAS MARCAS</button>
     </a>
-
-
 </div>
+
+
+
+<!-- HISTORIAS DE MAQUITO -->
+<div class="wapper-historias-de-maq">
+    <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/screen-maq-scaled.jpg">
+
+    <div class="content-txt-maq">
+        <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/txt-maquito-scaled.png">
+        <a href="<?php bloginfo('url'); ?>/comics-maquito/">
+            <button>CONOCE MI HISTORIA</button>
+        </a>
+    </div>
+
+    <img class="img-nave" src="<?php bloginfo('url') ?>/wp-content/uploads/2025/07/nave.png" alt="">
+    <img class="platillo1" src="<?php bloginfo('url') ?>/wp-content/uploads/2025/07/platillo.svg" alt="">
+</div>
+
+
+
+
 
 
 
@@ -688,124 +705,9 @@
 
 
 
-<!-- INICIO SWIPER - SECTORES INDUSTRIALES -->
-<div class="content-fondo-swiper-v1">
-
-    <h2 class="title--landing-v2"><span class="title--dark">SECTORES</span>
-        <span class="title--verde">INDUSTRIALES</span>
-    </h2>
-    
-    <p class="bajada--sector-industrial" style="color: #353535">Conoce los últimos desarrollos tecnológicos para automatizar tu línea de producción</p>
-
-    <div class="wrapper">
-        <div class="swiper1">
-            <div class="swiper-wrapper" style="height: auto">
-                <div class="swiper-slide">
-                    <div class="content-wrapper">
-                        <a href="<?php bloginfo('url'); ?>/carnicomaq/maquinas-de-procesamiento/?_maquinas_de_procesamiento=embutidoras-al-vacio">
-                            <div class="content">
-                                <div class="label-sector">Cárnico</div>
-                                <div class="line-color-sector1"></div>
-                                <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/vf820.png" alt="VF-820" />
-                                <div class="circle-color1"></div>
-                                <h2>EMBUTIDORA VF-828S</h2>
-                                <p>Embutición hasta 3600 kg/h</p>
-                                <!-- <button class="btn-slider-box">CONOCE MÁS</button> -->
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="content-wrapper">
-                        <a href="<?php bloginfo('url'); ?>/hortofruticolamaq/maquinas-envasadoras/?_maquinas_envasadoras=envasadoras-flow-pack">
-                            <div class="content">
-                                <div class="label-sector">Hortofrutícola</div>
-                                <div class="line-color-sector2"></div>
-                                <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/atlanta.png" alt="Envasadora Atlanta" />
-                                <div class="circle-color2"></div>
-                                <h2>ENVASADORA ATLANTA</h2>
-                                <p>Construcción en placa vertical</p>
-                                <!-- <button>CONOCE MÁS</button> -->
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="content-wrapper">
-                        <a href="<?php bloginfo('url'); ?>/aquamaq/maquinas-de-porcionado-y-laminado/?_maquinas_de_porcionado_y_laminado=sierra-de-corte-automatico">
-                            <div class="content">
-                                <div class="label-sector">Acuícola</div>
-                                <div class="line-color-sector3"></div>
-                                <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/cortadora.png" alt="Sierra de corte sra" />
-                                <div class="circle-color3"></div>
-                                <h2>SIERRA DE CORTE SRA</h2>
-                                <p>Velocidad de corte constante</p>
-                                <!-- <button>CONOCE MÁS</button> -->
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="content-wrapper">
-                        <a href="<?php bloginfo('url'); ?>/bakerymaq/hornos-y-marmitas/">
-                            <div class="content">
-                                <div class="label-sector">bakery</div>
-                                <div class="line-color-sector4"></div>
-                                <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/horno.png" alt="Horno Asador" />
-                                <div class="circle-color4"></div>
-                                <h2>HORNO ASADOR</h2>
-                                <p>Tiempos de calentamiento y horneado</p>
-                                <!-- <button>CONOCE MÁS</button> -->
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="content-wrapper">
-                        <a href="<?php bloginfo('url'); ?>/avimaq/maquinas-de-procesamiento/?_maquinas_de_procesamiento=masajeadores-tumbler">
-                            <div class="content">
-                                <div class="label-sector">Avícola</div>
-                                <div class="line-color-sector5"></div>
-                                <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/masajeadora.png" alt="Masajeadores gpm" />
-                                <div class="circle-color5"></div>
-                                <h2>MASAJEADORES GPM</h2>
-                                <p>Capacidad de 100 a 600 litros</p>
-                                <!-- <button>CONOCE MÁS</button> -->
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-nav-wrapper">
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 
-<!-- HISTORIA MAQ -->
-<article id="conoce-la-historia-de-maq" class="historieta_maqv3">
-    <img class="maq" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/05/maquito2025-2.png" alt="La historia de Maq" />
-    <h4 class="txt_historia">Conoce la historia de MAQ!</h4>
-    <div class="wrapper_flag">
-        <h3 class="txt_flagv2">
-            <a class="link__history no-preload" href="<?php bloginfo('url'); ?>/wp-content/themes/taglermaq/comics2025/comics-espanol.pdf" target="_blank">Español</a>
-        </h3>
-        <h3 class="txt_flagv2">
-            <a class="link__history no-preload" href="<?php bloginfo('url'); ?>/wp-content/themes/taglermaq/comics2025/comics-ingles.pdf" target="_blank">Inglés</a>
-        </h3>
-    </div>
-    <div class="stars"></div>
-</article>
 
 
 

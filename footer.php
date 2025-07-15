@@ -149,11 +149,6 @@
 
 
 
-
-
-
-
-
 <!-- INICIO DROPDOWN -->
 <script>
     const selectedAll = document.querySelectorAll(".wrapper-dropdown");
@@ -224,6 +219,11 @@
 
 
 <?php wp_footer(); ?>
+
+
+
+
+<?php require "script.php";?>
 
 </body>
 </html>

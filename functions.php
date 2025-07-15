@@ -135,23 +135,6 @@ add_filter('use_block_editor_for_post_type', '__return_false', 100);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Prepara los datos de filtrado y realiza la consulta de videos.
  * Carga solo la primera página de resultados para el frontend inicial.
@@ -169,7 +152,7 @@ function get_video_filter_data($paged = 1, $posts_per_page = 6) { // Valores por
 
     $brands = [
         'Admix', 'Anritsu', 'Astech', 'Apex', 'bettcher', 'biro', 'burro', 'carl stahl', 'Colussi',
-        'Detecto', 'Dick', 'Efa', 'Fessmann', 'Gunther', 'Handtmann', 'Insort', 'Irinox', 'Itec',
+        'Detecto', 'Dick', 'Efa', 'Fessmann', 'Günther', 'Handtmann', 'Insort', 'Irinox', 'Itec',
         'Laska', 'Multiweigh', 'Modula', 'Peschl', 'Sormac', 'Treif', 'Ulma', 'Ulma Inoxtruck',
         'Ulma Handling', 'VC999'
     ];
@@ -218,7 +201,7 @@ function mi_sitio_enqueue_scripts() {
     $initial_data = get_video_filter_data(1, 8); // Cargar los primeros 8 posts
 
 
-    wp_register_script( 'mi-sitio-ajax-load', get_template_directory_uri() . '/js/script.js', array('jquery'), null, true );
+    wp_register_script( 'mi-sitio-ajax-load', get_template_directory_uri() . '/js/carga-diferida.js', array('jquery'), null, true );
 
 
     wp_localize_script( 'mi-sitio-ajax-load', 'miSitioAjax', array(

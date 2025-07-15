@@ -1,0 +1,104 @@
+@charset "UTF-8";
+.wapper-historias-de-maq {
+  max-width: 1400px;
+  width: 100%;
+  margin: 5em auto 0;
+  position: relative;
+  overflow: hidden; }
+  .wapper-historias-de-maq img {
+    width: 100%;
+    height: 800px;
+    border-radius: 15px;
+    -o-object-fit: cover;
+    object-fit: cover; }
+    @media (max-width: 500px) {
+      .wapper-historias-de-maq img {
+        border-radius: 0; } }
+  .wapper-historias-de-maq .content-txt-maq {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: translateY(80px);
+    -ms-transform: translateY(80px);
+    transform: translateY(80px); }
+    .wapper-historias-de-maq .content-txt-maq img {
+      width: 650px;
+      height: auto; }
+      @media (max-width: 700px) {
+        .wapper-historias-de-maq .content-txt-maq img {
+          width: 90%; } }
+    .wapper-historias-de-maq .content-txt-maq button {
+      margin: 1em 0;
+      padding: 1.2em 7em;
+      font-weight: bold;
+      border: 2px solid #147751;
+      border-radius: 10px;
+      color: white;
+      background: -webkit-linear-gradient(322deg, #0cae6f 22%, #1b2356 78%);
+      background: -o-linear-gradient(322deg, #0cae6f 22%, #1b2356 78%);
+      background: linear-gradient(128deg, #0cae6f 22%, #1b2356 78%);
+      -webkit-box-shadow: 0 0 20px #362866;
+      box-shadow: 0 0 20px #362866; }
+  .wapper-historias-de-maq .img-nave {
+    width: 130px;
+    height: auto;
+    position: absolute;
+    bottom: 200px;
+    right: 330px;
+    -webkit-animation: animation_nave 1.5s;
+    animation: animation_nave 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate; }
+    @media (max-width: 500px) {
+      .wapper-historias-de-maq .img-nave {
+        width: 80px;
+        right: 5px; } }
+
+@-webkit-keyframes animation_nave {
+  to {
+    bottom: 230px; }
+  from {
+    bottom: 200px; } }
+
+@keyframes animation_nave {
+  to {
+    bottom: 230px; }
+  from {
+    bottom: 200px; } }
+  .wapper-historias-de-maq .platillo1 {
+    width: 120px;
+    height: auto;
+    position: absolute;
+    top: 100px;
+    -webkit-animation: platillo1_atravesar 10s linear infinite;
+    animation: platillo1_atravesar 10s linear infinite;
+    /* 'linear' para un movimiento constante */ }
+
+@-webkit-keyframes platillo1_atravesar {
+  from {
+    left: -150px;
+    /* Un poco más que su propio ancho (120px) para asegurar que no se vea al inicio */ }
+  to {
+    left: calc( 100vw + 150px);
+    /* 100vw es el ancho total de la ventana + su propio ancho para que desaparezca */ } }
+
+@keyframes platillo1_atravesar {
+  from {
+    left: -150px;
+    /* Un poco más que su propio ancho (120px) para asegurar que no se vea al inicio */ }
+  to {
+    left: calc( 100vw + 150px);
+    /* 100vw es el ancho total de la ventana + su propio ancho para que desaparezca */ } }
