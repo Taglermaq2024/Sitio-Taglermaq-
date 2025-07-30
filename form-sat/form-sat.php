@@ -40,6 +40,7 @@
 								</div>
 							</div>
 							<select	class="dropdown" name="segmento_sat">
+								<option class="item"></option>
 								<option class="item">Google</option>
 								<option class="item">LinkedIn</option>
 								<option class="item">Recomendación</option>

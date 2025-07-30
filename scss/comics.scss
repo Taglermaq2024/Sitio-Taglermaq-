@@ -1,144 +1,181 @@
 .fondo-color-comics {
-  width: 100%;
-  height: 100%;
-  padding: 4em 0;
-  background: linear-gradient(180deg, white 0%, #f6f6f6 100%);
-  @media (max-width: 500px) {
-    padding: 0;
-  }
-  .wrapper-comics {
-    max-width: 1200px;
-    width: 100%;
-    margin: 6.2em auto 2em;
-    @media (max-width: 500px) {
-      width: 90%;
-    }
-    .page-header {
-      line-height: 1.3;
-      margin: 2.5em 0 1em 0;
-      .number-count-history {
-        font-size: 0.9em;
-        font-weight: 500;
-        padding: 0 0.5em;
-        display: inline-flex;
-        background-color: #8bc53e4d;
-        color: #72a431;
-        border-radius: 10px;
-      }
-      .page-title {
-        font-size: 1.8em;
-        color: #1e2c48;
-      }
-    }
-    .grid-box-comics {
+   width: 100%;
+   height: 100;
+   padding: 4em 0;
+   background: linear-gradient(180deg, white 0%, #cbcbcb 100%);
+   background-image: url(https://taglermaq.cl/wp-content/uploads/2025/05/fondo-maquito.jpg);
+   backdrop-filter: blur(0px);
+   &:before {
+      content: "";
       width: 100%;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-      grid-auto-rows: minmax(200px, auto);
-      gap: 20px;
-      grid-auto-flow: dense;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      backdrop-filter: blur(50px);
+   }
+   @media (max-width: 500px) {
+      padding: 0;
+   }
 
-      .box-comics {
-        border-radius: 10px;
-        overflow: hidden;
-        background-color: #1e2c48;
-        box-shadow: 0 0 6px #d4d4d4;
-        position: relative;
-        animation: scale_up_center 0.5s;
-        @keyframes scale_up_center {
-          0% {
-            transform: scale(0.5);
-          }
-          100% {
-            transform: scale(1);
-          }
-        }
-
-        .content-img {
-          width: 100%;
-          height: 400px;
-          transition: all 0.3s;
-          @media (max-width: 500px) {
-            height: auto;
-          }
-          img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transform: translateY(0);
-          }
-        }
-        .content-titles-comics {
-          width: 100%;
-          position: absolute;
-          bottom: -180px;
-          opacity: 0;
-          padding: 15em 0 0;
-          background: linear-gradient(
-            0deg,
-            #1d2b48 30%,
-            rgba(87, 122, 199, 0) 100%
-          );
-          transition: all 0.3s;
-          @media (max-width: 500px) {
-            background: linear-gradient(
-              0deg,
-              #1d2b48 0%,
-              rgba(87, 122, 199, 0) 100%
-            );
-            bottom: 0;
-            opacity: 1;
-          }
-          .margenes-titles {
-            padding: 1em 1em 0 1em;
-            line-height: 1.2;
-            color: white;
-            h1 {
-              font-size: 1em;
-              color: #8cc63f;
-            }
-            p {
-              font-size: 1em;
-              color: white;
-            }
-            .wrapper-button {
-              margin: 0.8em 0 1.2em 0;
-              display: flex;
-              gap: 10px;
-              a {
-                width: 50%;
-              }
-              .pdf-espanol,
-              .pdf-ingles {
-                width: 100%;
-                padding: 1em 0;
-                border-radius: 10px;
-                font-weight: bold;
-              }
-              .pdf-espanol {
-                background-color: #8cc63f;
-                color: #ffffff;
-              }
-              .pdf-ingles {
-                background-color: #3f74c6;
-                color: white;
-              }
-            }
-          }
-        }
-
-        &:hover .content-titles-comics {
-          bottom: 0;
-          opacity: 1;
-        }
-
-        &:hover .content-img {
-          transform: translateY(-43px);
-          @media (max-width: 500px) {
-            transform: inherit;
-          }
-        }
+   .nave-comics {
+      width: 100%;
+      .platillo1 {
+         width: 120px;
+         height: auto;
+         position: absolute;
+         z-index: 1;
+         top: 180px;
+         animation: platillo1_atravesar 10s linear infinite; /* 'linear' para un movimiento constante */
       }
-    }
-  }
+      @keyframes platillo1_atravesar {
+         from {
+            left: -150px; /* Un poco más que su propio ancho (120px) para asegurar que no se vea al inicio */
+         }
+         to {
+            left: calc(
+               100vw + 150px
+            ); /* 100vw es el ancho total de la ventana + su propio ancho para que desaparezca */
+         }
+      }
+   }
+
+   .wrapper-comics {
+      max-width: 1200px;
+      width: 100%;
+      margin: 6.2em auto 2em;
+      @media (max-width: 600px) {
+         margin: 0 auto 2em;
+         width: 90%;
+         padding: 3em 0;
+      }
+      .page-header {
+         line-height: 1.3;
+         margin: 2.5em 0 1em 0;
+         position: relative;
+         .number-count-history {
+            font-size: 0.9em;
+            font-weight: 400;
+            padding: 0.1em 0.5em;
+            display: inline-flex;
+            background-color: #8bc53e;
+            color: white;
+            border-radius: 10px;
+         }
+         .page-title {
+            font-size: 1.8em;
+            color: white;
+         }
+      }
+      .grid-box-comics {
+         width: 100%;
+         display: grid;
+         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+         grid-auto-rows: minmax(200px, auto);
+         gap: 20px;
+         grid-auto-flow: dense;
+
+         .box-comics {
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #1e2c48;
+            border: 9px solid white;
+            position: relative;
+            animation: scale_up_center 0.5s;
+            @keyframes scale_up_center {
+               0% {
+                  transform: scale(0.5);
+               }
+               100% {
+                  transform: scale(1);
+               }
+            }
+
+            .content-img {
+               width: 100%;
+               height: 100%;
+               transition: all 0.3s;
+               @media (max-width: 500px) {
+                  height: auto;
+               }
+               img {
+                  width: 100%;
+                  height: 100%;
+                  // object-fit: cover;
+                  transform: translateY(0);
+               }
+            }
+            .content-titles-comics {
+               width: 100%;
+               position: absolute;
+               bottom: -180px;
+               opacity: 0;
+               padding: 15em 0 0;
+               background: linear-gradient(
+                  0deg,
+                  #1d2b48 30%,
+                  rgba(87, 122, 199, 0) 100%
+               );
+               transition: all 0.3s;
+               @media (max-width: 500px) {
+                  background: linear-gradient(
+                     0deg,
+                     #1d2b48 0%,
+                     rgba(87, 122, 199, 0) 100%
+                  );
+                  bottom: 0;
+                  opacity: 1;
+               }
+               .margenes-titles {
+                  padding: 1em 1em 0 1em;
+                  line-height: 1.2;
+                  color: white;
+                  h1 {
+                     font-size: 1em;
+                     color: #8cc63f;
+                  }
+                  p {
+                     font-size: 1em;
+                     color: white;
+                  }
+                  .wrapper-button {
+                     margin: 0.8em 0 1.2em 0;
+                     display: flex;
+                     gap: 10px;
+                     a {
+                        width: 50%;
+                     }
+                     .pdf-espanol,
+                     .pdf-ingles {
+                        width: 100%;
+                        padding: 1em 0;
+                        border-radius: 10px;
+                        font-weight: bold;
+                     }
+                     .pdf-espanol {
+                        background-color: #8cc63f;
+                        color: #ffffff;
+                     }
+                     .pdf-ingles {
+                        background-color: #3f74c6;
+                        color: white;
+                     }
+                  }
+               }
+            }
+
+            &:hover .content-titles-comics {
+               bottom: 0;
+               opacity: 1;
+            }
+
+            &:hover .content-img {
+               transform: translateY(-55px);
+               @media (max-width: 500px) {
+                  transform: inherit;
+               }
+            }
+         }
+      }
+   }
 }

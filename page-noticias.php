@@ -7,15 +7,12 @@ Template Name: Noticias
 <?php get_header();?>
 
 
-
 <?php
-$args = array(
-    'post_type' => 'contenido_noticias',
-    'posts_per_page' => 100, // Número de posts por página, ajusta según tus necesidades
-);
-
-$query = new WP_Query( $args );
-
+    $args = array(
+        'post_type' => 'contenido_noticias',
+        'posts_per_page' => 100, // Número de posts por página, ajusta según tus necesidades
+    );
+    $query = new WP_Query( $args );
 ?>
 
 <div class="fondo-notice">
@@ -23,15 +20,15 @@ $query = new WP_Query( $args );
         <div class="grid-container-notice">
             <?php 
             if ( $query->have_posts() ) :
-                while ( $query->have_posts() ) : $query->the_post(); ?>
-
+                while ( $query->have_posts() ) : 
+                    $query->the_post(); ?>
                     
                     <a href="<?php echo get_permalink(); ?>">
                         <div class="grid-item-notice">
                             <?php
-                                if (has_post_thumbnail()) {
+                                if (has_post_thumbnail()) :
                                     the_post_thumbnail('large');
-                                }
+                                endif;
                             ?>
                             <div class="wrapper-txt-notice">
                                 <div class="content-txt-notice">
@@ -42,8 +39,6 @@ $query = new WP_Query( $args );
                             </div>
                         </div>
                     </a>
-
-                    
                 <?php endwhile;
             ?>
         </div>

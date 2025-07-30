@@ -1,393 +1,400 @@
 .wrapper-fondo {
-  background-color: #f3f3f3;
-  margin: 2.1em 0 0;
-  padding: 4em 0 3em;
-  box-shadow: 0 0 7px #989898;
+    background-color: #f3f3f3;
+    margin: 2.1em 0 0;
+    padding: 4em 0 3em;
+    box-shadow: 0 0 7px #989898;
 
-  @media (max-width: 900px) {
-    margin: 0;
-  }
-
-  .margin-screen {
-    width: 90%;
-    max-width: 1300px;
-    margin: 2em auto;
-
-    @media (max-width: 800px) {
-      width: 100%;
-      margin: 0;
+    @media (max-width: 900px) {
+        margin: 0;
     }
 
-    // Titulo principal
-    .content-title-categories {
-      width: 100%;
-      margin: 2em 0 0.5em;
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-
-      h2,
-      .title-maquinas {
-        font-size: 1em;
-        font-weight: 500;
-        color: #8dc44d;
-        line-height: 1.2;
-
-        &:after {
-          content: "─";
-          margin: 0 0 0 0.5em;
-        }
-
-        &:before {
-          content: "─";
-          margin: 0 0.5em 0 0;
-        }
-      }
-
-      .title-maquinas {
-        position: relative;
-        top: 12px;
-      }
-
-      h1 {
-        font-size: 1.3em;
-        text-transform: uppercase;
-        line-height: 1;
-        font-weight: bold;
-        color: #575757;
-      }
-    }
-
-    .content-filter {
-      width: 100%;
-
-      .facetwp-facet.facetwp-facet-filter_envasadoras.facetwp-type-radio,
-      .facetwp-facet.facetwp-facet-filter_procesamiento.facetwp-type-radio,
-      .facetwp-facet.facetwp-facet-filter_cortadoras.facetwp-type-radio,
-      .facetwp-facet.facetwp-facet-filter_desposte.facetwp-type-radio,
-      .facetwp-facet.facetwp-facet-filter_hornos.facetwp-type-radio,
-      .facetwp-facet.facetwp-facet-filter_inspeccion.facetwp-type-radio,
-      .facetwp-facet.facetwp-facet-filter_agroindustrial.facetwp-type-radio,
-      .facetwp-facet.facetwp-facet-filter_inocuidad.facetwp-type-radio,
-      .facetwp-facet.facetwp-facet-filter_miscelaneos.facetwp-type-radio,
-      .facetwp-facet.facetwp-facet-filter_otras.facetwp-type-radio,
-      .facetwp-facet.facetwp-facet-filter_sanitarios.facetwp-type-radio {
-        margin: 1em 0;
-
-        .facetwp-radio {
-          font-size: 0.8em;
-          font-family: "poppins", sans-serif;
-          font-weight: 700;
-          line-height: 2;
-          background: inherit; // Elimina icon radiobutton
-          padding-left: 10px;
-          display: none;
-        }
-
-        // .facetwp-radio.checked {
-        //     background-image: url('../images/radio-on.png');
-        //     background-color: #8cc53f;
-        //     color: white;
-        //     border-radius: 5px;
-        //     display: block;
-        // }
-
-        .facetwp-radio.checked {
-          font-family: ubuntu, sans-serif;
-          display: block;
-          font-size: 1.3em;
-          text-transform: uppercase;
-          line-height: 1;
-          font-weight: bold;
-          color: #575757;
-          text-align: center;
-          padding: 0;
-          -webkit-text-stroke: 0.1px;
-        }
-
-        // Ocultar numero de máquinas asignadas por categoría(x)
-        span.facetwp-counter {
-          display: none;
-        }
-      }
-    }
-
-    .wrapper-fondo-circle {
-      width: 100%;
-      padding: 2em 0 0;
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      background-color: white;
-      box-shadow: 0 0 10px #bdbdbd;
-      // Menu filtro Sticky
-      // position: sticky;
-      top: 0;
-      z-index: 1;
-
-      @media (max-width: 800px) {
-        padding: 0.5em 0 0;
-        border-radius: 0;
-        position: relative;
-      }
-
-      .wrapper-content-circle {
-        width: 100%;
-        margin: 0 auto;
-        padding: 0 1em;
-        display: flex;
-        // justify-content: center;
-        overflow-x: scroll;
-
-        // Inicio clase Scrollbar
-        &::-webkit-scrollbar-track {
-          background-color: #575757;
-        }
-
-        &::-webkit-scrollbar {
-          width: 6px;
-          height: 6px;
-        }
-
-        &::-webkit-scrollbar-thumb {
-          background-color: #8dc44d;
-          border-radius: 5px;
-          cursor: all-scroll;
-        }
-
-        // Fin clase Scrollbar
-
-        .wrapper-circle-txt {
-          margin: 0 1.5em;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          padding: 0 0 1em 0;
-
-          @media (max-width: 800px) {
-            margin: 0 0.4em;
-            padding: 0;
-          }
-
-          $size: 150px;
-          $size-mobile: 100px;
-
-          .content-circle {
-            width: $size;
-            height: $size;
-            border-radius: 50%;
-            box-shadow: 0 0 0 6px #464646;
-            transform: translateY(8px);
-            overflow: hidden;
-
-            @media (max-width: 800px) {
-              width: $size-mobile;
-              height: $size-mobile;
-            }
-
-            img {
-              width: 100%;
-              height: 100%;
-              object-fit: cover;
-              // transition: all .3s;
-            }
-
-            .circle-fill-active {
-              width: $size;
-              height: $size;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              background-color: #8dc44d;
-              position: absolute;
-              top: 0;
-              left: 0;
-              z-index: -1;
-              border-radius: 50%;
-
-              @media (max-width: 800px) {
-                width: $size-mobile;
-                height: $size-mobile;
-              }
-
-              img {
-                width: 90px;
-                height: 90px;
-
-                @media (max-width: 800px) {
-                  width: 70px;
-                  height: 70px;
-                }
-              }
-            }
-          }
-
-          h2 {
-            font-size: 0.65em;
-            width: 120px;
-            margin: 2.5em 0 0;
-            text-align: center;
-            line-height: 1.3;
-            font-weight: 500;
-            color: #767676;
-            text-transform: uppercase;
-
-            @media (max-width: 800px) {
-              margin: 2em 0 1em;
-            }
-          }
-
-          // &:hover img {
-          //     transform: scale(1.5);
-          // }
-        }
-      }
-    }
-
-    .content-machines {
-      width: 100%;
-
-      @media (max-width: 800px) {
+    .margin-screen {
         width: 90%;
-        margin: 0 auto;
-      }
+        max-width: 1300px;
+        margin: 2em auto;
 
-      .fwpl-layout {
-        // max-width: 1500px;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        grid-auto-rows: minmax(200px, auto);
-        gap: 20px;
-        grid-auto-flow: dense;
-
-        @media (max-width: 1400px) {
-          grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        @media (max-width: 800px) {
+            width: 100%;
+            margin: 0;
         }
 
-        @media (max-width: 1177px) {
-          grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        }
-
-        .fwpl-result {
-          background-color: white;
-          border-radius: 10px;
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.1);
-          position: relative;
-          overflow: hidden;
-
-          .fwpl-row.el-8cjrpw {
-            display: inherit; // Elimina Grid de plugin FacetWP
-          }
-
-          .fwpl-item.el-fz703r a {
-            color: #4e4e4e;
-            font-family: "montserrat", sans-serif;
-            font-weight: bold;
-            font-size: 0.8em;
-          }
-
-          .fwpl-item.el-fz703r,
-          .fwpl-item.el-87cv4l,
-          .fwpl-item.el-47fnnu {
-            margin-left: 10px;
-          }
-
-          .fwpl-item.el-fz703r {
-            width: 290px;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-            overflow: hidden;
-          }
-
-          .fwpl-item.el-47fnnu {
-            width: 30px;
-            position: absolute;
-            bottom: 106px;
-
-            img {
-              border-radius: 50%;
-            }
-          }
-
-          .fwpl-item.el-87cv4l {
-            font-family: "montserrat", sans-serif;
-            font-size: 0.65em;
-            font-weight: bold;
-            color: #8cc53f;
-            position: absolute;
-            bottom: 92px;
-            text-transform: uppercase;
-          }
-
-          .fwpl-item.btn-taglermaq button {
-            border: 0;
-            width: 94%;
-            line-height: 3;
-            margin: 1em auto;
+        // Titulo principal
+        .content-title-categories {
+            width: 100%;
+            margin: 2em 0 0.5em;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+
+            h2,
+            .title-maquinas {
+                font-size: 1em;
+                font-weight: 500;
+                color: #8dc44d;
+                line-height: 1.2;
+
+                &:after {
+                    content: "─";
+                    margin: 0 0 0 0.5em;
+                }
+
+                &:before {
+                    content: "─";
+                    margin: 0 0.5em 0 0;
+                }
+            }
+
+            .title-maquinas {
+                position: relative;
+                top: 12px;
+            }
+
+            h1 {
+                font-size: 1.3em;
+                text-transform: uppercase;
+                line-height: 1;
+                font-weight: bold;
+                color: #575757;
+            }
+        }
+
+        .content-filter {
+            width: 100%;
+
+            .facetwp-facet.facetwp-facet-filter_envasadoras.facetwp-type-radio,
+            .facetwp-facet.facetwp-facet-filter_procesamiento.facetwp-type-radio,
+            .facetwp-facet.facetwp-facet-filter_cortadoras.facetwp-type-radio,
+            .facetwp-facet.facetwp-facet-filter_desposte.facetwp-type-radio,
+            .facetwp-facet.facetwp-facet-filter_hornos.facetwp-type-radio,
+            .facetwp-facet.facetwp-facet-filter_inspeccion.facetwp-type-radio,
+            .facetwp-facet.facetwp-facet-filter_agroindustrial.facetwp-type-radio,
+            .facetwp-facet.facetwp-facet-filter_inocuidad.facetwp-type-radio,
+            .facetwp-facet.facetwp-facet-filter_miscelaneos.facetwp-type-radio,
+            .facetwp-facet.facetwp-facet-filter_otras.facetwp-type-radio,
+            .facetwp-facet.facetwp-facet-filter_sanitarios.facetwp-type-radio {
+                margin: 1em 0;
+
+                .facetwp-radio {
+                    font-size: 0.8em;
+                    font-family: "poppins", sans-serif;
+                    font-weight: 700;
+                    line-height: 2;
+                    background: inherit; // Elimina icon radiobutton
+                    padding-left: 10px;
+                    display: none;
+                }
+
+                // .facetwp-radio.checked {
+                //     background-image: url('../images/radio-on.png');
+                //     background-color: #8cc53f;
+                //     color: white;
+                //     border-radius: 5px;
+                //     display: block;
+                // }
+
+                .facetwp-radio.checked {
+                    font-family: ubuntu, sans-serif;
+                    display: block;
+                    font-size: 1.3em;
+                    text-transform: uppercase;
+                    line-height: 1;
+                    font-weight: bold;
+                    color: #575757;
+                    text-align: center;
+                    padding: 0;
+                    -webkit-text-stroke: 0.1px;
+                }
+
+                // Ocultar numero de máquinas asignadas por categoría(x)
+                span.facetwp-counter {
+                    display: none;
+                }
+            }
+        }
+
+        .wrapper-fondo-circle {
+            width: 100%;
+            padding: 2em 0 0;
             border-radius: 10px;
-            border: 3px solid #8bc43e;
-            background-color: transparent;
-            color: #8bc43e;
-            font-weight: bold;
-            text-transform: uppercase;
-            cursor: pointer;
-          }
+            display: flex;
+            align-items: center;
+            background-color: white;
+            box-shadow: 0 0 10px #bdbdbd;
+            // Menu filtro Sticky
+            // position: sticky;
+            top: 0;
+            z-index: 1;
 
-          &:hover .fwpl-item.btn-taglermaq button {
-            background-color: #8bc43e;
-            color: white;
-          }
+            @media (max-width: 800px) {
+                padding: 0.5em 0 0;
+                border-radius: 0;
+                position: relative;
+            }
+
+            .wrapper-content-circle {
+                width: 100%;
+                margin: 0 auto;
+                padding: 0 1em;
+                display: flex;
+                // justify-content: center;
+                overflow-x: scroll;
+
+                // Inicio clase Scrollbar
+                &::-webkit-scrollbar-track {
+                    background-color: #575757;
+                }
+
+                &::-webkit-scrollbar {
+                    width: 6px;
+                    height: 6px;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background-color: #8dc44d;
+                    border-radius: 5px;
+                    cursor: all-scroll;
+                }
+
+                // Fin clase Scrollbar
+
+                .wrapper-circle-txt {
+                    margin: 0 1.5em;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 0 0 1em 0;
+
+                    @media (max-width: 800px) {
+                        margin: 0 0.4em;
+                        padding: 0;
+                    }
+
+                    $size: 150px;
+                    $size-mobile: 100px;
+
+                    .content-circle {
+                        width: $size;
+                        height: $size;
+                        border-radius: 50%;
+                        box-shadow: 0 0 0 6px #464646;
+                        transform: translateY(8px);
+                        overflow: hidden;
+
+                        @media (max-width: 800px) {
+                            width: $size-mobile;
+                            height: $size-mobile;
+                        }
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            // transition: all .3s;
+                        }
+
+                        .circle-fill-active {
+                            width: $size;
+                            height: $size;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: #8dc44d;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            z-index: -1;
+                            border-radius: 50%;
+
+                            @media (max-width: 800px) {
+                                width: $size-mobile;
+                                height: $size-mobile;
+                            }
+
+                            img {
+                                width: 90px;
+                                height: 90px;
+
+                                @media (max-width: 800px) {
+                                    width: 70px;
+                                    height: 70px;
+                                }
+                            }
+                        }
+                    }
+
+                    h2 {
+                        font-size: 0.65em;
+                        width: 120px;
+                        margin: 2.5em 0 0;
+                        text-align: center;
+                        line-height: 1.3;
+                        font-weight: 500;
+                        color: #767676;
+                        text-transform: uppercase;
+
+                        @media (max-width: 800px) {
+                            margin: 2em 0 1em;
+                        }
+                    }
+
+                    // &:hover img {
+                    //     transform: scale(1.5);
+                    // }
+                }
+            }
         }
 
-        img.attachment-medium.size-medium.wp-post-image {
-          width: 100%;
-          height: 100%;
-          padding: 0.5em;
+        .content-machines {
+            width: 100%;
+
+            @media (max-width: 800px) {
+                width: 90%;
+                margin: 0 auto;
+            }
+
+            .fwpl-layout {
+                // max-width: 1500px;
+                margin: 0 auto;
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                grid-auto-rows: minmax(200px, auto);
+                gap: 20px;
+                grid-auto-flow: dense;
+
+                @media (max-width: 1400px) {
+                    grid-template-columns: repeat(
+                        auto-fill,
+                        minmax(250px, 1fr)
+                    );
+                }
+
+                @media (max-width: 1177px) {
+                    grid-template-columns: repeat(
+                        auto-fill,
+                        minmax(200px, 1fr)
+                    );
+                }
+
+                .fwpl-result {
+                    background-color: white;
+                    border-radius: 10px;
+                    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2),
+                        0 2px 4px rgba(0, 0, 0, 0.1);
+                    position: relative;
+                    overflow: hidden;
+
+                    .fwpl-row.el-8cjrpw {
+                        display: inherit; // Elimina Grid de plugin FacetWP
+                    }
+
+                    .fwpl-item.el-fz703r a {
+                        color: #4e4e4e;
+                        font-family: "montserrat", sans-serif;
+                        font-weight: bold;
+                        font-size: 0.8em;
+                    }
+
+                    .fwpl-item.el-fz703r,
+                    .fwpl-item.el-87cv4l,
+                    .fwpl-item.el-47fnnu {
+                        margin-left: 10px;
+                    }
+
+                    .fwpl-item.el-fz703r {
+                        width: 290px;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                    }
+
+                    .fwpl-item.el-47fnnu {
+                        width: 30px;
+                        position: absolute;
+                        bottom: 106px;
+
+                        img {
+                            border-radius: 50%;
+                        }
+                    }
+
+                    .fwpl-item.el-87cv4l {
+                        font-family: "montserrat", sans-serif;
+                        font-size: 0.65em;
+                        font-weight: bold;
+                        color: #8cc53f;
+                        position: absolute;
+                        bottom: 92px;
+                        text-transform: uppercase;
+                    }
+
+                    .fwpl-item.btn-taglermaq button {
+                        border: 0;
+                        width: 94%;
+                        line-height: 3;
+                        margin: 1em auto;
+                        display: flex;
+                        justify-content: center;
+                        border-radius: 10px;
+                        border: 3px solid #8bc43e;
+                        background-color: transparent;
+                        color: #8bc43e;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        cursor: pointer;
+                    }
+
+                    &:hover .fwpl-item.btn-taglermaq button {
+                        background-color: #8bc43e;
+                        color: white;
+                    }
+                }
+
+                img.attachment-medium.size-medium.wp-post-image {
+                    width: 100%;
+                    height: 100%;
+                    padding: 0.5em;
+                }
+            }
         }
-      }
     }
-  }
 }
 
 .active-cat {
-  opacity: 0;
+    opacity: 0;
 }
 
 // Clase para animación preload en categorías
 #loading-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-  z-index: 9999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  /* Animación del spinner */
-  .spinner {
-    border: 8px solid #f3f3f3;
-    /* Color del borde externo */
-    border-radius: 50%;
-    border-top: 8px solid #95c11e;
-    /* Color del borde superior */
-    width: 60px;
-    height: 60px;
-    animation: spin 0.5s linear infinite;
-  }
-
-  @keyframes spin {
-    0% {
-      transform: rotate(0deg);
+    /* Animación del spinner */
+    .spinner {
+        border: 8px solid #f3f3f3;
+        /* Color del borde externo */
+        border-radius: 50%;
+        border-top: 8px solid #95c11e;
+        /* Color del borde superior */
+        width: 60px;
+        height: 60px;
+        animation: spin 0.5s linear infinite;
     }
 
-    100% {
-      transform: rotate(360deg);
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
     }
-  }
 }

@@ -1,88 +1,88 @@
 .wapper-historias-de-maq {
-  max-width: 1400px;
-  width: 100%;
-  margin: 5em auto 0;
-  position: relative;
-  overflow: hidden;
-  img {
-    width: 100%;
-    height: 800px;
-    border-radius: 15px;
-    object-fit: cover;
-    @media (max-width: 500px) {
-      border-radius: 0;
-    }
-  }
-
-  .content-txt-maq {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateY(80px);
-    img {
-      width: 650px;
-      height: auto;
-      @media (max-width: 700px) {
-        width: 90%;
+   max-width: 1400px;
+   width: 100%;
+   margin: 5em auto 0;
+   position: relative;
+   overflow: hidden;
+   img {
+      width: 100%;
+      height: 800px;
+      border-radius: 15px;
+      object-fit: cover;
+      @media (max-width: 500px) {
+         border-radius: 0;
       }
-    }
-    button {
-      margin: 1em 0;
-      padding: 1.2em 7em;
-      font-weight: bold;
-      border: 2px solid #147751;
-      border-radius: 10px;
-      color: white;
-      background: linear-gradient(128deg, #0cae6f 22%, #1b2356 78%);
-      box-shadow: 0 0 20px #362866;
-    }
-  }
+   }
 
-  .img-nave {
-    width: 130px;
-    height: auto;
-    position: absolute;
-    bottom: 200px;
-    right: 330px;
-    @media (max-width: 500px) {
-      width: 80px;
-      right: 5px;
-    }
+   .content-txt-maq {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateY(80px);
+      img {
+         width: 650px;
+         height: auto;
+         @media (max-width: 700px) {
+            width: 90%;
+         }
+      }
+      button {
+         margin: 1em 0;
+         padding: 1.2em 7em;
+         font-weight: bold;
+         border: 2px solid #147751;
+         border-radius: 10px;
+         color: white;
+         background: linear-gradient(128deg, #0cae6f 22%, #1b2356 78%);
+         box-shadow: 0 0 20px #362866;
+      }
+   }
 
-    animation: animation_nave 1.5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  }
-
-  @keyframes animation_nave {
-    to {
-      bottom: 230px;
-    }
-    from {
+   .img-nave {
+      width: 130px;
+      height: auto;
+      position: absolute;
       bottom: 200px;
-    }
-  }
+      right: 330px;
+      @media (max-width: 500px) {
+         width: 80px;
+         right: 5px;
+      }
 
-  .platillo1 {
-    width: 120px;
-    height: auto;
-    position: absolute;
-    top: 100px;
-    animation: platillo1_atravesar 10s linear infinite; /* 'linear' para un movimiento constante */
-  }
+      animation: animation_nave 1.5s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+   }
 
-  @keyframes platillo1_atravesar {
-    from {
-      left: -150px; /* Un poco más que su propio ancho (120px) para asegurar que no se vea al inicio */
-    }
-    to {
-      left: calc(
-        100vw + 150px
-      ); /* 100vw es el ancho total de la ventana + su propio ancho para que desaparezca */
-    }
-  }
+   @keyframes animation_nave {
+      to {
+         bottom: 230px;
+      }
+      from {
+         bottom: 200px;
+      }
+   }
+
+   .platillo1 {
+      width: 120px;
+      height: auto;
+      position: absolute;
+      top: 100px;
+      animation: platillo1_atravesar 10s linear infinite; /* 'linear' para un movimiento constante */
+   }
+
+   @keyframes platillo1_atravesar {
+      from {
+         left: -150px; /* Un poco más que su propio ancho (120px) para asegurar que no se vea al inicio */
+      }
+      to {
+         left: calc(
+            100vw + 150px
+         ); /* 100vw es el ancho total de la ventana + su propio ancho para que desaparezca */
+      }
+   }
 }

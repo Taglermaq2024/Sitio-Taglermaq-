@@ -1,119 +1,119 @@
 .fondo-color-filter {
-  background-color: #2f2f2f;
-  transform: translateY(110px);
-  .wrapper-menu-filter {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 2em 0;
-    .box-filter-buttons {
-      font-size: 0.85em;
-      font-weight: 500;
-      text-transform: uppercase;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      .filter-button {
-        padding: 0.2em 1em;
-        border: 1px solid #474747;
-        border-radius: 5px;
-        color: #a1a1a1;
-        &:hover {
-          border: 1px solid #8bc34a;
-        }
+   background-color: #2f2f2f;
+   transform: translateY(110px);
+   .wrapper-menu-filter {
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 2em 0;
+      .box-filter-buttons {
+         font-size: 0.85em;
+         font-weight: 500;
+         text-transform: uppercase;
+         display: flex;
+         flex-wrap: wrap;
+         gap: 10px;
+         .filter-button {
+            padding: 0.2em 1em;
+            border: 1px solid #474747;
+            border-radius: 5px;
+            color: #a1a1a1;
+            &:hover {
+               border: 1px solid #8bc34a;
+            }
+         }
+         .active {
+            background-color: #8bc53e;
+            color: white;
+         }
       }
-      .active {
-        background-color: #8bc53e;
-        color: white;
-      }
-    }
-  }
+   }
 }
 
 .fondo-color-videos {
-  padding: 3.5em 0;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgb(247, 247, 247) 100%
-  );
-  .wrapper-videos {
-    max-width: 1200px;
-    width: 100%;
-    margin: 6.2em auto 2em;
-    .entry-header {
-      margin: 1em 0;
-      .globe-count-videos {
-        font-size: 0.9em;
-        font-weight: 400;
-        display: inline-flex;
-        padding: 0 0.5em;
-        border-radius: 10px;
-        background-color: #afafaf52;
-        color: #636363;
-      }
-    }
-    .grid-box-videos {
+   padding: 3.5em 0;
+   background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgb(247, 247, 247) 100%
+   );
+   .wrapper-videos {
+      max-width: 1200px;
       width: 100%;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-      grid-auto-rows: minmax(200px, auto);
-      gap: 20px;
-      grid-auto-flow: dense;
-      .box-videos {
-        height: 390px;
-        background-color: white;
-        box-shadow: 0 0 10px #ccc;
-        border-radius: 5px;
-        overflow: hidden;
-        .img-videos {
-          width: 100%;
-          height: 230px;
-          object-fit: cover;
-        }
-        .wrapper-title-logotipo {
-          .logotipo_proveedor {
-            width: 80px;
-          }
-          .line {
-            border: 1px solid #f1f1f1;
-            margin: 0.5em 0;
-          }
-          margin: 1em;
-          h3 {
-            color: #626262;
-            font-weight: 500;
+      margin: 6.2em auto 2em;
+      .entry-header {
+         margin: 1em 0;
+         .globe-count-videos {
             font-size: 0.9em;
-            line-height: 1.3;
-          }
-        }
+            font-weight: 400;
+            display: inline-flex;
+            padding: 0 0.5em;
+            border-radius: 10px;
+            background-color: #afafaf52;
+            color: #636363;
+         }
       }
-    }
-  }
+      .grid-box-videos {
+         width: 100%;
+         display: grid;
+         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+         grid-auto-rows: minmax(200px, auto);
+         gap: 20px;
+         grid-auto-flow: dense;
+         .box-videos {
+            height: 390px;
+            background-color: white;
+            box-shadow: 0 0 10px #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            .img-videos {
+               width: 100%;
+               height: 230px;
+               object-fit: cover;
+            }
+            .wrapper-title-logotipo {
+               .logotipo_proveedor {
+                  width: 80px;
+               }
+               .line {
+                  border: 1px solid #f1f1f1;
+                  margin: 0.5em 0;
+               }
+               margin: 1em;
+               h3 {
+                  color: #626262;
+                  font-weight: 500;
+                  font-size: 0.9em;
+                  line-height: 1.3;
+               }
+            }
+         }
+      }
+   }
 }
 
 // TODO: SIPINNER
 /* CSS para el Spinner (ejemplo básico) */
 #loading-spinner {
-  text-align: center;
-  padding: 20px;
-  display: none; /* Oculto por defecto */
-  .spinner-animation {
-    border: 4px solid rgba(0, 0, 0, 0.1);
-    border-left-color: #8bc53e; /* Color de tu spinner */
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    animation: spin 1s linear infinite;
-    margin: 0 auto 10px; /* Centra el spinner y da espacio al texto */
-  }
+   text-align: center;
+   padding: 20px;
+   display: none; /* Oculto por defecto */
+   .spinner-animation {
+      border: 4px solid rgba(0, 0, 0, 0.1);
+      border-left-color: #8bc53e; /* Color de tu spinner */
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 10px; /* Centra el spinner y da espacio al texto */
+   }
 }
 
 @keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+   0% {
+      transform: rotate(0deg);
+   }
+   100% {
+      transform: rotate(360deg);
+   }
 }

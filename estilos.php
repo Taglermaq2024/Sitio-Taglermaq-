@@ -34,7 +34,7 @@
 
 
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/config.css?0.0.0.10">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/banner-slider.css?0.0.285">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/banner-slider.css?0.0.288">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/detalle-productos.css?0.0.24">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/filtros.css?0.0.48">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/multimedia.css?0.0.5">
@@ -48,7 +48,7 @@
 
 
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/search.css?0.0.40">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/comics.css?0.0.41">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/comics.css?0.0.55">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/historietas.css?0.0.22">
 
 
