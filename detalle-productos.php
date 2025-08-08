@@ -16,43 +16,81 @@
          <?php the_post(); ?>
 
          <div class="content-detalle-img">
-            <div class="content-slick-productos">
-               <!-- Galería de imágenes -->
-               <div class="slider slider-for">
-                  <?php if (have_rows("imagenes")): ?>
-                     <?php while (have_rows("imagenes")): the_row(); ?>
-                        <div class="slider-banner-image">
-                           <img src="<?php the_sub_field('imagen'); ?>" alt="<?php the_sub_field('contenido'); ?>" loading="eager">
-                        </div>
-                     <?php endwhile; ?>
-                  <?php endif; ?>
-               </div>
 
-               <!-- Thumb galeria imágenes -->
-               <div class="slider slider-nav thumb-image">
-                  <?php if (have_rows("imagenes")): ?>
-                     <?php while (have_rows("imagenes")): the_row(); ?>
+
+            <!-- Mejora de carga -->
+            <div class="content-slick-productos">
+               <?php
+               // Obtener todas las imágenes del repeater en una sola consulta
+               $images = get_field('imagenes');
+
+               // Comprobar si hay imágenes
+               if ($images): ?>
+                  <div class="slider slider-for">
+                     <?php foreach ($images as $image): ?>
+                        <div class="slider-banner-image">
+                           <img src="<?php echo esc_url($image['imagen']); ?>" alt="<?php echo esc_attr($image['contenido']); ?>" loading="eager">
+                        </div>
+                     <?php endforeach; ?>
+                  </div>
+
+                  <div class="slider slider-nav thumb-image">
+                     <?php foreach ($images as $image): ?>
                         <div class="thumbnail-image">
                            <div class="thumbImg">
-                              <img src="<?php the_sub_field('imagen'); ?>" alt="<?php the_sub_field('contenido'); ?>">
+                              <img src="<?php echo esc_url($image['imagen']); ?>" alt="<?php echo esc_attr($image['contenido']); ?>" loading="lazy">
                            </div>
                         </div>
-                     <?php endwhile; ?>
-                  <?php endif; ?>
+                     <?php endforeach; ?>
 
-                  <!-- Campo de video -->
-                  <?php if (get_field('video_url')): ?>
-                     <?php $autoplay = "?autoplay=1&amp;loop=1&amp;muted=1&amp;playsinline=1"; ?>
-                     <a class="venobox vbox-item no-preload" href="<?php echo get_field('video_url') . $autoplay; ?>" data-vbtype="video" data-autoplay="true">
-                        <img class="img-icon-video" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/04/icon-play.svg">
-                     </a>
-                  <?php endif; ?>
-               </div>
+                     <?php if (get_field('video_url')): ?>
+                        <?php $autoplay = "?autoplay=1&amp;loop=1&amp;muted=1&amp;playsinline=1"; ?>
+                        <a class="venobox vbox-item no-preload" href="<?php echo get_field('video_url') . $autoplay; ?>" data-vbtype="video" data-autoplay="true">
+                           <img class="img-icon-video" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/04/icon-play.svg" alt="Reproducir video">
+                        </a>
+                     <?php endif; ?>
+                  </div>
+               <?php endif; ?>
             </div>
 
 
+
+
+            <hr class="line-separation-buttons">
             <div class="wrapper-buttons">
 
+               <!-- Botón Visor 3D -->
+               <?php
+               // Obtiene el ID del post o página actual (tu producto).
+               $id_del_producto = get_the_ID();
+
+               // Mostrar el ID que creaste como página
+               $id_de_la_pagina_visor = 7384;
+
+               // Nombre del campo ACF donde guardas el nombre del archivo('modelado3d').
+               $nombre_campo_acf = 'modelado3d';
+
+
+               // Si existe un nombre de archivo 3D para este producto, muestra el enlace.
+               if (get_field($nombre_campo_acf, $id_del_producto)):
+
+                  // Generamos la URL del visor 3D, pasándole el ID del producto actual.
+                  $url_visor = add_query_arg('producto_id', $id_del_producto, get_permalink($id_de_la_pagina_visor));
+               ?>
+                  <a href="<?php echo esc_url($url_visor); ?>" class="no-preload" target="_blank">
+                     <button class="btn-3d"><img class="girar-cubo" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/08/modelo-3d.svg">
+                        <h2>VER MÁQUINA EN 360°</h2>
+                     </button>
+                  </a>
+               <?php endif;
+               ?>
+
+
+
+
+
+
+               <!-- Boton Ficha Técnica -->
                <?php if (get_field('ficha_tecnica_drive')): ?>
                   <div class="mostrarElemento">
                      <div id="cerrarVentana">
@@ -61,25 +99,21 @@
                            <div class="line2"></div>
                         </div>
                      </div>
-
                      <iframe class="iframe-pdf" src="https://drive.google.com/file/d/<?php the_field('ficha_tecnica_drive') ?>/preview" width="100%" height="100%"></iframe>
-
                   </div>
-
                   <button class="btn-ficha" id="BtnLogin"><img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/04/pdf.svg">Ver Ficha Técnica</button>
                <?php endif; ?>
 
+
+
+               <!-- Botón descargar PDF -->
                <?php if (get_field('ficha_tecnica_ftp')): ?>
-
-
                   <a href="<?php bloginfo('template_url'); ?>/<?php the_field('ficha_tecnica_ftp') ?>" download="catalogo.pdf" class="no-preload">
                      <button class="btn-descargar">
                         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/04/download.svg">Descargar PDF
                      </button>
                   </a>
-
                <?php endif; ?>
-
 
             </div>
          </div>

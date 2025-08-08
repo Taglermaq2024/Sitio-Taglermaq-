@@ -8,6 +8,13 @@
       }
       ?>
 
+
+      <!-- Texto Render Taglermaq -->
+      <?php if (get_field('texto_render')): ?>
+         <h2 class="txt-render"><?php echo esc_html(get_field('texto_render')); ?></h2>
+      <?php endif; ?>
+
+
       <div class="box-content-titles">
          <?php
          $pais_de_origen = get_field('pais_de_origen');

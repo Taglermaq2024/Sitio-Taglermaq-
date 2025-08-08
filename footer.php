@@ -69,6 +69,10 @@
             <li class="li-titles-footer">HORARIO DE ATENCIÓN</li>
          </ul>
          <h3 class="h3-txt-direccion">Lunes a Jueves de 8:15 a 17:45 hrs. Viernes 8:15 a 17:00 hrs.</h3>
+         <hr class="line-hr">
+         <h3 class="h3-txt-direccion" style="margin: 0 0 1em 0;">
+            <strong style="color: black; font-weight: bold; text-transform: uppercase; font-size: 1em;">Fines de semana:</strong><br>Disponibilidad para requerimientos técnicos específicos, previa coordinación con el área correspondiente.
+         </h3>
       </div>
 
 

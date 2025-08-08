@@ -1,7 +1,7 @@
 // TODO: MIXIN
 @mixin titulos-categorias {
    max-width: 1300px;
-   width: 100%;
+   width: 95%;
    margin: 0 auto;
    padding: 1em 0;
    p {
@@ -102,26 +102,25 @@
 .wrapper-search {
    padding: 10em 0 1em;
    background-color: #eee;
+   @media (max-width: 900px) {
+      padding: 5em 0 1em;
+   }
 
    .page-header {
       @include titulos-categorias();
 
       @media (max-width: 500px) {
-         padding: 6em 0 1em;
+         padding: 1em 0 1em;
       }
 
       .page-title {
          font-size: 1.5em;
-
-         @media (max-width: 500px) {
-            text-align: center;
-         }
       }
    }
 
    .grid-search {
       max-width: 1300px;
-      width: 100%;
+      width: 95%;
       margin: 0 auto;
       padding: 0 0 3em 0;
       display: grid;
@@ -137,12 +136,24 @@
       }
 
       .box-search {
-         padding: 1em;
+         // padding: 1em;
          background-color: white;
          border-radius: 5px;
          box-shadow: 0 0 10px #ccc;
          overflow: hidden;
          transition: all 0.3s;
+         position: relative;
+
+         .txt-render {
+            position: absolute;
+            top: 33px;
+            left: -45px;
+            background-color: #8bc441;
+            color: white;
+            padding: 0.5em 3em;
+            transform: rotate(-40deg);
+            font-size: 1em;
+         }
 
          a {
             color: #4e4e4e;
@@ -151,6 +162,7 @@
             font-size: 0.8em;
 
             .box-content-titles {
+               margin: 1em;
                .img-flag {
                   width: 30px;
                   height: 30px;
@@ -193,9 +205,9 @@
             color: white;
          }
 
-         &:hover .img-search {
-            transform: scale(1.1);
-         }
+         // &:hover .img-search {
+         //    transform: scale(1.1);
+         // }
       }
    }
 }

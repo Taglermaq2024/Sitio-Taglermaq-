@@ -20,6 +20,9 @@
       display: flex;
       justify-content: center;
       flex-direction: column;
+      border: 1px solid #eeeeee;
+      border-radius: 8px;
+      padding: 1em;
       @media (max-width: 1000px) {
          width: 100%;
       }
@@ -32,7 +35,7 @@
             &.slider-for {
                max-width: 80%;
                margin: 0 0.5em 0 0;
-               border: 1px solid #eee;
+               // border: 1px solid #eee;
                display: flex;
                align-items: center;
                justify-content: center;
@@ -74,13 +77,23 @@
          }
       }
 
+      .line-separation-buttons {
+         border: 1px solid #eeeeee;
+         margin: 0.5em 0;
+      }
       .wrapper-buttons {
          width: 100%;
          margin: 0.5em 0;
          display: flex;
+         gap: 5px;
+         @media (max-width: 600px) {
+            flex-direction: column;
+            gap: 10px;
+         }
 
          .btn-descargar,
-         .btn-ficha {
+         .btn-ficha,
+         .btn-3d {
             font-family: "Montserrat", sans-serif;
             font-size: 0.7em;
             padding: 0.6em 1.5em;
@@ -92,6 +105,10 @@
             font-weight: 600;
             border: 0;
             cursor: pointer;
+            @media (max-width: 600px) {
+               width: 100%;
+               padding: 1em;
+            }
          }
 
          .btn-descargar img {
@@ -100,20 +117,52 @@
          }
 
          .btn-ficha {
-            @media (max-width: 500px) {
-               font-size: 0.6em;
-            }
+            background-color: #8dc64d;
             img {
                width: 25px;
                margin: 0 0.5em 0 0;
             }
-
-            margin: 0 0.5em 0 0;
-            background-color: #8dc64d;
          }
 
          .btn-descargar {
             background-color: #585858;
+         }
+
+         .btn-3d {
+            background: linear-gradient(90deg, #1040da, #bf10da);
+            background-size: 300% 100%;
+            animation: deslizarDegradadoAlternate 3s infinite alternate
+               ease-in-out;
+
+            @keyframes deslizarDegradadoAlternate {
+               0% {
+                  background-position: 0% 50%;
+               }
+               100% {
+                  background-position: 100% 50%;
+               }
+            }
+
+            img {
+               width: 25px;
+               margin: 0 0.5em 0 0;
+            }
+            h2 {
+               font-size: 1.1em;
+            }
+         }
+
+         .girar-cubo {
+            animation: girarImagen 2s infinite linear;
+            transform-style: preserve-3d;
+            @keyframes girarImagen {
+               from {
+                  transform: rotateY(0deg);
+               }
+               to {
+                  transform: rotateY(360deg);
+               }
+            }
          }
       }
    }
@@ -950,4 +999,15 @@
    width: 100vw;
    height: 100vh;
    border: none;
+}
+
+/* Oculta el contenedor del slider por defecto */
+.content-slick-productos {
+   opacity: 0;
+   transition: opacity 0.5s ease-in-out; /* Animación para que la aparición sea suave */
+}
+
+/* Esta clase se agregará con JavaScript para mostrar el contenedor */
+.content-slick-productos.loaded {
+   opacity: 1;
 }

@@ -6,7 +6,7 @@
 <script src="<?php echo get_template_directory_uri(); ?>/venobox/venobox.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-<script src="<?php echo get_template_directory_uri(); ?>/js/script.js?0.0.7"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/script.js?0.0.10"></script>
 
 <!-- Api Recaptcha -->
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -25,6 +25,8 @@
       offset: 200,
       duration: 1000
    });
+
+
 
 
 
@@ -342,5 +344,187 @@
             document.getElementById('loading-overlay').style.display = 'none';
          }
       });
+   });
+</script>
+
+
+
+<script>
+   // TODO: Para crear otro SWIPER: const swiper nuevoNombre = new Swiper
+   // INICIALIZACIÓN SWIPER - Carrusel Slider principal
+   const swiper1 = new Swiper(".swiper-carrusel-principal", {
+      loop: true,
+
+      pagination: {
+         el: ".swiper-pagination",
+         clickable: true,
+      },
+
+      autoplay: {
+         delay: 6000,
+         disableOnInteraction: false,
+      },
+
+      navigation: {
+         nextEl: ".swiper-button-next",
+         prevEl: ".swiper-button-prev",
+      },
+
+      scrollbar: {
+         el: ".swiper-scrollbar",
+      },
+   });
+
+   // Swiper SAT - SERVICIOS Y ASISTENCIAS
+   var sat_servicios = new Swiper(".sat-servicios", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+         el: ".swiper-pagination",
+         clickable: true,
+      },
+
+      autoplay: {
+         delay: 2500,
+         disableOnInteraction: false,
+      },
+
+      navigation: {
+         nextEl: ".swiper-button-next",
+         prevEl: ".swiper-button-prev",
+      },
+
+      pagination: {
+         el: ".swiper-pagination",
+         clickable: true,
+      },
+   });
+
+   // Swiper CAPACITACIONES
+   var capacitaciones = new Swiper(".capacitaciones", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      loop: true,
+
+      autoplay: {
+         delay: 2500,
+         disableOnInteraction: false,
+      },
+
+      navigation: {
+         nextEl: ".swiper-button-next",
+         prevEl: ".swiper-button-prev",
+      },
+
+      breakpoints: {
+         380: {
+            slidesPerView: 1,
+            spaceBetween: 40,
+         },
+         640: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+         },
+         768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+         },
+         1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+         },
+      },
+   });
+
+   // TODO: Slider Detalle - Productos Relacionados
+   document.addEventListener("DOMContentLoaded", function() {
+      new Splide("#destacados", {
+         type: "loop",
+         keyboard: "global",
+         pagination: "true",
+         arrows: "false",
+         drag: true,
+         perPage: 4,
+         perMove: 1,
+         autoplay: true,
+         interval: 1000,
+
+         breakpoints: {
+            1200: {
+               perPage: 3,
+            },
+            1024: {
+               perPage: 2,
+            },
+            768: {
+               perPage: 1,
+            },
+            480: {
+               perPage: 1,
+            },
+         },
+      }).mount();
+   });
+
+   // TODO: Slick para Galería de imagenes
+   $(document).ready(function() {
+      // El evento 'init' de Slick nos permite saber cuando el slider está listo.
+      // Cuando se inicialice, agregaremos la clase 'loaded' al contenedor
+      // para que aparezca suavemente.
+      $(".slider-for").on("init", function(event, slick) {
+         $(".content-slick-productos").addClass("loaded");
+      });
+
+      // Inicialización del slider principal
+      $(".slider-for").slick({
+         slidesToShow: 1,
+         slidesToScroll: 1,
+         arrows: false,
+         fade: true,
+         asNavFor: ".slider-nav",
+      });
+
+      // Inicialización del slider de miniaturas (navegación)
+      $(".slider-nav").slick({
+         slidesToShow: 6,
+         slidesToScroll: 1,
+         vertical: true,
+         asNavFor: ".slider-for",
+         dots: false,
+         arrows: false,
+         focusOnSelect: true,
+         verticalSwiping: true,
+         responsive: [{
+               breakpoint: 992,
+               settings: {
+                  vertical: true,
+               },
+            },
+            {
+               breakpoint: 580,
+               settings: {
+                  vertical: true,
+                  slidesToShow: 3,
+               },
+            },
+            {
+               breakpoint: 380,
+               settings: {
+                  vertical: true,
+                  slidesToShow: 2,
+               },
+            },
+         ],
+      });
+
+      // FORZAR ACTUALIZACIÓN DEL SLIDER
+      // Este setTimeout es un truco común para asegurar que Slick recalcule
+      // sus dimensiones después de que la página ha cargado.
+      // Lo dejaremos, aunque con el método de pre-carga es posible que ya no sea necesario.
+      setTimeout(function() {
+         $(".slider-for").slick("setPosition");
+         $(".slider-nav").slick("setPosition");
+      }, 500);
    });
 </script>

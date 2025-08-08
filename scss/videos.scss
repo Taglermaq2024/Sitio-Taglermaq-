@@ -1,11 +1,20 @@
 .fondo-color-filter {
    background-color: #2f2f2f;
    transform: translateY(110px);
+   @media (max-width: 900px) {
+      transform: translateY(75px);
+   }
+   @media (max-width: 500px) {
+      transform: translateY(65px);
+   }
    .wrapper-menu-filter {
       max-width: 1200px;
       width: 100%;
       margin: 0 auto;
       padding: 2em 0;
+      @media (max-width: 1200px) {
+         width: 95%;
+      }
       .box-filter-buttons {
          font-size: 0.85em;
          font-weight: 500;
@@ -41,6 +50,12 @@
       max-width: 1200px;
       width: 100%;
       margin: 6.2em auto 2em;
+      @media (max-width: 1200px) {
+         width: 95%;
+      }
+      @media (max-width: 600px) {
+         margin: 3em auto 2em;
+      }
       .entry-header {
          margin: 1em 0;
          .globe-count-videos {
@@ -49,8 +64,8 @@
             display: inline-flex;
             padding: 0 0.5em;
             border-radius: 10px;
-            background-color: #afafaf52;
-            color: #636363;
+            background-color: #8bc53e;
+            color: white;
          }
       }
       .grid-box-videos {

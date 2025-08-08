@@ -488,6 +488,36 @@
 
 
       <div class="content-box-2024-feb">
+         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/08/destacada-detector.jpg" alt="Imagen Destacada">
+         <div class="block-color-2024" style="background-color: #289b7d">
+            <div class="content-txt-notice-2024">
+               <h2>07 AGOSTO</h2>
+               <h3>ANRITSU</h3>
+               <p>Previene contaminantes metálicos en embutidos y cecinas</p>
+               <hr>
+               <a href="<?php bloginfo('url') ?>/contenido_noticias/anritsu-previene-contaminantes-metalicos-en-embutidos-y-cecinas/">
+                  <button>Leer Noticia</button>
+               </a>
+            </div>
+         </div>
+      </div>
+
+      <div class="content-box-2024-feb">
+         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/produccion-embutidos.jpg" alt="Imagen Destacada" />
+         <div class="block-color-2024" style="background-color: #e65f10">
+            <div class="content-txt-notice-2024">
+               <h2>31 JULIO</h2>
+               <h3>HANDTMANN</h3>
+               <p>Tecnología para lograr hasta un 40% menos de pérdida en la producción de embutidos</p>
+               <hr>
+               <a href="<?php bloginfo('url') ?>/contenido_noticias/tecnologia-para-lograr-hasta-un-40-menos-de-perdida-en-la-produccion-de-embutidos/">
+                  <button>Leer Noticia</button>
+               </a>
+            </div>
+         </div>
+      </div>
+
+      <div class="content-box-2024-feb">
          <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/destacada-control.jpg" alt="Imagen Destacada" />
          <div class="block-color-2024" style="background-color: #085d9e">
             <div class="content-txt-notice-2024">
@@ -502,35 +532,9 @@
          </div>
       </div>
 
-      <div class="content-box-2024-feb">
-         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/destacada-5claves1.jpg" alt="Imagen Destacada">
-         <div class="block-color-2024" style="background-color: #289b7d">
-            <div class="content-txt-notice-2024">
-               <h2>03 JULIO</h2>
-               <h3>ANRITSU</h3>
-               <p>5 consideraciones al migrar de detección de metales a inspección por Rayos X</p>
-               <hr>
-               <a href="<?php bloginfo('url') ?>/contenido_noticias/5-consideraciones-al-migrar-de-deteccion-de-metales/">
-                  <button>Leer Noticia</button>
-               </a>
-            </div>
-         </div>
-      </div>
 
-      <div class="content-box-2024-feb">
-         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/06/desatacada-irinox1.jpg" alt="Imagen Destacada" />
-         <div class="block-color-2024" style="background-color: #182742">
-            <div class="content-txt-notice-2024">
-               <h2>26 JUNIO</h2>
-               <h3>IRINOX</h3>
-               <p>Revoluciona la conservación de frutas con tecnología de enfriamiento controlado</p>
-               <hr>
-               <a href="<?php bloginfo('url') ?>/contenido_noticias/irinox-revoluciona-la-conservacion-de-frutas-con-tecnologia-de-enfriamiento-controlado/">
-                  <button>Leer Noticia</button>
-               </a>
-            </div>
-         </div>
-      </div>
+
+
 
 
 

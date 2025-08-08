@@ -244,7 +244,10 @@
       filter: drop-shadow(-2px 2px 15px rgba(0, 0, 0, 0.5)); }
       @media (min-width: 2500px) {
         .wrapper-banner-front .wrapper-title-banner .wrapper-icon-title .img-texto {
-          width: 700px; } }
+          width: 650px;
+          -webkit-transform: translateY(30px);
+          -ms-transform: translateY(30px);
+          transform: translateY(30px); } }
       @media (max-width: 600px) {
         .wrapper-banner-front .wrapper-title-banner .wrapper-icon-title .img-texto {
           width: 100%; } }
@@ -263,6 +266,8 @@
       .fondo-contenido .wrapper-edit-content {
         max-width: 95%;
         margin: 2em auto 0; } }
+    .fondo-contenido .wrapper-edit-content .logotipo-img {
+      width: 130px; }
     .fondo-contenido .wrapper-edit-content h2 {
       margin: 0 0 1em 0;
       line-height: 1.4; }
