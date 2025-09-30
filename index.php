@@ -14,68 +14,39 @@
       <div class="swiper-wrapper">
 
 
-         <!-- Banner VC999 -->
+
+         <!-- Banner XR76 -->
          <div class="swiper-slide" style="overflow: hidden">
-            <div class="wraper-banner-vc999">
-               <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/06/fondo-banner-vc999-3.jpg" alt="Banner VC999">
+            <div class="group-fondo">
+               <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/fondo-rayos-xr76.jpg" alt="fondo">
             </div>
 
-            <div class="wrapper-izq-der">
+            <div class="group-xr76">
                <div class="content-txt-izq">
-                  <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/titulo-vc999-1.png" alt="">
-                  <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/06/sutitle-vc999.png" alt="">
+                  <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/img-xr76.png" alt="">
                </div>
 
                <div class="content-img-der">
-                  <a href="https://taglermaq.cl/envasadora-al-vacio-de-doble-campana-k12-s/">
-                     <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/06/maquina-vc999.png" alt="">
+                  <a href="https://taglermaq.cl/rayos-x-serie-xr76/">
+                     <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/txt-xr76.png" alt="">
                   </a>
                </div>
             </div>
          </div>
 
 
-
-         <!-- Taglermaq Experience -->
+         <!-- Hypernova -->
          <div class="swiper-slide">
-            <section class="wrapper-tgm-experience">
-               <img class="img-banner-top" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/banner-experience.png" />
-               <img class="img-fondo" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/fondo-experience.jpg" />
-               <img class="wave" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/wave-experience.png" />
-               <div class="wrapper-experience">
-                  <div class="box-experience">
-                     <img class="txt-experience" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/logo-experience.svg" />
-                     <h1>TECNOLOGÍAS PARA LA INDUSTRIA CÁRNICA Y EMBUTIDOS</h1>
-                     <h2>07. - 08.08.2025 • SANTIAGO</h2>
+            <div class="fondo-hypernova">
+               <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/08/fondo-hypernova.jpg" alt="banner">
+            </div>
 
-                     <div class="content-btn-experience">
-                        <a href="https://taglermaq.cl/tgm-experience/">
-                           <button class="btn-experience">IR AL SITIO WEB EXCLUSIVO</button>
-                        </a>
-                     </div>
-
-                     <img class="machines" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/machines-experience.png" />
-                  </div>
+            <a href="https://taglermaq.cl/sistema-de-inspeccion-quimica-sherlock-hypernova/">
+               <div class="txt-hypernova">
+                  <img class="" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/08/txt-hypernova.png" alt="Texto">
                </div>
-            </section>
-         </div>
-
-
-         <!-- Comics Maquito -->
-         <div class="swiper-slide">
-            <div class="wraper-maquito2025">
-               <img src="/wp-content/uploads/2025/05/fondo-maquito.jpg" alt="Maquito Iffa-2025">
-            </div>
-
-            <div class="wrapper-dibujo-maquito">
-               <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/05/maquito2025-3.png" alt="maquito 2025">
-            </div>
-
-            <a class="no-preload" href="<?php bloginfo('url'); ?>/comics-maquito/">
-               <img class="btn-maq2025" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/05/btn-new-historia.png" alt="">
             </a>
          </div>
-
 
 
          <!-- Modula Flexibox -->
@@ -96,6 +67,67 @@
                </div>
             </div>
          </div>
+
+
+         <!-- Comics Maquito -->
+         <div class="swiper-slide">
+            <div class="wraper-maquito2025">
+               <img src="/wp-content/uploads/2025/05/fondo-maquito.jpg" alt="Maquito Iffa-2025">
+            </div>
+
+            <div class="wrapper-dibujo-maquito">
+               <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/05/maquito2025-3.png" alt="maquito 2025">
+            </div>
+
+            <a class="no-preload" href="<?php bloginfo('url'); ?>/comics-maquito/">
+               <img class="btn-maq2025" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/05/btn-new-historia.png" alt="">
+            </a>
+         </div>
+
+
+         <!-- Banner VC999 -->
+         <!-- <div class="swiper-slide" style="overflow: hidden">
+            <div class="wraper-banner-vc999">
+               <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/06/fondo-banner-vc999-3.jpg" alt="Banner VC999">
+            </div>
+
+            <div class="wrapper-izq-der">
+               <div class="content-txt-izq">
+                  <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/titulo-vc999-1.png" alt="">
+                  <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/06/sutitle-vc999.png" alt="">
+               </div>
+
+               <div class="content-img-der">
+                  <a href="https://taglermaq.cl/envasadora-al-vacio-de-doble-campana-k12-s/">
+                     <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/06/maquina-vc999.png" alt="">
+                  </a>
+               </div>
+            </div>
+         </div> -->
+
+         <!-- Taglermaq Experience -->
+         <!-- <div class="swiper-slide">
+            <section class="wrapper-tgm-experience">
+               <img class="img-banner-top" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/banner-experience.png" />
+               <img class="img-fondo" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/fondo-experience.jpg" />
+               <img class="wave" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/wave-experience.png" />
+               <div class="wrapper-experience">
+                  <div class="box-experience">
+                     <img class="txt-experience" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/logo-experience.svg" />
+                     <h1>TECNOLOGÍAS PARA LA INDUSTRIA CÁRNICA Y EMBUTIDOS</h1>
+                     <h2>07. - 08.08.2025 • SANTIAGO</h2>
+
+                     <div class="content-btn-experience">
+                        <a href="https://taglermaq.cl/tgm-experience/">
+                           <button class="btn-experience">IR AL SITIO WEB EXCLUSIVO</button>
+                        </a>
+                     </div>
+
+                     <img class="machines" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/machines-experience.png" />
+                  </div>
+               </div>
+            </section>
+         </div> -->
 
       </div>
 
@@ -398,6 +430,45 @@
 
 
 
+
+
+
+
+<!-- HANDTMANN 3D -->
+<section class="fondo-render-handtmann">
+   <div class="txt-handtmann">HANDTMANN</div>
+   <div class="wrapper-handtmann3d">
+      <!-- Contenedor izquierdo -->
+      <div class="wrapper-left">
+         <div class="content-txt">
+            <img class="img-logo" src="<?php bloginfo('url') ?>/wp-content/uploads/2025/03/handtmann-espanol.svg?>" alt="">
+            <h2>Embutidora <br>Al Vacío</h2>
+            <h2>VF 608 Plus</h2>
+            <p>La embutidora VF-608 Plus Advanced Edition es ideal para pequeños productores que requieren porcionar masas pastosas con precisión de gramo. De esta máquina se destaca su gran versatilidad y porcionado delicado para productos en todo tipo de tripa u otros envases.</p>
+            <a href="https://taglermaq.cl/embutidora-al-vacio-vf-608-plus-advance-edition/">
+               <button class="btn-3d">Ver Render 3D</button>
+            </a>
+         </div>
+      </div>
+
+      <!-- Contenedor derecho -->
+      <div class="wrapper-right">
+         <div class="curves-wave"></div>
+         <div class="main-container">
+            <div id="viewer-container">
+               <img id="product-viewer" src="<?php bloginfo('template_url') ?>/fotogramas/handtmann/frame_00.webp" alt="Vista interactiva del producto">
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+
+
+
+
+
+
 <!-- HISTORIAS DE MAQUITO -->
 <div class="wapper-historias-de-maq">
    <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/screen-maq-scaled.jpg">
@@ -487,45 +558,32 @@
    <div class="wrapper-box-2024-feb">
 
 
+
       <div class="content-box-2024-feb">
-         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/08/destacada-detector.jpg" alt="Imagen Destacada">
-         <div class="block-color-2024" style="background-color: #289b7d">
+         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/destacada-fentanilo.jpg" alt="Imagen Destacada" />
+         <div class="block-color-2024" style="background-color: #f7a300">
             <div class="content-txt-notice-2024">
-               <h2>07 AGOSTO</h2>
-               <h3>ANRITSU</h3>
-               <p>Previene contaminantes metálicos en embutidos y cecinas</p>
+               <h2>30 SEPTIEMBRE</h2>
+               <h3>MODULA EN LA INDUSTRIA FARMACÉUTICA</h3>
+               <p>Fentanilo y control de medicamentos</p>
                <hr>
-               <a href="<?php bloginfo('url') ?>/contenido_noticias/anritsu-previene-contaminantes-metalicos-en-embutidos-y-cecinas/">
+               <a href="<?php bloginfo('url') ?>/contenido_noticias/fentanilo-y-control-de-medicamentos/">
                   <button>Leer Noticia</button>
                </a>
             </div>
          </div>
       </div>
 
-      <div class="content-box-2024-feb">
-         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/produccion-embutidos.jpg" alt="Imagen Destacada" />
-         <div class="block-color-2024" style="background-color: #e65f10">
-            <div class="content-txt-notice-2024">
-               <h2>31 JULIO</h2>
-               <h3>HANDTMANN</h3>
-               <p>Tecnología para lograr hasta un 40% menos de pérdida en la producción de embutidos</p>
-               <hr>
-               <a href="<?php bloginfo('url') ?>/contenido_noticias/tecnologia-para-lograr-hasta-un-40-menos-de-perdida-en-la-produccion-de-embutidos/">
-                  <button>Leer Noticia</button>
-               </a>
-            </div>
-         </div>
-      </div>
 
       <div class="content-box-2024-feb">
-         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/destacada-control.jpg" alt="Imagen Destacada" />
-         <div class="block-color-2024" style="background-color: #085d9e">
+         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/destacada-insort.jpg" alt="Imagen Destacada" />
+         <div class="block-color-2024" style="background-color: #d7b200">
             <div class="content-txt-notice-2024">
-               <h2>24 JUNIO</h2>
-               <h3>GÜNTHER</h3>
-               <p>Control microbiológico en el rubro cárnico: El valor sanitario de la inyección industrial</p>
+               <h2>25 SEPTIEMBRE</h2>
+               <h3>SHERLOCK HYPERNOVA</h3>
+               <p>Inspección química de última generación para la industria alimentaria</p>
                <hr>
-               <a href="<?php bloginfo('url') ?>/contenido_noticias/control-microbiologico-en-el-rubro-carnico/">
+               <a href="<?php bloginfo('url') ?>/sherlock-hypernova-inspeccion-quimica-de-ultima-generacion-para-la-industria-alimentaria/">
                   <button>Leer Noticia</button>
                </a>
             </div>
@@ -534,6 +592,20 @@
 
 
 
+      <div class="content-box-2024-feb">
+         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/cubeteadora-destacada.jpg" alt="Imagen Destacada">
+         <div class="block-color-2024" style="background-color: #f11234">
+            <div class="content-txt-notice-2024">
+               <h2>04 SEPTIEMBRE</h2>
+               <h3>TREIF MAREL</h3>
+               <p>Innovación para el corte en cubos de productos cárnicos: eficiencia y acabado superior</p>
+               <hr>
+               <a href="<?php bloginfo('url') ?>/contenido_noticias/innovacion-para-el-corte-en-cubos-de-productos-carnicos/">
+                  <button>Leer Noticia</button>
+               </a>
+            </div>
+         </div>
+      </div>
 
 
 
@@ -635,8 +707,31 @@
 
 
 
+
+
+
+<!-- BANNER ULMA SIENNA -->
+<div class="wrapper-iframe">
+
+   <div class="wrapper-txt-button">
+      <img src="<?php bloginfo('url') ?>/wp-content/uploads/2024/07/ulma-packaging-white.svg">
+      <h2>SIENNA ENVASADORA FLOW PACK (HFFS)</h2>
+      <a href="https://taglermaq.cl/sienna-envasadora-flow-pack-hffs-2/">
+         <button>VER MODELO 3D</button>
+      </a>
+   </div>
+
+   <iframe class="video-iframe" src="https://player.vimeo.com/video/1115967931?background=1&amp;app_id=58479&amp;playsinline=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Ulma Sienna Render 2"></iframe>
+
+</div>
+
+
+
+
+
+
 <!-- MAQUINAS DESTACADAS -->
-<section class="background--machine--gpa">
+<!-- <section class="background--machine--gpa">
    <div class="wrapper--machine--txt--two">
       <div class="content--machine--vf848">
          <img class="svg--handtmann" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/12/maja-marel.svg" alt="Maja" />
@@ -654,10 +749,10 @@
       <img class="img-machine--two-gpa" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/12/maja_evm_5006.png" alt="Maja" />
       <img class="vector-machine-two-gpa" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/12/maja-evm-5006-2_animated.svg" alt="Maja evm" />
    </div>
-</section>
+</section> -->
 
 
-<section class="background--machine">
+<!-- <section class="background--machine">
    <div class="wrapper--machine-one-campana">
       <img class="img--machine-one-campana" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/doble-camp.png" alt="Máquina doble campana" />
       <img class="vector-machine-one-doble-campana" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/doble-campana01_animated.svg" alt="vector doble campana" />
@@ -675,10 +770,10 @@
          </a>
       </div>
    </div>
-</section>
+</section> -->
 
 
-<section class="background--machine--two" style="background: radial-gradient(circle, #3f404c, #21323c)">
+<!-- <section class="background--machine--two" style="background: radial-gradient(circle, #3f404c, #21323c)">
    <div class="wrapper--machine--txt--two">
       <div class="content--machine--vf848">
          <img class="svg--ulma--tsa875" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/ulma-packaging-white.svg" alt="Ulma TSA 875" />
@@ -694,7 +789,7 @@
       <img class="img-machine--two-ulma" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/tsa875-ht.png" alt="Ulma TSA 875" />
       <img class="vector-machine-two-ulma" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/tsa875-ht1_animated02.svg" alt="vector ulma tsa" />
    </div>
-</section>
+</section> -->
 
 
 

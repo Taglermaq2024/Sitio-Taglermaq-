@@ -165,12 +165,6 @@
          </div>
 
          <div class="grid-item">
-            <a href="<?php bloginfo('url'); ?>/?s=meatmark">
-               <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/meatmark.png" alt="">
-            </a>
-         </div>
-
-         <div class="grid-item">
             <a href="<?php bloginfo('url'); ?>/?s=mensch">
                <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/mensch.png" alt="">
             </a>

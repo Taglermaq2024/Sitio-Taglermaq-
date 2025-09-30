@@ -176,11 +176,11 @@
 
 .background--machine--gpa {
    width: 100%;
-   margin: 10em 0 0;
+   margin: 0;
    display: flex;
    position: relative;
    overflow: hidden;
-   background: linear-gradient(to left, #b3b3b3 0%, #f5f5f5 100%);
+   background: linear-gradient(to top, #d1d1d1 0%, #ffffff 100%);
 
    @media (max-width: 600px) {
       flex-direction: column;
@@ -1918,6 +1918,238 @@
          background-color: #2a4fbd;
          border-radius: 64% 36% 70% 30% / 57% 71% 29% 43%;
       }
+   }
+}
+
+// Handtmann 3D
+.fondo-render-handtmann {
+   width: 100%;
+   height: 800px;
+   margin: 3em 0 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   overflow: hidden;
+   .txt-handtmann {
+      font-family: "Rajdhani", sans-serif;
+      width: 100%;
+      font-size: 25em;
+      -webkit-text-stroke: 3px;
+      font-weight: 700;
+      line-height: 0.9;
+      letter-spacing: -15px;
+      position: absolute;
+      left: 0;
+      z-index: 1;
+      opacity: 0.1;
+      text-align: center;
+      @media (max-width: 600px) {
+         font-size: 15em;
+      }
+   }
+   .wrapper-handtmann3d {
+      max-width: 1300px;
+      width: 100%;
+      height: 700px;
+      margin: 5em auto;
+      display: flex;
+      align-items: center;
+      @media (max-width: 700px) {
+         flex-direction: column;
+         height: auto;
+      }
+      .wrapper-left {
+         width: 50%;
+         height: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         position: relative;
+         z-index: 1;
+         @media (max-width: 700px) {
+            width: 100%;
+         }
+         .content-txt {
+            width: 90%;
+            .img-logo {
+               width: 130px;
+            }
+            h2 {
+               font-family: "Rajdhani", sans-serif;
+               font-size: 6em;
+               -webkit-text-stroke: 3px;
+               font-weight: 700;
+               line-height: 0.9;
+               letter-spacing: -3px;
+               text-align: left;
+               text-transform: uppercase;
+               color: #4c4c4c;
+               @media (max-width: 1000px) {
+                  font-size: 5em;
+               }
+               @media (max-width: 800px) {
+                  font-size: 4em;
+               }
+               @media (max-width: 700px) {
+                  font-size: 4em;
+               }
+            }
+            p {
+               color: #4c4c4c;
+               @media (max-width: 700px) {
+                  display: none;
+               }
+            }
+            .btn-3d {
+               width: 250px;
+               margin: 1.1em 0 0;
+               padding: 1.2em;
+               background-color: #ff7400;
+               color: white;
+               position: relative;
+               z-index: 1;
+               text-transform: uppercase;
+               font-weight: bold;
+               border-radius: 10px;
+            }
+         }
+      }
+
+      .wrapper-right {
+         width: 50%;
+         height: 100%;
+         position: relative;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         @media (max-width: 700px) {
+            width: 100%;
+         }
+         .curves-wave {
+            width: 500px;
+            height: 500px;
+            position: absolute;
+            z-index: -1;
+            background-color: #ff7400;
+            border-radius: 30% 70% 70% 30% / 30% 47% 53% 70%;
+            @media (max-width: 700px) {
+               width: 300px;
+               height: 300px;
+            }
+         }
+         .main-container {
+            width: 100%;
+            height: 100%;
+            /* --- Estilos del Visor --- */
+            #viewer-container {
+               width: 100%;
+               height: 100%;
+               // border: 1px solid #ddd;
+               border-radius: 12px;
+               position: relative;
+               z-index: 1;
+
+               /* El cursor indica que el elemento es interactivo */
+               cursor: grab;
+
+               /* Evita que el usuario seleccione el texto del contenedor */
+               user-select: none;
+
+               /* Cambia el cursor cuando el usuario está arrastrando */
+               &.dragging {
+                  cursor: grabbing;
+               }
+
+               #product-viewer {
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  filter: contrast(1.5);
+                  /* Evita que el navegador active su comportamiento nativo de arrastrar imágenes */
+                  pointer-events: none;
+                  @media (max-width: 700px) {
+                     width: 500px;
+                     height: 500px;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+
+// Video Ulma
+.wrapper-iframe {
+   height: 800px;
+   position: relative;
+   &:before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      background-color: #00000087;
+   }
+   @media (max-width: 800px) {
+      height: 400px;
+   }
+
+   .wrapper-txt-button {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      img {
+         width: 150px;
+         margin: 0.5em 0;
+      }
+      h2 {
+         font-family: rajdhani, sans-serif;
+         width: 900px;
+         font-size: 4em;
+         color: #fff;
+         text-align: center;
+         font-weight: 700;
+         line-height: 0.9;
+         z-index: 1;
+         text-shadow: 0 0 10px #343434;
+         -webkit-text-stroke: 3px;
+         @media (max-width: 900px) {
+            width: 90%;
+            font-size: 2.5em;
+            -webkit-text-stroke: 1px;
+         }
+      }
+      button {
+         width: 300px;
+         margin: 1em 0;
+         padding: 1.2em;
+         background-color: #e52328;
+         color: white;
+         position: relative;
+         z-index: 1;
+         text-transform: uppercase;
+         font-weight: bold;
+         border-radius: 10px;
+      }
+   }
+
+   .video-iframe {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: black;
    }
 }
 

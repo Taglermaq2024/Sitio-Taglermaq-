@@ -1,8 +1,15 @@
 <!-- Links Accesos directos -->
 <div class="block-links">
 
-   <a href="https://taglermaq.cl/servicio-asistencia-tecnica/">
+   <a href="https://taglermaq.cl/?s=render">
       <div class="links1">
+         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/08/icon-render3d.svg">
+         <p>Render-3D</p>
+      </div>
+   </a>
+
+   <a href="https://taglermaq.cl/servicio-asistencia-tecnica/">
+      <div class="links2">
          <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/06/servicio-tecnico.svg">
          <p>Asistencia</p>
       </div>

@@ -308,6 +308,11 @@
           .wrapper-fondo .margin-screen .content-machines .fwpl-layout .fwpl-result:hover .fwpl-item.btn-taglermaq button {
             background-color: #8bc43e;
             color: white; }
+          .wrapper-fondo .margin-screen .content-machines .fwpl-layout .fwpl-result .label-3d img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50px; }
         .wrapper-fondo .margin-screen .content-machines .fwpl-layout img.attachment-medium.size-medium.wp-post-image {
           width: 100%;
           height: 100%; }

@@ -344,4 +344,20 @@ function mi_sitio_load_more_videos()
 
 add_action('wp_ajax_mi_sitio_load_more_videos', 'mi_sitio_load_more_videos');
 add_action('wp_ajax_nopriv_mi_sitio_load_more_videos', 'mi_sitio_load_more_videos');
+
+
+
+// Ordena "sólo la búsqueda de máquinas forma alfabética" 
+function ordenar_resultados_busqueda_alfabeticamente($query)
+{
+   if ($query->is_search() && $query->is_main_query()) {
+      $query->set('orderby', 'title');
+      $query->set('order', 'ASC');
+   }
+}
+add_action('pre_get_posts', 'ordenar_resultados_busqueda_alfabeticamente');
+
+
+
+
 ?>

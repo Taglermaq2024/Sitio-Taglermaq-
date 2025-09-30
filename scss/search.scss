@@ -1,7 +1,7 @@
 // TODO: MIXIN
 @mixin titulos-categorias {
    max-width: 1300px;
-   width: 95%;
+   width: 100%;
    margin: 0 auto;
    padding: 1em 0;
    p {
@@ -162,7 +162,7 @@
             font-size: 0.8em;
 
             .box-content-titles {
-               margin: 1em;
+               margin: 0 1em;
                .img-flag {
                   width: 30px;
                   height: 30px;
@@ -198,6 +198,13 @@
          img {
             width: 100%;
             transition: all 0.3s;
+         }
+
+         .label-3d {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50px;
          }
 
          &:hover a .box-content-titles button {

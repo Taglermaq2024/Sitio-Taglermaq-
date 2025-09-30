@@ -65,10 +65,13 @@
             <li class="txt-sub-menu-principal">Asistencia Técnica</li>
          </a>
          <a href="<?php bloginfo('url'); ?>/noticias/">
-            <li class="txt-sub-menu-principal">Noticias</li>
+            <li class="txt-sub-menu-principal">Novedades & Tecnología</li>
          </a>
          <a href="<?php bloginfo('url'); ?>/videos/">
             <li class="txt-sub-menu-principal">Videos</li>
+         </a>
+         <a href="<?php bloginfo('url'); ?>/comics-maquito/">
+            <li class="txt-sub-menu-principal">Historias de Maquito</li>
          </a>
          <a href="<?php bloginfo('url'); ?>/quienes-somos/">
             <li class="txt-sub-menu-principal">Quiénes Somos</li>
@@ -912,10 +915,13 @@
             </a>
 
             <a class="color-nav-mobile" href="<?php bloginfo('url'); ?>/noticias/">
-               <div class="">Noticias</div>
+               <div class="">Novedades & Tecnología</div>
             </a>
             <a class="color-nav-mobile" href="<?php bloginfo('url'); ?>/videos/">
                <div class=""><span class="globo">Nuevo</span>Videos</div>
+            </a>
+            <a class="color-nav-mobile" href="<?php bloginfo('url'); ?>/comics-maquito/">
+               <div class="">Historias de Maquito</div>
             </a>
             <a class="color-nav-mobile" href="<?php bloginfo('url'); ?>/quienes-somos/">
                <div class="">Quienes Somos</div>

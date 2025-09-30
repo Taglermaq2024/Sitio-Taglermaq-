@@ -125,7 +125,7 @@
       <div class="swiper-slide">
          <div class="mi-contenido-swiper">
             <div class="content-left">
-               <img src="<?php bloginfo('url') ?>/wp-content/uploads/2024/12/acuerdos-de-servicio.jpg" alt="">
+               <img src="<?php bloginfo('url') ?>/wp-content/uploads/2025/09/acuerdo-servicio.jpg" alt="">
             </div>
             <div class="content-right">
                <div class="content-h2-p">

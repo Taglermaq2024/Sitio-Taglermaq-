@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .title--landing-v2,
 .title--sector-industrial {
   font-family: "Rajdhani", sans-serif;
@@ -94,16 +95,16 @@
 
 .background--machine--gpa {
   width: 100%;
-  margin: 10em 0 0;
+  margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: relative;
   overflow: hidden;
-  background: -webkit-gradient(linear, right top, left top, from(#b3b3b3), to(#f5f5f5));
-  background: -webkit-linear-gradient(right, #b3b3b3 0%, #f5f5f5 100%);
-  background: -o-linear-gradient(right, #b3b3b3 0%, #f5f5f5 100%);
-  background: linear-gradient(to left, #b3b3b3 0%, #f5f5f5 100%); }
+  background: -webkit-gradient(linear, left bottom, left top, from(#d1d1d1), to(#ffffff));
+  background: -webkit-linear-gradient(bottom, #d1d1d1 0%, #ffffff 100%);
+  background: -o-linear-gradient(bottom, #d1d1d1 0%, #ffffff 100%);
+  background: linear-gradient(to top, #d1d1d1 0%, #ffffff 100%); }
   @media (max-width: 600px) {
     .background--machine--gpa {
       -webkit-box-orient: vertical;
@@ -2358,6 +2359,247 @@
     .wrapper--maquinasv2 .wrapper--green--dark .wrapper--green--red-03:before {
       background-color: #2a4fbd;
       border-radius: 64% 36% 70% 30% / 57% 71% 29% 43%; }
+
+.fondo-render-handtmann {
+  width: 100%;
+  height: 800px;
+  margin: 3em 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden; }
+  .fondo-render-handtmann .txt-handtmann {
+    font-family: "Rajdhani", sans-serif;
+    width: 100%;
+    font-size: 25em;
+    -webkit-text-stroke: 3px;
+    font-weight: 700;
+    line-height: 0.9;
+    letter-spacing: -15px;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    opacity: 0.1;
+    text-align: center; }
+    @media (max-width: 600px) {
+      .fondo-render-handtmann .txt-handtmann {
+        font-size: 15em; } }
+  .fondo-render-handtmann .wrapper-handtmann3d {
+    max-width: 1300px;
+    width: 100%;
+    height: 700px;
+    margin: 5em auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    @media (max-width: 700px) {
+      .fondo-render-handtmann .wrapper-handtmann3d {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: auto; } }
+    .fondo-render-handtmann .wrapper-handtmann3d .wrapper-left {
+      width: 50%;
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      position: relative;
+      z-index: 1; }
+      @media (max-width: 700px) {
+        .fondo-render-handtmann .wrapper-handtmann3d .wrapper-left {
+          width: 100%; } }
+      .fondo-render-handtmann .wrapper-handtmann3d .wrapper-left .content-txt {
+        width: 90%; }
+        .fondo-render-handtmann .wrapper-handtmann3d .wrapper-left .content-txt .img-logo {
+          width: 130px; }
+        .fondo-render-handtmann .wrapper-handtmann3d .wrapper-left .content-txt h2 {
+          font-family: "Rajdhani", sans-serif;
+          font-size: 6em;
+          -webkit-text-stroke: 3px;
+          font-weight: 700;
+          line-height: 0.9;
+          letter-spacing: -3px;
+          text-align: left;
+          text-transform: uppercase;
+          color: #4c4c4c; }
+          @media (max-width: 1000px) {
+            .fondo-render-handtmann .wrapper-handtmann3d .wrapper-left .content-txt h2 {
+              font-size: 5em; } }
+          @media (max-width: 800px) {
+            .fondo-render-handtmann .wrapper-handtmann3d .wrapper-left .content-txt h2 {
+              font-size: 4em; } }
+          @media (max-width: 700px) {
+            .fondo-render-handtmann .wrapper-handtmann3d .wrapper-left .content-txt h2 {
+              font-size: 4em; } }
+        .fondo-render-handtmann .wrapper-handtmann3d .wrapper-left .content-txt p {
+          color: #4c4c4c; }
+          @media (max-width: 700px) {
+            .fondo-render-handtmann .wrapper-handtmann3d .wrapper-left .content-txt p {
+              display: none; } }
+        .fondo-render-handtmann .wrapper-handtmann3d .wrapper-left .content-txt .btn-3d {
+          width: 250px;
+          margin: 1.1em 0 0;
+          padding: 1.2em;
+          background-color: #ff7400;
+          color: white;
+          position: relative;
+          z-index: 1;
+          text-transform: uppercase;
+          font-weight: bold;
+          border-radius: 10px; }
+    .fondo-render-handtmann .wrapper-handtmann3d .wrapper-right {
+      width: 50%;
+      height: 100%;
+      position: relative;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      @media (max-width: 700px) {
+        .fondo-render-handtmann .wrapper-handtmann3d .wrapper-right {
+          width: 100%; } }
+      .fondo-render-handtmann .wrapper-handtmann3d .wrapper-right .curves-wave {
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        z-index: -1;
+        background-color: #ff7400;
+        border-radius: 30% 70% 70% 30% / 30% 47% 53% 70%; }
+        @media (max-width: 700px) {
+          .fondo-render-handtmann .wrapper-handtmann3d .wrapper-right .curves-wave {
+            width: 300px;
+            height: 300px; } }
+      .fondo-render-handtmann .wrapper-handtmann3d .wrapper-right .main-container {
+        width: 100%;
+        height: 100%;
+        /* --- Estilos del Visor --- */ }
+        .fondo-render-handtmann .wrapper-handtmann3d .wrapper-right .main-container #viewer-container {
+          width: 100%;
+          height: 100%;
+          border-radius: 12px;
+          position: relative;
+          z-index: 1;
+          /* El cursor indica que el elemento es interactivo */
+          cursor: -webkit-grab;
+          cursor: grab;
+          /* Evita que el usuario seleccione el texto del contenedor */
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+          /* Cambia el cursor cuando el usuario está arrastrando */ }
+          .fondo-render-handtmann .wrapper-handtmann3d .wrapper-right .main-container #viewer-container.dragging {
+            cursor: -webkit-grabbing;
+            cursor: grabbing; }
+          .fondo-render-handtmann .wrapper-handtmann3d .wrapper-right .main-container #viewer-container #product-viewer {
+            width: 100%;
+            height: 100%;
+            -o-object-fit: cover;
+            object-fit: cover;
+            -webkit-filter: contrast(1.5);
+            filter: contrast(1.5);
+            /* Evita que el navegador active su comportamiento nativo de arrastrar imágenes */
+            pointer-events: none; }
+            @media (max-width: 700px) {
+              .fondo-render-handtmann .wrapper-handtmann3d .wrapper-right .main-container #viewer-container #product-viewer {
+                width: 500px;
+                height: 500px; } }
+
+.wrapper-iframe {
+  height: 800px;
+  position: relative; }
+  .wrapper-iframe:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #00000087; }
+  @media (max-width: 800px) {
+    .wrapper-iframe {
+      height: 400px; } }
+  .wrapper-iframe .wrapper-txt-button {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .wrapper-iframe .wrapper-txt-button img {
+      width: 150px;
+      margin: 0.5em 0; }
+    .wrapper-iframe .wrapper-txt-button h2 {
+      font-family: rajdhani, sans-serif;
+      width: 900px;
+      font-size: 4em;
+      color: #fff;
+      text-align: center;
+      font-weight: 700;
+      line-height: 0.9;
+      z-index: 1;
+      text-shadow: 0 0 10px #343434;
+      -webkit-text-stroke: 3px; }
+      @media (max-width: 900px) {
+        .wrapper-iframe .wrapper-txt-button h2 {
+          width: 90%;
+          font-size: 2.5em;
+          -webkit-text-stroke: 1px; } }
+    .wrapper-iframe .wrapper-txt-button button {
+      width: 300px;
+      margin: 1em 0;
+      padding: 1.2em;
+      background-color: #e52328;
+      color: white;
+      position: relative;
+      z-index: 1;
+      text-transform: uppercase;
+      font-weight: bold;
+      border-radius: 10px; }
+  .wrapper-iframe .video-iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black; }
 
 .wrapper--img--content {
   width: 100%;

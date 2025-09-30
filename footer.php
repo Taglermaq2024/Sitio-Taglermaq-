@@ -93,9 +93,9 @@
          <img class="size-taglermaq" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/taglermaq.svg" alt="">
       </a>
 
-      <a href="https://www.naturalenergy.cl/">
+      <!-- <a href="https://www.naturalenergy.cl/">
          <img class="size-goalzero" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/natural.png" alt="">
-      </a>
+      </a> -->
 
       <a href="http://www.taglerfood.cl/">
          <img class="size-taglerfood" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/taglerfood.png" alt="">
@@ -220,6 +220,135 @@
 
 
 
+<!-- Handtmann 3D Home -->
+<!-- Handtmann 3D Home -->
+<script>
+   document.addEventListener("DOMContentLoaded", () => {
+      // --- ELEMENTOS DEL DOM ---
+      const viewerContainer = document.getElementById("viewer-container");
+      const productViewer = document.getElementById("product-viewer");
+
+      if (!viewerContainer || !productViewer) {
+         return;
+      }
+
+      // --- CONFIGURACIÓN ---
+      const totalFrames = 50;
+      const imagePath =
+         "https://taglermaq.cl/wp-content/themes/taglermaq/fotogramas/handtmann/";
+      const imagePrefix = "frame_";
+      const imageExtension = ".webp";
+      const scrollSensitivity = 20;
+
+      // --- VARIABLES DE ESTADO ---
+      let isDragging = false;
+      let startX = 0;
+      let startFrame = 0;
+      let currentFrame = 0;
+      const imagePaths = [];
+      let lastScrollY = window.scrollY;
+      let scrollAccumulator = 0;
+
+      // --- INICIALIZACIÓN ---
+      for (let i = 0; i < totalFrames; i++) {
+         const frameNumber = i.toString().padStart(2, "0");
+         imagePaths.push(
+            `${imagePath}${imagePrefix}${frameNumber}${imageExtension}`
+         );
+      }
+
+      // --- FUNCIONES ---
+
+      // 1. Precarga optimizada de imágenes (secuencial)
+      const preloadImagesOptimized = () => {
+         let index = 0;
+         const loadNext = () => {
+            if (index >= imagePaths.length) {
+               console.log("Precarga de imágenes completada.");
+               return;
+            }
+            const img = new Image();
+            img.onload = loadNext;
+            img.onerror = loadNext;
+            img.src = imagePaths[index];
+            index++;
+         };
+         loadNext();
+      };
+
+      productViewer.src = imagePaths[0];
+      preloadImagesOptimized();
+
+      // 2. Lógica de rotación por SCROLL
+      const handleScroll = () => {
+         if (isDragging) return;
+         const currentScrollY = window.scrollY;
+         const deltaY = currentScrollY - lastScrollY;
+         scrollAccumulator += deltaY;
+         if (Math.abs(scrollAccumulator) >= scrollSensitivity) {
+            const frameChange = Math.floor(scrollAccumulator / scrollSensitivity);
+            currentFrame += frameChange;
+            currentFrame =
+               ((currentFrame % totalFrames) + totalFrames) % totalFrames;
+            productViewer.src = imagePaths[currentFrame];
+            scrollAccumulator -= frameChange * scrollSensitivity;
+         }
+         lastScrollY = currentScrollY;
+      };
+
+      // 3. Lógica de rotación por ARRASTRE MANUAL (DRAG)
+      const updateImageOnDrag = (e) => {
+         if (!isDragging) return;
+         const deltaX = e.clientX - startX;
+         const sensitivity = 5;
+         const frameChange = Math.floor(deltaX / sensitivity);
+         let newFrame =
+            (((startFrame + frameChange) % totalFrames) + totalFrames) %
+            totalFrames;
+         productViewer.src = imagePaths[newFrame];
+         currentFrame = newFrame;
+      };
+
+      // --- EVENT LISTENERS DE ARRASTRE ---
+      viewerContainer.addEventListener("mousedown", (e) => {
+         e.preventDefault();
+         isDragging = true;
+         startX = e.clientX;
+         startFrame = currentFrame;
+      });
+
+      window.addEventListener("mouseup", () => {
+         isDragging = false;
+      });
+
+      window.addEventListener("mousemove", (e) => {
+         updateImageOnDrag(e);
+      });
+
+      // --- INTERSECTION OBSERVER (PARA OPTIMIZACIÓN) ---
+      const observer = new IntersectionObserver(
+         (entries) => {
+            const entry = entries[0];
+            if (entry.isIntersecting) {
+               // Si el contenedor es visible, activamos el scroll.
+               window.addEventListener("scroll", handleScroll);
+            } else {
+               // Si no es visible, lo desactivamos para ahorrar recursos.
+               window.removeEventListener("scroll", handleScroll);
+            }
+         }, {
+            threshold: 0.0,
+         }
+      );
+
+      // Ponemos al observador a vigilar nuestro contenedor.
+      observer.observe(viewerContainer);
+   });
+</script>
+
+
+
+
 
 
 <?php wp_footer(); ?>
@@ -228,7 +357,3 @@
 
 
 <?php require "script.php"; ?>
-
-</body>
-
-</html>

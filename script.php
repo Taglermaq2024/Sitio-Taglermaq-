@@ -177,9 +177,6 @@
 
 
 
-
-
-
    // TODO: BÚSQUEDA DE PRODUCTOS (ICONO LUPA)
    $(document).ready(function() {
       $("#openModal").click(function() {
@@ -187,17 +184,19 @@
          $(".modal-content").fadeIn();
       });
 
+      // Para el cierre de "X"
       $(".close").click(function() {
          $(".modal-content").fadeOut();
          $("#modal").fadeOut();
       });
 
-      $(window).click(function(event) {
-         if (event.target == $(".wrapper-modal")[0]) {
-            $(".modal-content").fadeOut();
-            $("#modal").fadeOut();
-         }
-      });
+      // *Desactivamos la opción que al pinchar el fondo gris se "desaparezca el modal"
+      // $(window).click(function(event) {
+      //    if (event.target == $(".wrapper-modal")[0]) {
+      //       $(".modal-content").fadeOut();
+      //       $("#modal").fadeOut();
+      //    }
+      // });
    });
 
 

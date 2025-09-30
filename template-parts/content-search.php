@@ -9,9 +9,11 @@
       ?>
 
 
-      <!-- Texto Render Taglermaq -->
-      <?php if (get_field('texto_render')): ?>
-         <h2 class="txt-render"><?php echo esc_html(get_field('texto_render')); ?></h2>
+      <!-- Etiqueta Render-3D -->
+      <?php
+      $image = get_field('etiqueta_3d_render');
+      if (!empty($image)): ?>
+         <img class="label-3d" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
       <?php endif; ?>
 
 
