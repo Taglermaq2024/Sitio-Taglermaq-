@@ -17,7 +17,7 @@ $query_noticias = new WP_Query($args);
 
       <div class="group-notice-title">
          <h2>Novedades & Tecnología</h2>
-         <p>Revisa nuestros contenidos sobre las últimas innovaciones, tecnologías y ferias internacionales con soluciones.</p>
+         <p>Revisa nuestros contenidos sobre las últimas innovaciones, tecnologías y ferias internacionales con soluciones para la Industria Alimentaria.</p>
       </div>
 
       <?php if ($query_noticias->have_posts()) : ?>

@@ -14,7 +14,6 @@
       <div class="swiper-wrapper">
 
 
-
          <!-- Banner XR76 -->
          <div class="swiper-slide" style="overflow: hidden">
             <div class="group-fondo">
@@ -29,6 +28,24 @@
                <div class="content-img-der">
                   <a href="https://taglermaq.cl/rayos-x-serie-xr76/">
                      <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/txt-xr76.png" alt="">
+                  </a>
+               </div>
+            </div>
+         </div>
+
+
+         <!-- Comics Maquito -->
+         <div class="swiper-slide">
+            <div class="wrapper-new-maq">
+               <img src="<?php bloginfo('url') ?>/wp-content/uploads/2025/10/new-banner-maq4.webp" alt="maq">
+            </div>
+
+            <div class="group-img-btn">
+               <div class="txt-btn-new-maq">
+                  <img class="img-txt" src="<?php bloginfo('url') ?>/wp-content/uploads/2025/10/txt-maq.png" alt="maq">
+
+                  <a href="https://taglermaq.cl/comics-maquito/">
+                     <img class="img-btn" src="<?php bloginfo('url') ?>/wp-content/uploads/2025/10/btn-conoceme.png" alt="maq">
                   </a>
                </div>
             </div>
@@ -66,22 +83,6 @@
                   <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/modula-flexibox1.png" alt="">
                </div>
             </div>
-         </div>
-
-
-         <!-- Comics Maquito -->
-         <div class="swiper-slide">
-            <div class="wraper-maquito2025">
-               <img src="/wp-content/uploads/2025/05/fondo-maquito.jpg" alt="Maquito Iffa-2025">
-            </div>
-
-            <div class="wrapper-dibujo-maquito">
-               <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/05/maquito2025-3.png" alt="maquito 2025">
-            </div>
-
-            <a class="no-preload" href="<?php bloginfo('url'); ?>/comics-maquito/">
-               <img class="btn-maq2025" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/05/btn-new-historia.png" alt="">
-            </a>
          </div>
 
 
@@ -159,7 +160,7 @@
 
       <div class="grid-item column1">
          <a href="<?php bloginfo('url'); ?>/bakerymaq/">
-            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/bakery-img.jpg" alt="bakerymaq" />
+            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/bakery_new.webp" alt="bakerymaq" />
             <div class="content-grid-color1 color-bakery">
                <div class="wrapper-content-title-icon">
                   <img class="icon-setor" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/bakery1.svg" alt="icono-bakerymaq" />
@@ -172,7 +173,7 @@
 
       <div class="grid-item column2">
          <a href="<?php bloginfo('url'); ?>/carnicomaq/">
-            <img class="move-carnico" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/carnico-img.jpg" alt="carnicomaq" />
+            <img class="move-carnico" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/carnico_new.webp" alt="carnicomaq" />
             <div class="content-grid-color2 color-carnico">
                <div class="wrapper-content-title-icon">
                   <img class="icon-setor" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/carnico1.svg" alt="icono-carnicomaq" />
@@ -184,7 +185,7 @@
 
       <div class="grid-item column3">
          <a href="<?php bloginfo('url'); ?>/vegmaq/">
-            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/vegano-img.jpg" alt="vegmaq" />
+            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/veggie-vegan_new.webp" alt="vegmaq" />
             <div class="content-grid-color3 color-veggie-vegan">
                <div class="wrapper-content-title-icon">
                   <img class="icon-setor" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/vegan1.svg" alt="icono-vegmaq" />
@@ -196,7 +197,7 @@
 
       <div class="grid-item column4">
          <a href="<?php bloginfo('url'); ?>/aquamaq/">
-            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/pescado-y-maricos-img.jpg" alt="aquamaq" />
+            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/seafood_new.jpg" alt="aquamaq" />
             <div class="content-grid-color4 color-pesquero">
                <div class="wrapper-content-title-icon">
                   <img class="icon-setor" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/pesquera1.svg" alt="icono-aquamaq" />
@@ -208,7 +209,7 @@
 
       <div class="grid-item column5">
          <a href="<?php bloginfo('url'); ?>/avimaq/">
-            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/avicola-img.jpg" alt="avimaq" />
+            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/avicola_new.webp" alt="avimaq" />
             <div class="content-grid-color5 color-avicola">
                <div class="wrapper-content-title-icon">
                   <img class="icon-setor" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/grid-avicola.svg" alt="icono-avimaq" />
@@ -220,7 +221,7 @@
 
       <div class="grid-item column6">
          <a href="<?php bloginfo('url'); ?>/hortofruticolamaq/">
-            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/Hortofruticola-img.jpg" alt="hortofruticolamaq" />
+            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/hortofruticola_new.webp" alt="hortofruticolamaq" />
             <div class="content-grid-color6 color-fruticola">
                <div class="wrapper-content-title-icon">
                   <img class="icon-setor" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/fruticola1.svg" alt="icono-hortofruticolamaq" />
@@ -232,7 +233,7 @@
 
       <div class="grid-item column7">
          <a href="<?php bloginfo('url'); ?>/lactomaq/">
-            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/lacteos-img.jpg" alt="lactomaq" />
+            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/lacteos_new.webp" alt="lactomaq" />
             <div class="content-grid-color7 color-lacteos">
                <div class="wrapper-content-title-icon">
                   <img class="icon-setor" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/lacteos1.svg" alt="icono-lactomaq" />
@@ -244,7 +245,7 @@
 
       <div class="grid-item column8">
          <a href="<?php bloginfo('url'); ?>/petfoodmaq/">
-            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/09-petfood.jpg" alt="petfoodmaq" />
+            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/petfood_new.webp" alt="petfoodmaq" />
             <div class="content-grid-color2 color-pharma">
                <div class="wrapper-content-title-icon">
                   <img class="icon-setor" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/petfood1.svg" alt="icono-petfoodmaq" />
@@ -256,7 +257,7 @@
 
       <div class="grid-item column9">
          <a href="<?php bloginfo('url'); ?>/cobotmaq">
-            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/01/robot-colaborativo-industrial2.jpg" alt="cobotmaq" />
+            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/robot-colaborativo_new.webp" alt="cobotmaq" />
             <div class="content-grid-color8 color-petdood">
                <div class="wrapper-content-title-icon">
                   <img class="icon-setor" style="width: 100px; height: 100px" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/12/robot-colaborativo1.svg" alt="robot-colaborativo" />
@@ -268,7 +269,7 @@
 
       <div class="grid-item column10">
          <a href="<?php bloginfo('url'); ?>/logisticmaq/">
-            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/intralogistica-img.jpg" alt="logisticmaq" />
+            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/intralogistica_new.webp" alt="logisticmaq" />
             <div class="content-grid-color4 color-intralogistica">
                <div class="wrapper-content-title-icon">
                   <img class="icon-setor" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/icon-intralogistica.svg" alt="icono-logisticmaq" />
@@ -280,7 +281,7 @@
 
       <div class="grid-item column6">
          <a href="<?php bloginfo('url'); ?>/foodservice/">
-            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/01/food-service-grid.jpg" alt="Food Service" />
+            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/foodservice_new.webp" alt="Food Service" />
             <div class="content-grid-color6 color-foodservice">
                <div class="wrapper-content-title-icon">
                   <img class="icon-setor" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/01/icon-food-service1.svg" alt="food-service" />
@@ -292,7 +293,7 @@
 
       <div class="grid-item column11">
          <a href="<?php bloginfo('url'); ?>/pharma/">
-            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/01/pharma-grid.jpg" alt="Pharma" />
+            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/pharma_new.webp" alt="Pharma" />
             <div class="content-grid-color7 color-pharma">
                <div class="wrapper-content-title-icon">
                   <img class="icon-setor" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/01/icon-pharma1.svg" alt="pharma" />
@@ -492,7 +493,7 @@
 
 
 <!-- SAT - SERVICIO ASISTENCIA TECNICA -->
-<div class="titulo-optimiza">
+<!-- <div class="titulo-optimiza">
    <h2 class="txt-optimiza">Optimiza al Máximo la
       <span class="txt-pintar"> Productividad de tu Negocio</span>
    </h2>
@@ -504,12 +505,30 @@
    <div class="wrapper-txt-new-sat">
       <img class="svg-new-sat" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/new-sat.svg" alt="new-sat" />
 
-      <!-- REVISAR -->
       <a href="<?php bloginfo('url'); ?>/servicio-asistencia-tecnica/">
          <button class="btn-descubre-mas">Descubre Más</button>
       </a>
    </div>
-</div>
+</div> -->
+
+
+
+<a href="<?php bloginfo('url') ?>/servicio-asistencia-tecnica/">
+   <picture class="wrapper-assistant-sat">
+      <source media="(min-width: 700px)" srcset="<?php bloginfo('url') ?>/wp-content/themes/taglermaq/images/banner-sat-desktop7.jpg">
+      <img src="<?php bloginfo('url') ?>/wp-content/uploads/2025/10/banner-sat-mobile1.webp" alt="mobile">
+   </picture>
+</a>
+
+
+
+
+
+
+
+
+
+
 
 <!-- <div class="fondo-buzon">
     <div class="wrapper-buzon">
@@ -550,10 +569,10 @@
 
 <!-- NOTICIAS -->
 <section class="wrapper--noticev3">
-   <h2 class="title--landing-v2"><span class="title--dark">NOTICIAS</span>
-      <span class="title--verde"> & FERIAS</span>
+   <h2 class="title--landing-v2"><span class="title--dark">NOVEDADES</span>
+      <span class="title--verde"> & TECNOLOGÍA</span>
    </h2>
-   <p class="bajada--sector-industrial">Infórmate sobre temas relevantes y tecnologías que son protagonistas en la industria de los alimentos</p>
+   <p class="bajada--sector-industrial">Revisa nuestros contenidos sobre las últimas innovaciones, tecnologías y ferias internacionales con soluciones.</p>
 
    <div class="wrapper-box-2024-feb">
 

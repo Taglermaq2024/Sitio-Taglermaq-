@@ -112,62 +112,74 @@
       }
    }
 
-   .wraper-maquito2025 {
+   // New-Banner-Maq
+   .wrapper-new-maq {
       width: 100%;
       height: 100vh;
-
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      &:before {
+         content: "";
+         width: 100%;
+         height: 100%;
+         position: absolute;
+         top: 0;
+         left: 0;
+         display: none;
+         background: linear-gradient(
+            0deg,
+            rgba(80, 47, 123, 0) 30%,
+            #0e1528 100%
+         );
+         @media (max-width: 1200px) {
+            display: block;
+         }
+      }
       img {
          width: 100%;
          height: 100%;
          object-fit: cover;
+         @media (max-width: 1000px) {
+            object-position: 0;
+         }
       }
    }
-
-   .wrapper-dibujo-maquito {
-      position: absolute;
-      top: 0;
+   .group-img-btn {
       width: 100%;
       height: 100%;
       display: flex;
-      justify-content: center;
       align-items: center;
-
-      img {
-         width: 700px;
-         transform: translateY(100px);
-         filter: drop-shadow((-2px) 2px 15px rgba(0, 0, 0, 0.5));
-         .wrapper-mi-swiper .wrapper-dibujo-maquito img {
-            width: 700px;
-            transform: translateY(100px);
-            filter: drop-shadow(-2px 2px 15px rgba(0, 0, 0, 0.5));
-         }
-
-         @media (min-width: 1500px) {
-            width: 800px;
-         }
-         @media (max-width: 1450px) {
-            width: 600px;
-         }
-         @media (max-width: 700px) {
-            width: 95%;
-         }
-         @media (max-width: 700px) {
-            transform: translateY(0);
-         }
-      }
-   }
-
-   .btn-maq2025 {
-      width: 150px;
       position: absolute;
-      bottom: 100px;
-      width: 400px;
-      right: 100px;
-      @media (max-width: 600px) {
-         width: 100%;
-         right: 0;
-         bottom: 150px;
-         padding: 2em;
+      top: 0;
+      left: 0;
+      .txt-btn-new-maq {
+         width: 80%;
+         height: 60%;
+         margin: 0 auto;
+         display: flex;
+         justify-content: space-between;
+         align-items: flex-end;
+         flex-direction: column;
+         @media (max-width: 1200px) {
+            width: 100%;
+            align-items: center;
+         }
+         .img-txt {
+            width: 700px;
+            transform: translateX(50px);
+            filter: drop-shadow(-2px 2px 15px rgba(0, 0, 0, 0.9));
+            @media (max-width: 1200px) {
+               width: 90%;
+               transform: translateX(0);
+            }
+         }
+         .img-btn {
+            width: 300px;
+            transform: translateY(110px);
+         }
       }
    }
 
