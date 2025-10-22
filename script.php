@@ -401,40 +401,40 @@
    });
 
    // Swiper CAPACITACIONES
-   var capacitaciones = new Swiper(".capacitaciones", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      loop: true,
+   // var capacitaciones = new Swiper(".capacitaciones", {
+   //    slidesPerView: 3,
+   //    spaceBetween: 30,
+   //    loop: true,
 
-      autoplay: {
-         delay: 2500,
-         disableOnInteraction: false,
-      },
+   //    autoplay: {
+   //       delay: 2500,
+   //       disableOnInteraction: false,
+   //    },
 
-      navigation: {
-         nextEl: ".swiper-button-next",
-         prevEl: ".swiper-button-prev",
-      },
+   //    navigation: {
+   //       nextEl: ".swiper-button-next",
+   //       prevEl: ".swiper-button-prev",
+   //    },
 
-      breakpoints: {
-         380: {
-            slidesPerView: 1,
-            spaceBetween: 40,
-         },
-         640: {
-            slidesPerView: 2,
-            spaceBetween: 40,
-         },
-         768: {
-            slidesPerView: 2,
-            spaceBetween: 40,
-         },
-         1024: {
-            slidesPerView: 3,
-            spaceBetween: 50,
-         },
-      },
-   });
+   //    breakpoints: {
+   //       380: {
+   //          slidesPerView: 1,
+   //          spaceBetween: 40,
+   //       },
+   //       640: {
+   //          slidesPerView: 2,
+   //          spaceBetween: 40,
+   //       },
+   //       768: {
+   //          slidesPerView: 2,
+   //          spaceBetween: 40,
+   //       },
+   //       1024: {
+   //          slidesPerView: 3,
+   //          spaceBetween: 50,
+   //       },
+   //    },
+   // });
 
    // TODO: Slider Detalle - Productos Relacionados
    document.addEventListener("DOMContentLoaded", function() {

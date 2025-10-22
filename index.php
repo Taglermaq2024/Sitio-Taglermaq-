@@ -3,8 +3,6 @@
 ?>
 
 <?php get_header(); ?>
-
-
 <?php @include("contactos.php"); ?>
 
 
@@ -579,6 +577,38 @@
 
 
       <div class="content-box-2024-feb">
+         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/destacada-cortadora-banda.jpg" alt="Imagen Destacada" />
+         <div class="block-color-2024" style="background-color: #ff7c00">
+            <div class="content-txt-notice-2024">
+               <h2>16 OCTUBRE</h2>
+               <h3>SORMAC</h3>
+               <p>Innovación y eficiencia en el corte de vegetales para la industria hortofrutícola</p>
+               <hr>
+               <a href="<?php bloginfo('url') ?>/innovacion-y-eficiencia-en-el-corte-de-vegetales-para-la-industria-hortofruticola/">
+                  <button>Leer Noticia</button>
+               </a>
+            </div>
+         </div>
+      </div>
+
+
+      <div class="content-box-2024-feb">
+         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/destacada-xr76-3.jpg" alt="Imagen Destacada">
+         <div class="block-color-2024" style="background-color: #289b7d">
+            <div class="content-txt-notice-2024">
+               <h2>02 OCTUBRE</h2>
+               <h3>ANRITSU</h3>
+               <p>Una nueva generación en inspección por Rayos X llega a Taglermaq</p>
+               <hr>
+               <a href="<?php bloginfo('url') ?>/contenido_noticias/una-nueva-generacion-en-inspeccion-por-rayos-x-llega-a-taglermaq/">
+                  <button>Leer Noticia</button>
+               </a>
+            </div>
+         </div>
+      </div>
+
+
+      <div class="content-box-2024-feb">
          <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/destacada-fentanilo.jpg" alt="Imagen Destacada" />
          <div class="block-color-2024" style="background-color: #f7a300">
             <div class="content-txt-notice-2024">
@@ -593,38 +623,6 @@
          </div>
       </div>
 
-
-      <div class="content-box-2024-feb">
-         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/destacada-insort.jpg" alt="Imagen Destacada" />
-         <div class="block-color-2024" style="background-color: #d7b200">
-            <div class="content-txt-notice-2024">
-               <h2>25 SEPTIEMBRE</h2>
-               <h3>SHERLOCK HYPERNOVA</h3>
-               <p>Inspección química de última generación para la industria alimentaria</p>
-               <hr>
-               <a href="<?php bloginfo('url') ?>/sherlock-hypernova-inspeccion-quimica-de-ultima-generacion-para-la-industria-alimentaria/">
-                  <button>Leer Noticia</button>
-               </a>
-            </div>
-         </div>
-      </div>
-
-
-
-      <div class="content-box-2024-feb">
-         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/cubeteadora-destacada.jpg" alt="Imagen Destacada">
-         <div class="block-color-2024" style="background-color: #f11234">
-            <div class="content-txt-notice-2024">
-               <h2>04 SEPTIEMBRE</h2>
-               <h3>TREIF MAREL</h3>
-               <p>Innovación para el corte en cubos de productos cárnicos: eficiencia y acabado superior</p>
-               <hr>
-               <a href="<?php bloginfo('url') ?>/contenido_noticias/innovacion-para-el-corte-en-cubos-de-productos-carnicos/">
-                  <button>Leer Noticia</button>
-               </a>
-            </div>
-         </div>
-      </div>
 
 
 

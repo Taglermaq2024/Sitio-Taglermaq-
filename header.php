@@ -254,6 +254,12 @@
                         <h4>Máquinas Envasadoras</h4>
                      </li>
 
+
+                     <a class="link-categoria" href="<?php bloginfo('url'); ?>/envasadoras/?_filter_envasadoras=maquinas-envasadoras">
+                        <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/ver-todo1.svg">
+                           Toda la categoría
+                        </li>
+                     </a>
                      <a class="link-categoria" href="<?php bloginfo('url'); ?>/envasadoras/?_filter_envasadoras=envasadoras-flow-pack">
                         <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/env-flowpack-1.svg">
                            Envasadoras Flow Pack
@@ -335,6 +341,12 @@
                         <h4>Máquinas de Procesamiento</h4>
                      </li>
 
+
+                     <a class="link-categoria" href="<?php bloginfo('url'); ?>/procesamiento/?_filter_procesamiento=maquinas-de-procesamiento">
+                        <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/ver-todo1.svg">
+                           Toda la categoría
+                        </li>
+                     </a>
 
                      <a class="link-categoria" href="<?php bloginfo('url'); ?>/procesamiento/?_filter_procesamiento=masajeadoras">
                         <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/cat-masajeadora1.svg">
@@ -435,7 +447,11 @@
                         <h4>Máquinas Cortadoras</h4>
                      </li>
 
-
+                     <a class="link-categoria" href="<?php bloginfo('url'); ?>/cortadoras/?_filter_cortadoras=maquinas-cortadoras">
+                        <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/ver-todo1.svg">
+                           Toda la categoría
+                        </li>
+                     </a>
                      <a class="link-categoria" href="<?php bloginfo('url'); ?>/cortadoras/?_filter_cortadoras=cortadora-de-cubos-y-tiras">
                         <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/cor-cortador-de-cubos.svg">
                            Cortadora Cubos y Tiras
@@ -501,7 +517,11 @@
                         <h4>Equipos de Desposte</h4>
                      </li>
 
-
+                     <a class="link-categoria" href="<?php bloginfo('url'); ?>/equipos-de-desposte/?_filter_desposte=equipos-de-desposte">
+                        <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/ver-todo1.svg">
+                           Toda la categoría
+                        </li>
+                     </a>
                      <a class="link-categoria" href="<?php bloginfo('url'); ?>/equipos-de-desposte/?_filter_desposte=sierra-de-desposte">
                         <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/des-sierras-de-desposte1.svg">
                            Sierras de Desposte
@@ -548,6 +568,11 @@
                      </li>
 
 
+                     <a class="link-categoria" href="<?php bloginfo('url'); ?>/hornos-de-coccion/?_filter_hornos=hornos-de-coccion">
+                        <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/ver-todo1.svg">
+                           Toda la categoría
+                        </li>
+                     </a>
                      <a class="link-categoria" href="<?php bloginfo('url'); ?>/hornos-de-coccion/?_filter_hornos=hornos-de-coccion-y-ahumado-pequena">
                         <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/horno-mediana-industria1.svg">
                            Hornos de Cocción y Ahumado Pequeña y Mediana Industria
@@ -587,6 +612,12 @@
                         <h4>Filtros Sanitarios</h4>
                      </li>
 
+
+                     <a class="link-categoria" href="<?php bloginfo('url'); ?>/filtros-sanitarios/?_filter_sanitarios=filtros-sanitarios">
+                        <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/ver-todo1.svg">
+                           Toda la categoría
+                        </li>
+                     </a>
                      <a class="link-categoria" href="<?php bloginfo('url'); ?>/filtros-sanitarios/?_filter_sanitarios=desinfectante-de-manos">
                         <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/desinfectante-de-manos1.svg">
                            Desinfectante de Manos
@@ -646,7 +677,11 @@
                         <h4>Sistemas de Inspección</h4>
                      </li>
 
-
+                     <a class="link-categoria" href="<?php bloginfo('url'); ?>/sistemas-de-inspeccion/?_filter_inspeccion=sistemas-de-inspeccion">
+                        <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/ver-todo1.svg">
+                           Toda la categoría
+                        </li>
+                     </a>
                      <a class="link-categoria" href="<?php bloginfo('url'); ?>/sistemas-de-inspeccion/?_filter_inspeccion=rayos-x">
                         <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/rayos-x.svg">
                            Rayos X
@@ -693,6 +728,11 @@
                      </li>
 
 
+                     <a class="link-categoria" href="<?php bloginfo('url'); ?>/procesamiento-agroindustrial/?_filter_agroindustrial=procesamiento-agroindustrial">
+                        <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/ver-todo1.svg">
+                           Toda la categoría
+                        </li>
+                     </a>
                      <a class="link-categoria" href="<?php bloginfo('url'); ?>/procesamiento-agroindustrial/?_filter_agroindustrial=calibradoras">
                         <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/calibradoras1.svg">
                            Calibradoras
@@ -758,6 +798,11 @@
                             </li>
                         </a> -->
 
+
+                     <a class="link-categoria" href="<?php bloginfo('url'); ?>/higiene-e-inocuidad/?_filter_inocuidad=higiene-e-inocuidad">
+                        <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/ver-todo1.svg">
+                           Toda la categoría</li>
+                     </a>
                      <a class="link-categoria" href="<?php bloginfo('url'); ?>/higiene-e-inocuidad/?_filter_inocuidad=proteccion-e-higiene-personal">
                         <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/sheq-proteccion-e-higiene1.svg">
                            Protección e Higiene Personal</li>
@@ -803,6 +848,11 @@
                         <h4>Miscelaneos</h4>
                      </li>
 
+
+                     <a class="link-categoria" href="<?php bloginfo('url'); ?>/miscelaneos/?_filter_miscelaneos=miscelaneos">
+                        <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/ver-todo1.svg">
+                           Toda la categoría</li>
+                     </a>
                      <a class="link-categoria" href="<?php bloginfo('url'); ?>/miscelaneos/?_filter_miscelaneos=guantes-de-seguridad">
                         <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/guantes-de-seguridad1.svg">
                            Guantes de Seguridad</li>
@@ -860,6 +910,13 @@
                         <img class="icon-close" class="" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/close-white.svg">
                         <h4>Otras Categorías</h4>
                      </li>
+
+
+                     <a class="link-categoria" href="<?php bloginfo('url'); ?>/otras-tecnologias/?_filter_otras=otras-tecnologias">
+                        <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/ver-todo1.svg">
+                           Toda la categoría
+                        </li>
+                     </a>
                      <a class="link-categoria" href="<?php bloginfo('url'); ?>/otras-tecnologias/?_filter_otras=fabricadoras-de-hielo-troceado">
                         <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/hielo-troceado.svg">
                            Fabricadoras de Hielo Troceado

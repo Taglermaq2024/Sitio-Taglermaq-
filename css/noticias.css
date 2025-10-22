@@ -285,7 +285,7 @@
       .wrapper-banner-front .wrapper-title-banner .wrapper-icon-title {
         width: 90%; } }
     .wrapper-banner-front .wrapper-title-banner .wrapper-icon-title .img-logotipo {
-      width: 300px;
+      width: 200px;
       margin: 0 0 1em 0; }
     .wrapper-banner-front .wrapper-title-banner .wrapper-icon-title .title-init {
       font-family: rajdhani, sans-serif;
@@ -315,12 +315,9 @@
       width: 500px;
       -webkit-filter: drop-shadow(-2px 2px 15px rgba(0, 0, 0, 0.5));
       filter: drop-shadow(-2px 2px 15px rgba(0, 0, 0, 0.5)); }
-      @media (min-width: 2500px) {
+      @media (min-width: 1500px) {
         .wrapper-banner-front .wrapper-title-banner .wrapper-icon-title .img-texto {
-          width: 650px;
-          -webkit-transform: translateY(30px);
-          -ms-transform: translateY(30px);
-          transform: translateY(30px); } }
+          width: 700px; } }
       @media (max-width: 600px) {
         .wrapper-banner-front .wrapper-title-banner .wrapper-icon-title .img-texto {
           width: 100%; } }
@@ -348,7 +345,7 @@
         .fondo-contenido .wrapper-edit-content h2 {
           font-size: 1.2em; } }
     .fondo-contenido .wrapper-edit-content p {
-      margin: 0 0 2em 0;
+      margin: 0 0 1em 0;
       color: #515151;
       font-weight: normal; }
     .fondo-contenido .wrapper-edit-content ul {
@@ -447,3 +444,16 @@
   @media (max-width: 500px) {
     .elevacion {
       top: -25px; } }
+
+.btn-center-notice {
+  margin: 1em auto 0;
+  background-color: #95c11f;
+  padding: 1em 2em;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8em;
+  border-radius: 10px;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }

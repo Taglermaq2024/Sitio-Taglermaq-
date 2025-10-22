@@ -320,7 +320,7 @@
          }
 
          .img-logotipo {
-            width: 300px;
+            width: 200px;
             margin: 0 0 1em 0;
          }
 
@@ -357,10 +357,11 @@
          .img-texto {
             width: 500px;
             filter: drop-shadow(-2px 2px 15px rgba(0, 0, 0, 0.5));
+            // transform: translateY(30px);
 
-            @media (min-width: 2500px) {
-               width: 650px;
-               transform: translateY(30px);
+            // Para pantallas extra-grandes
+            @media (min-width: 1500px) {
+               width: 700px;
             }
 
             @media (max-width: 600px) {
@@ -399,7 +400,7 @@
       }
 
       p {
-         margin: 0 0 2em 0;
+         margin: 0 0 1em 0;
          color: #515151;
          font-weight: normal;
       }
@@ -512,4 +513,16 @@
    @media (max-width: 500px) {
       top: -25px;
    }
+}
+
+.btn-center-notice {
+   margin: 1em auto 0;
+   background-color: #95c11f;
+   padding: 1em 2em;
+   color: white;
+   font-weight: bold;
+   font-size: 0.8em;
+   border-radius: 10px;
+   text-transform: uppercase;
+   display: flex;
 }

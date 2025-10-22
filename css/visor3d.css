@@ -3,7 +3,10 @@ body {
   padding: 0; }
 
 .wrapper-model-viewer {
-  background-image: url("https://taglertesting.cl/wp-content/uploads/2025/08/fondo3d.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #1a1a1a), color-stop(78%, #3e3e3e));
+  background-image: -webkit-linear-gradient(top, #1a1a1a 40%, #3e3e3e 78%);
+  background-image: -o-linear-gradient(top, #1a1a1a 40%, #3e3e3e 78%);
+  background-image: linear-gradient(180deg, #1a1a1a 40%, #3e3e3e 78%);
   background-size: cover; }
 
 model-viewer {
@@ -59,14 +62,14 @@ model-viewer::part(default-ar-button) {
   margin-top: 15px;
   font-family: sans-serif;
   font-size: 1.2rem;
-  color: #333; }
+  color: white; }
 
 .loader {
   width: 48px;
   height: 48px;
   display: inline-block;
   position: relative;
-  border: 2px solid #585858;
+  border: 2px solid white;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-animation: rotation 2s linear infinite;
@@ -95,7 +98,7 @@ model-viewer::part(default-ar-button) {
 .loader::before {
   width: 28px;
   height: 28px;
-  border-color: #585858;
+  border-color: white;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-animation: rotation 1s linear infinite;

@@ -28,6 +28,7 @@ $query_noticias = new WP_Query($args);
             $query_noticias->the_post();
             ?>
 
+
             <section class="content-img-destacada">
                <?php
                if (has_post_thumbnail()) {

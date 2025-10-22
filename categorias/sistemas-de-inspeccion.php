@@ -22,7 +22,7 @@ if (have_posts()) {
                   <div class="wrapper-circle-txt">
                      <div class="content-circle">
                         <a id="tv-category-image" href="<?php bloginfo('url'); ?>/sistemas-de-inspeccion/?_filter_inspeccion=sistemas-de-inspeccion">
-                           <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/maquina-zoom.jpg" alt="" />
+                           <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/maquina-zoom1.svg" alt="" />
                         </a>
 
                         <div class="circle-fill-active">

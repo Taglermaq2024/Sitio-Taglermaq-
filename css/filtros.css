@@ -175,6 +175,7 @@
             border-radius: 50%;
             -webkit-box-shadow: 0 0 0 6px #464646;
             box-shadow: 0 0 0 6px #464646;
+            background-color: #464646;
             -webkit-transform: translateY(8px);
             -ms-transform: translateY(8px);
             transform: translateY(8px);

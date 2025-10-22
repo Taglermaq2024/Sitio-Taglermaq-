@@ -39,12 +39,187 @@
 </div>
 
 
+
+
+<div class="fondo-color-noticias-sat">
+   <!-- Titulos principales -->
+   <div class="wrapper-titles-sat-noticias">
+      <h2 class="title-smile">VISITAMOS Y NOS CAPACITAMOS CON EXPERTOS</h2>
+      <h2 class="line-center">PARA RESPONDER A TUS NECESIDADES</h2>
+
+      <!-- <p class="txt-parrafo">Nuestro equipo técnico, realiza visitas comerciales y se capacita periódicamente en el extranjero con las marcas que representamos, para tener el conocimiento necesario y así asesorarte de manera precisa en cada etapa de tu proyecto.</p> -->
+   </div>
+
+   <!-- Nuevas Noticias SAT -->
+   <section class="wrapper-fondo-notice-sat">
+
+      <!-- Noticia Destacada -->
+      <article class="wrapper-post-destacada-sat">
+         <section class="content-img-destacada">
+            <img class="imagen-destacada" src="<?php bloginfo('url') ?>/wp-content/uploads/2025/10/destacada-treifmarel.jpg" alt="">
+         </section>
+         <section class="wrapper-txt-destacada">
+            <div class="content-txt-destacada">
+               <p class="fecha-destacada">10 de octubre de 2025</p>
+               <hr class="line-destacada">
+               <h2 class="txt-title-destacada">Capacitación técnica en Treif Marel, Alemania</h2>
+               <p>En Taglermaq fortalecemos constantemente el compromiso con la excelencia en nuestro servicio a la industria alimentaria.</p>
+               <a href="<?php bloginfo('url') ?>/contenido_noticias/capacitacion-tecnica-en-treif-marel-alemania/">
+                  <button>Leer Más</button>
+               </a>
+               <div class="extracto-destacado">
+               </div>
+            </div>
+         </section>
+      </article>
+
+      <!-- Grid Galeria -->
+      <div class="grid-container-notice-sat">
+
+         <a href="<?php bloginfo('url') ?>/contenido_noticias/capacitacion-en-treif-marel-dominio-tecnico-en-equipos-divider-startup-660-plus-y-lineup/">
+            <div class="grid-item-notice">
+               <img src="<?php bloginfo('url') ?>/wp-content/uploads/2025/06/destacada-marel-treif.jpg" alt="">
+               <div class="wrapper-txt-notice">
+                  <div class="content-txt-notice">
+                     <p class="fecha-publicada">22 de junio de 2025</p>
+                     <hr class="line-separator">
+                     <h2 class="title-notice">Capacitación en Treif Marel: dominio técnico en equipos Divider StartUp, 660 Plus y LineUp</h2>
+                  </div>
+               </div>
+            </div>
+         </a>
+
+         <a href="<?php bloginfo('url') ?>/contenido_noticias/sumando-conocimiento-para-la-industria-nacional/">
+            <div class="grid-item-notice">
+               <img src="<?php bloginfo('url') ?>/wp-content/uploads/2025/05/destacasa-sumando-conocimiento.jpg" alt="">
+               <div class="wrapper-txt-notice">
+                  <div class="content-txt-notice">
+                     <p class="fecha-publicada">07 de mayo de 2025</p>
+                     <hr class="line-separator">
+                     <h2 class="title-notice">Sumando conocimiento para la industria nacional</h2>
+                  </div>
+               </div>
+            </div>
+         </a>
+
+         <a href="<?php bloginfo('url') ?>/contenido_noticias/capacitacion-sat-experiencia-y-conocimiento-para-procesos-eficientes/">
+            <div class="grid-item-notice">
+               <img src="<?php bloginfo('url') ?>/wp-content/uploads/2025/01/destacada-sat.jpg" alt="">
+               <div class="wrapper-txt-notice">
+                  <div class="content-txt-notice">
+                     <p class="fecha-publicada">15 de enero de 2025</p>
+                     <hr class="line-separator">
+                     <h2 class="title-notice">Capacitación SAT: Experiencia y conocimiento para procesos eficientes</h2>
+                  </div>
+               </div>
+            </div>
+         </a>
+
+         <a href="<?php bloginfo('url') ?>/contenido_noticias/formacion-integral-en-emulsificadores-inotec/">
+            <div class="grid-item-notice">
+               <img src="<?php bloginfo('url') ?>/wp-content/uploads/2025/02/destacda-emulsificadores.jpg" alt="">
+               <div class="wrapper-txt-notice">
+                  <div class="content-txt-notice">
+                     <p class="fecha-publicada">21 de febrero de 2025</p>
+                     <hr class="line-separator">
+                     <h2 class="title-notice">Formación integral en emulsificadores Inotec</h2>
+                  </div>
+               </div>
+            </div>
+         </a>
+
+         <a href="<?php bloginfo('url') ?>/contenido_noticias/6007/">
+            <div class="grid-item-notice">
+               <img src="<?php bloginfo('url') ?>/wp-content/uploads/2024/12/destacada-ulma.jpg" alt="">
+               <div class="wrapper-txt-notice">
+                  <div class="content-txt-notice">
+                     <p class="fecha-publicada">2 de diciembre de 2024</p>
+                     <hr class="line-separator">
+                     <h2 class="title-notice">EN TAGLERMAQ: El aprendizaje no se detiene</h2>
+                  </div>
+               </div>
+            </div>
+         </a>
+
+         <a href="<?php bloginfo('url') ?>/contenido_noticias/capacitacion-modula-italia/">
+            <div class="grid-item-notice">
+               <img src="<?php bloginfo('url') ?>/wp-content/uploads/2024/10/destacada-modula-img.jpg" alt="">
+               <div class="wrapper-txt-notice">
+                  <div class="content-txt-notice">
+                     <p class="fecha-publicada">24 de octubre de 2024</p>
+                     <hr class="line-separator">
+                     <h2 class="title-notice">Capacitación Modula Italia</h2>
+                  </div>
+               </div>
+            </div>
+         </a>
+
+         <a href="<?php bloginfo('url') ?>/contenido_noticias/visita-a-treif-marel-innovacion-y-colaboracion-para-un-servicio-de-excelencia/">
+            <div class="grid-item-notice">
+               <img src="<?php bloginfo('url') ?>/wp-content/uploads/2024/12/destacada-treif-marel-visita.jpg" alt="">
+               <div class="wrapper-txt-notice">
+                  <div class="content-txt-notice">
+                     <p class="fecha-publicada">22 de octubre de 2024</p>
+                     <hr class="line-separator">
+                     <h2 class="title-notice">VISITA A TREIF MAREL: Innovación y colaboración para un servicio de excelencia</h2>
+                  </div>
+               </div>
+            </div>
+         </a>
+
+         <a href="<?php bloginfo('url') ?>/contenido_noticias/capacitacion-tecnica-en-colombia-montaje-de-equipos-modula/">
+            <div class="grid-item-notice">
+               <img src="<?php bloginfo('url') ?>/wp-content/uploads/2025/10/destacada-capacitacion-colombia.jpg" alt="">
+               <div class="wrapper-txt-notice">
+                  <div class="content-txt-notice">
+                     <p class="fecha-publicada">26 de agosto de 2024</p>
+                     <hr class="line-separator">
+                     <h2 class="title-notice">Capacitación técnica en Colombia: Montaje de equipos Modula</h2>
+                  </div>
+               </div>
+            </div>
+         </a>
+
+         <a href="<?php bloginfo('url') ?>/contenido_noticias/capacitacion-avanzada-en-abatidores-de-temperatura-irinox-en-italia/">
+            <div class="grid-item-notice">
+               <img src="<?php bloginfo('url') ?>/wp-content/uploads/2024/02/destacada-capacitacion-avanzada.jpg" alt="">
+               <div class="wrapper-txt-notice">
+                  <div class="content-txt-notice">
+                     <p class="fecha-publicada">20 de febrero de 2024</p>
+                     <hr class="line-separator">
+                     <h2 class="title-notice">Capacitación avanzada en abatidores de temperatura Irinox en Italia</h2>
+                  </div>
+               </div>
+            </div>
+         </a>
+
+         <a href="<?php bloginfo('url') ?>/contenido_noticias/entrenamiento-tecnico-en-handtmann-operacion-y-control-de-embutidora-pvlh-252l/">
+            <div class="grid-item-notice">
+               <img src="<?php bloginfo('url') ?>/wp-content/uploads/2024/02/destacada-entrenamiento.jpg" alt="">
+               <div class="wrapper-txt-notice">
+                  <div class="content-txt-notice">
+                     <p class="fecha-publicada">10 de febrero de 2024</p>
+                     <hr class="line-separator">
+                     <h2 class="title-notice">Entrenamiento técnico en Handtmann</h2>
+                  </div>
+               </div>
+            </div>
+         </a>
+
+      </div>
+   </section>
+
+</div>
+
+
+
+
+
 <!-- Titulos principales -->
 <div class="wrapper-titles-sat">
    <h2 class="title-smile">CONOCE ALGUNAS CIFRAS</h2>
    <h2 class="line-center">DE NUESTRA GESTIÓN</h2>
 </div>
-
 
 
 <!-- Exágonos -->
@@ -233,165 +408,6 @@
    <div class="swiper-button-prev"></div>
    <div class="swiper-pagination"></div>
 </div>
-
-
-
-
-
-<!-- Titulos principales -->
-<div class="wrapper-titles-sat">
-   <h2 class="title-smile">VISITAMOS Y NOS CAPACITAMOS CON EXPERTOS</h2>
-   <h2 class="line-center">PARA RESPONDER A TUS NECESIDADES</h2>
-
-   <p class="txt-parrafo">Nuestro equipo técnico, realiza visitas comerciales y se capacita periódicamente en el extranjero con las marcas que representamos, para tener el conocimiento necesario y así asesorarte de manera precisa en cada etapa de tu proyecto.</p>
-</div>
-
-
-<div class="fondo-capacitaciones">
-   <div class="swiper capacitaciones">
-      <div class="swiper-wrapper">
-
-
-         <!-- Modula -->
-         <!-- <div class="swiper-slide">
-                <div class="card">
-                    <div class="img-capacitaciones">
-                        <img src="<?php bloginfo('url') ?>/wp-content/uploads/2024/12/modula-foto.jpg" alt="">
-                        <img class="img-flag" src="<?php bloginfo('url') ?>/wp-content/uploads/2024/04/italia.svg" alt="">
-                    </div>
-                    <div class="txt-capacitaciones">
-                        <h2>Capacitación Modula Italia</h2>
-                        <p>Representantes del departamento SAT y del departamento de TI, participaron en un entrenamiento en las instalaciones de Modula en Italia, capacitándose en el armado y calibración del Modula Lift, y también en el uso de Modula.</p>
-                        <a href="<?php bloginfo('url') ?>/contenido_noticias/capacitacion-modula-italia/">
-                            <button>─ Ver Noticia</button>
-                        </a>
-                    </div>
-                    <div class="fecha-marca">
-                        <div class="calendar">
-                            <img src="<?php bloginfo('url') ?>/wp-content/uploads/2024/12/calendar.png" alt="">
-                            <h3 class="txt-calendar">24.10.2024</h3>
-                        </div>
-                        <div class="marca">
-                            <img class="logotipo" src="<?php bloginfo('url') ?>/wp-content/uploads/2024/12/modula3.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
-
-         <!-- Treif Marel -->
-         <div class="swiper-slide">
-            <div class="card">
-               <div class="img-capacitaciones">
-                  <img src="<?php bloginfo('url') ?>/wp-content/uploads/2025/05/treif-marel.jpg" alt="">
-                  <img class="img-flag" src="<?php bloginfo('url') ?>/wp-content/uploads/2024/04/alemania1.svg" alt="">
-               </div>
-               <div class="txt-capacitaciones">
-                  <h2>Sumando conocimiento para la industria nacional</h2>
-                  <p>Capacitación de alto nivel para la optimización de Cortadoras Treif Hawk.</p>
-                  <a href="<?php bloginfo('url') ?>/contenido_noticias/sumando-conocimiento-para-la-industria-nacional/">
-                     <button>─ Ver Noticia</button>
-                  </a>
-               </div>
-               <div class="fecha-marca">
-                  <div class="calendar">
-                     <img src="<?php bloginfo('url') ?>/wp-content/uploads/2024/12/calendar.png" alt="">
-                     <h3 class="txt-calendar">06.05.2025</h3>
-                  </div>
-                  <div class="marca">
-                     <img class="logotipo" src="<?php bloginfo('url') ?>/wp-content/uploads/2024/04/logo-treif-marel.svg" alt="">
-                  </div>
-               </div>
-            </div>
-         </div>
-
-
-         <!-- Ulma -->
-         <div class="swiper-slide">
-            <div class="card">
-               <div class="img-capacitaciones">
-                  <img src="<?php bloginfo('url') ?>/wp-content/uploads/2024/12/ulma-termosellado.jpg" alt="">
-                  <img class="img-flag" src="<?php bloginfo('url') ?>/wp-content/uploads/2024/03/espana.svg" alt="">
-               </div>
-               <div class="txt-capacitaciones">
-                  <h2>Capacitación en Termosellado</h2>
-                  <p>Nuestro equipo técnico, realiza visitas comerciales y se capacita periódicamente en el extranjero con las marcas que representamos, para tener el conocimiento y así asesorarte de manera precisa en cada etapa de tu proyecto.</p>
-                  <a href="<?php bloginfo('url') ?>/contenido_noticias/6007/">
-                     <button>─ Ver Noticia</button>
-                  </a>
-               </div>
-               <div class="fecha-marca">
-                  <div class="calendar">
-                     <img src="<?php bloginfo('url') ?>/wp-content/uploads/2024/12/calendar.png" alt="">
-                     <h3 class="txt-calendar">25.11.2024</h3>
-                  </div>
-                  <div class="marca">
-                     <img class="logotipo" src="<?php bloginfo('url') ?>/wp-content/uploads/2024/04/ulma.svg" alt="">
-                  </div>
-               </div>
-            </div>
-         </div>
-
-
-         <!-- Ulma -->
-         <div class="swiper-slide">
-            <div class="card">
-               <div class="img-capacitaciones">
-                  <img src="<?php bloginfo('url') ?>/wp-content/uploads/2025/01/noticia-capacitacion-sat.jpg" alt="">
-                  <img class="img-flag" src="<?php bloginfo('url') ?>/wp-content/uploads/2024/03/espana.svg" alt="">
-               </div>
-               <div class="txt-capacitaciones">
-                  <h2>Capacitación SAT</h2>
-                  <p>En Taglermaq entendemos que el conocimiento es clave para entregar un servicio de alta calidad. Por ello, durante esta semana se llevó a cabo una capacitación, para el equipo técnico SAT.</p>
-                  <a href="<?php bloginfo('url') ?>/contenido_noticias/capacitacion-sat-experiencia-y-conocimiento-para-procesos-eficientes/">
-                     <button>─ Ver Noticia</button>
-                  </a>
-               </div>
-               <div class="fecha-marca">
-                  <div class="calendar">
-                     <img src="<?php bloginfo('url') ?>/wp-content/uploads/2024/12/calendar.png" alt="">
-                     <h3 class="txt-calendar">15.01.2025</h3>
-                  </div>
-                  <div class="marca">
-                     <img class="logotipo" src="<?php bloginfo('url') ?>/wp-content/uploads/2024/04/ulma.svg" alt="">
-                  </div>
-               </div>
-            </div>
-         </div>
-
-
-
-      </div>
-
-      <div class="altura swiper-button-next"></div>
-      <div class="altura swiper-button-prev"></div>
-      <!-- <div class="swiper-pagination"></div> -->
-
-   </div>
-
-
-
-   <div class="wrapper-banner-form">
-      <a href="https://taglermaq.cl/formulario-de-contacto/">
-         <picture>
-            <source media="(min-width: 600px)" srcset="<?php bloginfo('url') ?>/wp-content/uploads/2025/01/banner-form-sat.jpg">
-            <img src="<?php bloginfo('url') ?>/wp-content/uploads/2025/01/banner-sat-mobile.jpg" alt="mobile">
-         </picture>
-      </a>
-
-
-
-
-
-   </div>
-
-
-
-</div>
-
-
-
-
 
 
 

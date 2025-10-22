@@ -34,7 +34,7 @@ if (have_posts()) {
                   <div class="wrapper-circle-txt">
                      <div class="content-circle">
                         <a id="tv-category-image" href="<?php bloginfo('url'); ?>/higiene-e-inocuidad/?_filter_inocuidad=higiene-e-inocuidad">
-                           <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/maquina-zoom.jpg" alt="" />
+                           <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/maquina-zoom1.svg" alt="" />
                         </a>
 
                         <div class="circle-fill-active">
