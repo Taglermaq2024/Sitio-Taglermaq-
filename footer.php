@@ -221,7 +221,6 @@
 
 
 <!-- Handtmann 3D Home -->
-<!-- Handtmann 3D Home -->
 <script>
    document.addEventListener("DOMContentLoaded", () => {
       // --- ELEMENTOS DEL DOM ---
@@ -345,6 +344,34 @@
       observer.observe(viewerContainer);
    });
 </script>
+
+
+
+<!-- Se oculta la estructura de 3D en el home -->
+<script>
+   // 1. Obtener el elemento a manipular
+   const blockLinks = document.querySelector('.block-links');
+   const scrollLimit = 400;
+
+   function handleScroll() {
+      // Obtener la posición vertical del scroll
+      const scrollPosition = window.scrollY || window.pageYOffset;
+
+      if (blockLinks) {
+         if (scrollPosition > scrollLimit) {
+            // Si pasa los 400px, añadimos la clase 'scrolled-off'
+            blockLinks.classList.add('scrolled-off');
+         } else {
+            // Si no pasa los 400px, nos aseguramos de que no tenga la clase
+            blockLinks.classList.remove('scrolled-off');
+         }
+      }
+   }
+
+   // 2. Adjuntar la función al evento de scroll
+   window.addEventListener('scroll', handleScroll);
+</script>
+
 
 
 

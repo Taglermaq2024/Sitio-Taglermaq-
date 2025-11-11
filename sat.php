@@ -44,8 +44,8 @@
 <div class="fondo-color-noticias-sat">
    <!-- Titulos principales -->
    <div class="wrapper-titles-sat-noticias">
-      <h2 class="title-smile">VISITAMOS Y NOS CAPACITAMOS CON EXPERTOS</h2>
-      <h2 class="line-center">PARA RESPONDER A TUS NECESIDADES</h2>
+      <h2 class="title-smile">CONOCE CÓMO REAFIRMAMOS NUESTRO COMPROMISO</h2>
+      <h2 class="line-center">FORMACIÓN & DESARROLLO</h2>
 
       <!-- <p class="txt-parrafo">Nuestro equipo técnico, realiza visitas comerciales y se capacita periódicamente en el extranjero con las marcas que representamos, para tener el conocimiento necesario y así asesorarte de manera precisa en cada etapa de tu proyecto.</p> -->
    </div>
@@ -56,15 +56,15 @@
       <!-- Noticia Destacada -->
       <article class="wrapper-post-destacada-sat">
          <section class="content-img-destacada">
-            <img class="imagen-destacada" src="<?php bloginfo('url') ?>/wp-content/uploads/2025/10/destacada-treifmarel.jpg" alt="">
+            <img class="imagen-destacada" src="<?php bloginfo('url') ?>/wp-content/uploads/2025/10/detacada-sat2.jpg" alt="">
          </section>
          <section class="wrapper-txt-destacada">
             <div class="content-txt-destacada">
-               <p class="fecha-destacada">10 de octubre de 2025</p>
+               <p class="fecha-destacada">30 de octubre de 2025</p>
                <hr class="line-destacada">
-               <h2 class="txt-title-destacada">Capacitación técnica en Treif Marel, Alemania</h2>
-               <p>En Taglermaq fortalecemos constantemente el compromiso con la excelencia en nuestro servicio a la industria alimentaria.</p>
-               <a href="<?php bloginfo('url') ?>/contenido_noticias/capacitacion-tecnica-en-treif-marel-alemania/">
+               <h2 class="txt-title-destacada">Impulsando la excelencia técnica en la industria nacional</h2>
+               <!-- <p>En Taglermaq, entendemos que la excelencia en el servicio comienza con un equipo altamente preparado.</p> -->
+               <a href="<?php bloginfo('url') ?>/contenido_noticias/jbt-marel-capacita-al-equipo-taglermaq-en-sistemas-de-etiquetado-automatizado/">
                   <button>Leer Más</button>
                </a>
                <div class="extracto-destacado">
@@ -73,8 +73,39 @@
          </section>
       </article>
 
+
+
       <!-- Grid Galeria -->
       <div class="grid-container-notice-sat">
+
+
+         <a href="<?php bloginfo('url') ?>/contenido_noticias/fortaleciendo-nuestras-competencias-junto-a-ulma-packaging/">
+            <div class="grid-item-notice">
+               <img src="<?php bloginfo('url') ?>/wp-content/uploads/2025/10/fortaleciendo-destacada10.jpg" alt="">
+               <div class="wrapper-txt-notice">
+                  <div class="content-txt-notice">
+                     <p class="fecha-publicada">28 de octubre de 2025</p>
+                     <hr class="line-separator">
+                     <h2 class="title-notice">Jornada de formación técnica en soluciones de termoformado en Argentina</h2>
+                  </div>
+               </div>
+            </div>
+         </a>
+
+
+         <a href="<?php bloginfo('url') ?>/contenido_noticias/capacitacion-tecnica-en-treif-marel-alemania/">
+            <div class="grid-item-notice">
+               <img src="<?php bloginfo('url') ?>/wp-content/uploads/2025/10/destacada-treifmarel.jpg" alt="">
+               <div class="wrapper-txt-notice">
+                  <div class="content-txt-notice">
+                     <p class="fecha-publicada">10 de octubre de 2025</p>
+                     <hr class="line-separator">
+                     <h2 class="title-notice">Capacitación técnica en Treif Marel, Alemania</h2>
+                  </div>
+               </div>
+            </div>
+         </a>
+
 
          <a href="<?php bloginfo('url') ?>/contenido_noticias/capacitacion-en-treif-marel-dominio-tecnico-en-equipos-divider-startup-660-plus-y-lineup/">
             <div class="grid-item-notice">

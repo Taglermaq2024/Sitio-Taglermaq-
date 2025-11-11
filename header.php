@@ -70,7 +70,18 @@
          <a href="<?php bloginfo('url'); ?>/videos/">
             <li class="txt-sub-menu-principal">Videos</li>
          </a>
-         <a href="<?php bloginfo('url'); ?>/comics-maquito/">
+         <a style="position: relative; justify-content: center; display: flex;" href="<?php bloginfo('url'); ?>/comics-maquito/">
+            <span style="
+            position: absolute;
+            color: #0f0f0f;
+            top: -16px;
+            font-size: .7em;
+            background-color: #8cc63f;
+            border-radius: 10px;
+            font-weight: bold;
+            padding: 0 .8em;
+            ">Nueva Edición</span>
+
             <li class="txt-sub-menu-principal">Historias de Maquito</li>
          </a>
          <a href="<?php bloginfo('url'); ?>/quienes-somos/">

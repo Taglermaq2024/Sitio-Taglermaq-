@@ -1,72 +1,95 @@
 // Links Asistencia
 .block-links {
-  height: 100vh;
-  position: fixed;
-  right: 0;
-  z-index: 3;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  flex-direction: column;
-  transform: translateY(180px);
+   height: 100vh;
+   position: fixed;
+   right: 0;
+   z-index: 3;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   flex-direction: column;
+   transform: translateY(180px);
+   @media (max-width: 500px) {
+      transform: translateY(0);
+   }
 
-  .links1,
-  .links2,
-  .links3 {
-    width: 70px;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #3b3b3b;
-    &:hover {
-      background-color: #9ed117;
-    }
-
-    img {
-      width: 50px;
-    }
-    p {
-      width: max-content;
-      position: absolute;
-      right: 0;
-      z-index: -1;
-      font-size: 0.8em;
-      padding: 0.5em 1.5em;
-      border-radius: 5px;
-      color: white;
-      background-color: #2f2f2f;
-      visibility: hidden;
-      opacity: 0;
-      transition: all 0.5s;
-      &:before {
-        content: "";
-        width: 15px;
-        height: 15px;
-        position: absolute;
-        top: 10px;
-        right: -5px;
-        transform: rotate(45deg);
-        background-color: #2f2f2f;
+   .links1,
+   .links2,
+   .links3 {
+      width: 70px;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #3b3b3b;
+      @media (max-width: 500px) {
+         width: 60px;
+         height: 60px;
       }
-    }
+      &:hover {
+         background-color: #9ed117;
+      }
 
-    &:hover p {
-      opacity: 1;
-      right: 85px;
-      visibility: visible;
-    }
-  }
+      img {
+         width: 50px;
+         @media (max-width: 500px) {
+            width: 40px;
+         }
+      }
+      p {
+         width: max-content;
+         position: absolute;
+         right: 0;
+         z-index: -1;
+         font-size: 0.8em;
+         padding: 0.5em 1.5em;
+         border-radius: 5px;
+         color: white;
+         background-color: #2f2f2f;
+         visibility: hidden;
+         opacity: 0;
+         transition: all 0.5s;
+         &:before {
+            content: "";
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            top: 10px;
+            right: -5px;
+            transform: rotate(45deg);
+            background-color: #2f2f2f;
+         }
+      }
 
-  .links1 {
-    border-radius: 10px 0 0 0;
-  }
+      &:hover p {
+         opacity: 1;
+         right: 85px;
+         visibility: visible;
+      }
+   }
 
-  .links3 {
-    border-radius: 0 0 0 10px;
-  }
+   .links1 {
+      border-radius: 10px 0 0 0;
+   }
 
-  @media (max-width: 600px) {
-    display: none;
-  }
+   .links3 {
+      border-radius: 0 0 0 10px;
+   }
+
+   // @media (max-width: 600px) {
+   //    display: none;
+   // }
+}
+
+// TODO: Efecto desaparece/aparece caja de links en Home
+/* El elemento por defecto debe ser visible */
+.block-links {
+   transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Estilos de "desactivación" con transición */
+.block-links.scrolled-off {
+   opacity: 0;
+   visibility: hidden;
+   /* El elemento queda invisible, pero sigue ocupando espacio en el HTML */
 }

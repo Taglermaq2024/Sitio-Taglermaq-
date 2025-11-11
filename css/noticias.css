@@ -194,7 +194,8 @@
             margin: 0 0 0.5em 0;
             border: 1px solid #ececec; }
           .fondo-notice .wrapper-fondo-notice .wrapper-post-destacada .wrapper-txt-destacada .content-txt-destacada .txt-title-destacada {
-            line-height: 1.3; }
+            font-size: 2em;
+            line-height: 1.2; }
           .fondo-notice .wrapper-fondo-notice .wrapper-post-destacada .wrapper-txt-destacada .content-txt-destacada button {
             margin: 1em 0 0;
             padding: 0.7em 3em;

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .block-links {
   height: 100vh;
   position: fixed;
@@ -19,6 +20,11 @@
   -webkit-transform: translateY(180px);
   -ms-transform: translateY(180px);
   transform: translateY(180px); }
+  @media (max-width: 500px) {
+    .block-links {
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0); } }
   .block-links .links1,
   .block-links .links2,
   .block-links .links3 {
@@ -34,6 +40,12 @@
     -ms-flex-align: center;
     align-items: center;
     background-color: #3b3b3b; }
+    @media (max-width: 500px) {
+      .block-links .links1,
+      .block-links .links2,
+      .block-links .links3 {
+        width: 60px;
+        height: 60px; } }
     .block-links .links1:hover,
     .block-links .links2:hover,
     .block-links .links3:hover {
@@ -42,6 +54,11 @@
     .block-links .links2 img,
     .block-links .links3 img {
       width: 50px; }
+      @media (max-width: 500px) {
+        .block-links .links1 img,
+        .block-links .links2 img,
+        .block-links .links3 img {
+          width: 40px; } }
     .block-links .links1 p,
     .block-links .links2 p,
     .block-links .links3 p {
@@ -84,6 +101,15 @@
     border-radius: 10px 0 0 0; }
   .block-links .links3 {
     border-radius: 0 0 0 10px; }
-  @media (max-width: 600px) {
-    .block-links {
-      display: none; } }
+
+/* El elemento por defecto debe ser visible */
+.block-links {
+  -webkit-transition: opacity 0.3s ease, visibility 0.3s ease;
+  -o-transition: opacity 0.3s ease, visibility 0.3s ease;
+  transition: opacity 0.3s ease, visibility 0.3s ease; }
+
+/* Estilos de "desactivación" con transición */
+.block-links.scrolled-off {
+  opacity: 0;
+  visibility: hidden;
+  /* El elemento queda invisible, pero sigue ocupando espacio en el HTML */ }

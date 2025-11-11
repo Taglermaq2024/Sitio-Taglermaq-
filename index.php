@@ -12,6 +12,32 @@
       <div class="swiper-wrapper">
 
 
+         <!-- PORCIONADORA BF-804S -->
+         <div class="swiper-slide" style="overflow: hidden">
+            <div class="group-porcionadora-bf804s">
+               <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/11/banner-porcionadora1.jpg" alt="fondo">
+            </div>
+            <div class="content-img-porcionadora-bf804s">
+               <a class="center-image no-preload" href="<?php bloginfo('url'); ?>/embutidora-al-vacio-vf-804s/">
+                  <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/11/porcionadora-bf804s.png" alt="">
+               </a>
+            </div>
+         </div>
+
+
+         <!-- Banner HAWK -->
+         <div class="swiper-slide" style="overflow: hidden">
+            <div class="group-hawk">
+               <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/fondo-hawk.jpg" alt="fondo">
+            </div>
+            <div class="content-img-hawk">
+               <a href="<?php bloginfo('url'); ?>/porcionadora-transformativa-hawk/">
+                  <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/txt-hawk6.png" alt="">
+               </a>
+            </div>
+         </div>
+
+
          <!-- Banner XR76 -->
          <div class="swiper-slide" style="overflow: hidden">
             <div class="group-fondo">
@@ -33,7 +59,7 @@
 
 
          <!-- Comics Maquito -->
-         <div class="swiper-slide">
+         <!-- <div class="swiper-slide">
             <div class="wrapper-new-maq">
                <img src="<?php bloginfo('url') ?>/wp-content/uploads/2025/10/new-banner-maq4.webp" alt="maq">
             </div>
@@ -47,7 +73,7 @@
                   </a>
                </div>
             </div>
-         </div>
+         </div> -->
 
 
          <!-- Hypernova -->
@@ -433,6 +459,72 @@
 
 
 
+<!-- NOTICIAS NOVEDADES & TECNOLOGÍAS -->
+<section class="wrapper--noticev3">
+   <h2 class="title--landing-v2"><span class="title--dark">NOVEDADES</span>
+      <span class="title--verde"> & TECNOLOGÍA</span>
+   </h2>
+   <p class="bajada--sector-industrial">Revisa nuestros contenidos sobre las últimas innovaciones, tecnologías y ferias internacionales con soluciones.</p>
+
+   <div class="wrapper-box-2024-feb">
+      <div class="content-box-2024-feb">
+         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/destacada-bc-it-inotec2.jpg" alt="Imagen Destacada" />
+         <div class="block-color-2024" style="background-color: #e20424">
+            <div class="content-txt-notice-2024">
+               <h2>23 OCTUBRE</h2>
+               <h3>PROCESADORA AUTOMÁTICA</h3>
+               <p>Una solución integral para el procesamiento de productos cárnicos</p>
+               <hr>
+               <a href="<?php bloginfo('url') ?>/contenido_noticias/inotec-bc-it-procesadora-automatica/">
+                  <button>Leer Noticia</button>
+               </a>
+            </div>
+         </div>
+      </div>
+
+      <div class="content-box-2024-feb">
+         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/destacada-cortadora-banda.jpg" alt="Imagen Destacada" />
+         <div class="block-color-2024" style="background-color: #ff7c00">
+            <div class="content-txt-notice-2024">
+               <h2>16 OCTUBRE</h2>
+               <h3>SORMAC</h3>
+               <p>Innovación y eficiencia en el corte de vegetales para la industria hortofrutícola</p>
+               <hr>
+               <a href="<?php bloginfo('url') ?>/innovacion-y-eficiencia-en-el-corte-de-vegetales-para-la-industria-hortofruticola/">
+                  <button>Leer Noticia</button>
+               </a>
+            </div>
+         </div>
+      </div>
+
+      <div class="content-box-2024-feb">
+         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/destacada-xr76-3.jpg" alt="Imagen Destacada">
+         <div class="block-color-2024" style="background-color: #289b7d">
+            <div class="content-txt-notice-2024">
+               <h2>02 OCTUBRE</h2>
+               <h3>ANRITSU</h3>
+               <p>Una nueva generación en inspección por Rayos X llega a Taglermaq</p>
+               <hr>
+               <a href="<?php bloginfo('url') ?>/contenido_noticias/una-nueva-generacion-en-inspeccion-por-rayos-x-llega-a-taglermaq/">
+                  <button>Leer Noticia</button>
+               </a>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="container-btn--noticias">
+      <a href="<?php bloginfo('url'); ?>/noticias" rel="noopener noreferrer">
+         <button class="btn--noticiasv2">VER TODAS LAS NOTICIAS</button>
+      </a>
+   </div>
+</section>
+
+
+
+
+
+
 <!-- HANDTMANN 3D -->
 <section class="fondo-render-handtmann">
    <div class="txt-handtmann">HANDTMANN</div>
@@ -565,86 +657,62 @@
 
 
 
-<!-- NOTICIAS -->
+<!-- NOTICIAS NOVEDADES & TECNOLOGÍAS -->
 <section class="wrapper--noticev3">
    <h2 class="title--landing-v2"><span class="title--dark">NOVEDADES</span>
-      <span class="title--verde"> & TECNOLOGÍA</span>
+      <span class="title--verde"> & CAPACITACIONES</span>
    </h2>
-   <p class="bajada--sector-industrial">Revisa nuestros contenidos sobre las últimas innovaciones, tecnologías y ferias internacionales con soluciones.</p>
+   <p class="bajada--sector-industrial">Revisa nuestros contenidos sobre las últimas innovaciones, tecnologías y ferias internacionales con soluciones para la Industria Alimentaria.</p>
 
    <div class="wrapper-box-2024-feb">
-
-
-
       <div class="content-box-2024-feb">
-         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/destacada-cortadora-banda.jpg" alt="Imagen Destacada" />
-         <div class="block-color-2024" style="background-color: #ff7c00">
+         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/detacada-sat2.jpg" alt="Imagen Destacada" />
+         <div class="block-color-2024" style="background-color: #417aff">
             <div class="content-txt-notice-2024">
-               <h2>16 OCTUBRE</h2>
-               <h3>SORMAC</h3>
-               <p>Innovación y eficiencia en el corte de vegetales para la industria hortofrutícola</p>
+               <h2>30 OCTUBRE</h2>
+               <h3>JBT MAREL</h3>
+               <p>Impulsando la excelencia técnica en la industria nacional</p>
                <hr>
-               <a href="<?php bloginfo('url') ?>/innovacion-y-eficiencia-en-el-corte-de-vegetales-para-la-industria-hortofruticola/">
+               <a href="<?php bloginfo('url') ?>/jbt-marel-capacita-al-equipo-taglermaq-en-sistemas-de-etiquetado-automatizado/">
                   <button>Leer Noticia</button>
                </a>
             </div>
          </div>
       </div>
 
-
       <div class="content-box-2024-feb">
-         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/destacada-xr76-3.jpg" alt="Imagen Destacada">
-         <div class="block-color-2024" style="background-color: #289b7d">
+         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/fortaleciendo-destacada10.jpg" alt="Imagen Destacada" />
+         <div class="block-color-2024" style="background-color: #e20520">
             <div class="content-txt-notice-2024">
-               <h2>02 OCTUBRE</h2>
-               <h3>ANRITSU</h3>
-               <p>Una nueva generación en inspección por Rayos X llega a Taglermaq</p>
+               <h2>28 OCTUBRE</h2>
+               <h3>ULMA</h3>
+               <p>Jornada de formación técnica en soluciones de termoformado en Argentina</p>
                <hr>
-               <a href="<?php bloginfo('url') ?>/contenido_noticias/una-nueva-generacion-en-inspeccion-por-rayos-x-llega-a-taglermaq/">
+               <a href="<?php bloginfo('url') ?>/fortaleciendo-nuestras-competencias-junto-a-ulma-packaging/">
                   <button>Leer Noticia</button>
                </a>
             </div>
          </div>
       </div>
 
-
       <div class="content-box-2024-feb">
-         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/destacada-fentanilo.jpg" alt="Imagen Destacada" />
-         <div class="block-color-2024" style="background-color: #f7a300">
+         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/destacada-bc-it-inotec2.jpg" alt="Imagen Destacada">
+         <div class="block-color-2024" style="background-color: #e20420">
             <div class="content-txt-notice-2024">
-               <h2>30 SEPTIEMBRE</h2>
-               <h3>MODULA EN LA INDUSTRIA FARMACÉUTICA</h3>
-               <p>Fentanilo y control de medicamentos</p>
+               <h2>23 OCTUBRE</h2>
+               <h3>INOTEC</h3>
+               <p>Una solución integral para el procesamiento de productos cárnicos</p>
                <hr>
-               <a href="<?php bloginfo('url') ?>/contenido_noticias/fentanilo-y-control-de-medicamentos/">
+               <a href="<?php bloginfo('url') ?>/inotec-bc-it-procesadora-automatica/">
                   <button>Leer Noticia</button>
                </a>
             </div>
          </div>
       </div>
-
-
-
-
-
-      <!-- <div class="content-box-2024-feb">
-            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/flex-destacada.jpg">
-            <div class="block-color-2024" style="background-color: #ff7d1b">
-                <div class="content-txt-notice-2024">
-                    <h2>13 JUNIO</h2>
-                    <h3>WIDTH-FLEX</h3>
-                    <p>Innovación Tecnológia</p>
-                    <hr>
-                    <a href="https://taglermaq.cl/blog/contenido_noticias/width-flex-innovacion-tecnologica/">
-                        <button>Leer Noticia</button>
-                    </a>
-                </div>
-            </div>
-        </div> -->
    </div>
 
    <div class="container-btn--noticias">
-      <a href="<?php bloginfo('url'); ?>/noticias" rel="noopener noreferrer">
+      <a href="<?php bloginfo('url'); ?>/servicio-asistencia-tecnica/" rel="noopener noreferrer">
          <button class="btn--noticiasv2">VER TODAS LAS NOTICIAS</button>
       </a>
    </div>
@@ -683,44 +751,6 @@
 </div> -->
 
 
-
-<!-- MAQUINAS DESTACADAS -->
-<div class="wrapper--maquinasv2">
-   <h2 class="title--landing-v2"><span class="title--dark">MÁQUINAS</span>
-      <span class="title--verde">DESTACADAS</span>
-   </h2>
-   <p class="bajada--sector-industrial">Tecnologías e innovaciones para optimizar procesos productivos</p>
-
-   <div class="wrapper--green--dark">
-      <div class="wrapper--green--nuevo-03">
-         <img class="img--position1" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/embutidora-vf810-1.png" alt="Embutidora VF810" />
-         <h3 class="title--soluciones">EMBUTIDORA AL VACÍO</h3>
-         <p class="parrafo--soluciones" style="color: #ff7400">⎯ HANDTMANN ⎯</p>
-         <a href="<?php bloginfo('url'); ?>/procesamiento/?_filter_procesamiento=embutidoras-al-vacio">
-            <button class="btn--soluciones3">VER PRODUCTO</button>
-         </a>
-      </div>
-
-      <div class="wrapper--orange-03">
-         <img class="img--position2" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/detector-metales.png" alt="Detector de Metales" />
-         <h3 class="title--dispensador">DETECTOR DE METALES</h3>
-         <p class="parrafo--soluciones" style="color: #00acb3">⎯ ANRITSU ⎯</p>
-         <a href="<?php bloginfo('url'); ?>/sistemas-de-inspeccion/?_filter_inspeccion=detector-de-metales">
-            <button class="btn--cortadora3">VER PRODUCTO</button>
-         </a>
-      </div>
-
-      <div class="wrapper--green--red-03">
-         <img class="img--position3" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/11/desolladora-desveladora-esb-4434.png" alt="Centrifugadora" />
-         <h3 class="title--dispensador">DESOLLADORA ESB-4434</h3>
-         <p class="parrafo--dispensador" style="color: #2a4fbd">⎯ MAJA ⎯</p>
-         <a href="<?php bloginfo('url'); ?>/desolladora-desveladora-maja-esb-4434/">
-            <button class="btn--dispensador3">VER PRODUCTO</button>
-         </a>
-      </div>
-
-   </div>
-</div>
 
 
 

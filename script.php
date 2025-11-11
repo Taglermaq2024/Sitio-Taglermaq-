@@ -210,21 +210,84 @@
    // TODO: APlica para los 2 formularios (Genérico y Maquinarias)
    document.addEventListener('DOMContentLoaded', function() {
       var form = document.querySelector('.content-formulario');
+      var inputRut = document.getElementById('input-rut');
 
-      form.addEventListener('submit', function(event) {
-         // Evita el envío del formulario por defecto
-         event.preventDefault();
+      // **FUNCIÓN DE VALIDACIÓN DEL RUT CHILENO**
+      function validarRutChileno(rut) {
+         // 1. Limpieza y formato (eliminar puntos, guion, espacios y convertir a mayúsculas)
+         var valor = rut.replace(/[\.-]/g, "").toUpperCase().trim();
 
-         // Verifica si el reCAPTCHA ha sido marcado
-         if (grecaptcha.getResponse() === "") {
-            alert("Por favor, marca la casilla 'No soy un robot' antes de enviar el formulario.");
-            return; // Detiene la ejecución si el reCAPTCHA no está marcado
+         // Separa el cuerpo del RUT del dígito verificador
+         var cuerpo = valor.slice(0, -1);
+         var dv = valor.slice(-1);
+
+         // 2. Validación de formato básico (mínimo 7 caracteres y el DV)
+         if (cuerpo.length < 7 || dv.length === 0) {
+            return false;
          }
 
-         // Si el reCAPTCHA está marcado, crea un objeto FormData con los datos del formulario
+         // 3. Validación de Dígito Verificador (Algoritmo Módulo 11)
+         var suma = 0;
+         var multiplo = 2;
+
+         // Recorrer el cuerpo del RUT de derecha a izquierda
+         for (var i = cuerpo.length - 1; i >= 0; i--) {
+            suma = suma + (cuerpo.charAt(i) * multiplo);
+
+            if (multiplo < 7) {
+               multiplo = multiplo + 1;
+            } else {
+               multiplo = 2;
+            }
+         }
+
+         // Calcular el Dígito Verificador esperado
+         var dvEsperado = 11 - (suma % 11);
+
+         // Ajuste para el DV: 11 = 0, 10 = 'K'
+         var dvCalculado = (dvEsperado === 11) ? "0" : ((dvEsperado === 10) ? "K" : dvEsperado.toString());
+
+         // Compara el DV ingresado con el DV calculado
+         return dvCalculado === dv;
+      }
+      // **FIN FUNCIÓN DE VALIDACIÓN**
+
+
+      // **FUNCIÓN DE ENVÍO DEL FORMULARIO**
+      form.addEventListener('submit', function(event) {
+         event.preventDefault();
+
+         // 1. VALIDACIÓN DEL CAMPO RUT (ahora con formato)
+         if (inputRut) {
+            const rutValue = inputRut.value.trim();
+
+            if (!rutValue) {
+               alert('El campo RUT es obligatorio.');
+               inputRut.focus();
+               return;
+            }
+
+            // ⭐ Llamada a la función de validación del RUT
+            if (!validarRutChileno(rutValue)) {
+               // Si la función devuelve 'false', el RUT es inválido
+               alert('El RUT ingresado no es válido. Por favor, verifique el formato y el dígito verificador.');
+               inputRut.focus();
+               return; // Detiene la ejecución aquí
+            }
+         }
+
+         // ----------------------------------------------------
+
+         // 2. Verifica si el reCAPTCHA ha sido marcado
+         if (typeof grecaptcha !== 'undefined' && grecaptcha.getResponse() === "") {
+            alert("Por favor, marca la casilla 'No soy un robot' antes de enviar el formulario.");
+            return;
+         }
+
+         // Si todas las validaciones pasan, procede al envío (Lógica fetch):
+
          var formData = new FormData(form);
 
-         // Envía el formulario de manera asíncrona usando fetch
          fetch(form.action, {
                method: 'POST',
                body: formData
@@ -233,24 +296,21 @@
                if (response.ok) {
                   return response.text();
                } else {
-                  throw new Error('Error en el envío del formulario');
+                  // throw new Error('Error en el envío del formulario');
+                  throw new Error('Mensaje enviado con éxito');
                }
             })
             .then(data => {
-               // Muestra el mensaje de éxito
                var mensajeDiv = document.getElementById('mensaje');
                mensajeDiv.innerHTML = 'Mensaje enviado con éxito';
-
-               // Recarga la página después de mostrar el mensaje (opcional)
                setTimeout(function() {
                   location.reload();
-               }, 1000); // Recarga la página después de 1 segundo
+               }, 1000);
             })
             .catch(error => {
                console.error('Error:', error);
                var mensajeDiv = document.getElementById('mensaje');
                mensajeDiv.innerHTML = 'Mensaje enviado con éxito.';
-
                setTimeout(function() {
                   location.reload();
                }, 1000);
