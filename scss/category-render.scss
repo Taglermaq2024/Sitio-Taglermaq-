@@ -1,0 +1,94 @@
+.fondo-render {
+   padding: 7em 0 1em;
+   background-color: #eee;
+   .wrapper-category-render {
+      width: 90%;
+      max-width: 1300px;
+      margin: 2em auto;
+
+      .page-header-render {
+         max-width: 1300px;
+         width: 100%;
+         margin: 0 auto;
+         padding: 1em 0;
+         p {
+            font-size: 0.9em;
+            font-weight: 400;
+            display: inline-flex;
+            padding: 0 0.5em;
+            border-radius: 10px;
+            background-color: #8bc441;
+            color: #ffffff;
+         }
+         .page-title-render {
+            font-size: 1.5em;
+         }
+      }
+
+      .grid-render {
+         margin: 0 auto;
+         display: -ms-grid;
+         display: grid;
+         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+         grid-auto-rows: minmax(200px, auto);
+         gap: 20px;
+         grid-auto-flow: dense;
+
+         .box-render {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2),
+               0 2px 4px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+            .label-3d {
+               position: absolute;
+               top: 0;
+               left: 0;
+               width: 50px;
+            }
+            .group-render-titles {
+               margin: 0 1em;
+               .img-flag {
+                  width: 30px;
+                  height: 30px;
+                  border-radius: 50%;
+                  position: relative;
+               }
+               .title-marca {
+                  font-family: "montserrat", sans-serif;
+                  font-size: 0.8em;
+                  font-weight: bold;
+                  color: #8cc53f;
+                  text-transform: uppercase;
+               }
+               .title-render {
+                  color: #4e4e4e;
+                  font-family: "montserrat", sans-serif;
+                  font-weight: bold;
+                  font-size: 0.8em;
+
+                  width: 290px;
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                  overflow: hidden;
+               }
+               button {
+                  width: 100%;
+                  line-height: 3;
+                  margin: 1em auto;
+                  display: flex;
+                  justify-content: center;
+                  border-radius: 10px;
+                  border: 3px solid #8bc43e;
+                  background-color: transparent;
+                  color: #8bc43e;
+                  font-weight: bold;
+                  text-transform: uppercase;
+                  cursor: pointer;
+               }
+            }
+         }
+      }
+   }
+}

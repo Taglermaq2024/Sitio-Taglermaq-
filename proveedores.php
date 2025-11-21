@@ -81,12 +81,6 @@
 			</div> -->
 
          <div class="grid-item">
-            <a href="<?php bloginfo('url'); ?>/?s=detecto">
-               <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/detecto.png" alt="">
-            </a>
-         </div>
-
-         <div class="grid-item">
             <a href="<?php bloginfo('url'); ?>/?s=dick">
                <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/dick.png" alt="">
             </a>

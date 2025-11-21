@@ -72,8 +72,7 @@ function mi_busqueda_principal_modificada($query)
       $exclusions = [
          'ulma'       => [1427, 1425, 1423, 1421, 1419, 1417, 1415, 1413, 1411, 1409],
          'envasadora' => [430, 428, 423, 421, 419],
-         'rayos'      => [1114, 1116, 1118],
-         'detecto'    => [1133, 1131, 1118, 1116, 1127, 1125, 1123]
+         'rayos'      => [1114, 1116, 1118]
       ];
 
       $posts_to_exclude = [];
@@ -168,7 +167,6 @@ function get_video_filter_data($paged = 1, $posts_per_page = 12)
       'burro',
       'carl stahl',
       'Colussi',
-      'Detecto',
       'Dick',
       'Efa',
       'Fessmann',

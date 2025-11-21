@@ -51,4 +51,5 @@
 
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/search.css?0.0.49">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/videos.css?0.0.49">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/category-render.css?0.0.2">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/index.css?0.0.86">
