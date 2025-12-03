@@ -382,9 +382,6 @@
             <img class="imagen" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/04/inotec.png" alt="" width="250" height="100" alt="inotec" />
          </div>
          <div class="slide--img">
-            <img class="imagen" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/05/insort.png" alt="" width="250" height="100" alt="insort" />
-         </div>
-         <div class="slide--img">
             <img class="imagen" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/10/itec-frontmatec.png" alt="" width="250" height="100" alt="itec" />
          </div>
          <div class="slide--img">
@@ -465,6 +462,21 @@
 
    <div class="wrapper-box-2024-feb">
 
+      <div class="content-box-2024-feb">
+         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/11/destacada-vts-100-8.jpg" alt="Imagen Destacada" />
+         <div class="block-color-2024" style="background-color: #0393e5">
+            <div class="content-txt-notice-2024">
+               <h2>27 NOVIEMBRE</h2>
+               <h3>TUMBLER VTS-100</h3>
+               <p>Optimiza el marinado con una solución compacta, pensada para pequeñas y medianas plantas.</p>
+               <hr>
+               <a href="<?php bloginfo('url') ?>/optimiza-el-marinado-con-una-solucion-compacta-pensada-para-pequenas-y-medianas-plantas/">
+                  <button>Leer Noticia</button>
+               </a>
+            </div>
+         </div>
+      </div>
+
 
       <div class="content-box-2024-feb">
          <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/11/destacada-vf804s.jpg" alt="Imagen Destacada" />
@@ -491,21 +503,6 @@
                <p>Versatilidad y eficiencia para la producción industrial</p>
                <hr>
                <a href="<?php bloginfo('url') ?>/porcionadora-hawk-versatilidad-y-eficiencia-para-la-produccion-industrial/">
-                  <button>Leer Noticia</button>
-               </a>
-            </div>
-         </div>
-      </div>
-
-      <div class="content-box-2024-feb">
-         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/destacada-bc-it-inotec2.jpg" alt="Imagen Destacada" />
-         <div class="block-color-2024" style="background-color: #e20424">
-            <div class="content-txt-notice-2024">
-               <h2>23 OCTUBRE</h2>
-               <h3>PROCESADORA AUTOMÁTICA</h3>
-               <p>Una solución integral para el procesamiento de productos cárnicos</p>
-               <hr>
-               <a href="<?php bloginfo('url') ?>/contenido_noticias/inotec-bc-it-procesadora-automatica/">
                   <button>Leer Noticia</button>
                </a>
             </div>

@@ -172,7 +172,6 @@ function get_video_filter_data($paged = 1, $posts_per_page = 12)
       'Fessmann',
       'Günther',
       'Handtmann',
-      'Insort',
       'Irinox',
       'Itec',
       'Laska',

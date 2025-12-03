@@ -51,7 +51,7 @@ if (have_posts()) {
 
 
 
-                  <div class="wrapper-circle-txt">
+                  <!-- <div class="wrapper-circle-txt">
                      <div class="content-circle">
                         <a id="tv-category-image" href="<?php bloginfo('url'); ?>/sistemas-de-inspeccion/?_filter_inspeccion=imagen-quimica">
                            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/04/imagen-quimica_.jpg" alt="" />
@@ -63,7 +63,7 @@ if (have_posts()) {
 
                      </div>
                      <h2 id="filter_click">Imagen Química</h2>
-                  </div>
+                  </div> -->
 
 
 

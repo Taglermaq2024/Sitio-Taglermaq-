@@ -41,7 +41,7 @@
 
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/form-sat.css?0.0.36">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/proveedores.css?0.0.24">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/noticias.css?0.0.170">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/noticias.css?0.0.171">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/food-service.css?0.0.181">
 
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/links-chatbox.css?0.0.49">

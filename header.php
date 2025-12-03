@@ -55,7 +55,7 @@
    <!-- header -->
    <div class="header__content">
       <a href="<?php bloginfo('url'); ?>">
-         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/taglermaq.svg" class="img-vector-logotipo" alt="">
+         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/12/tgm-navidad.png" class="img-vector-logotipo" alt="">
       </a>
       <div class="sub-menu-principal">
          <a href="<?php bloginfo('url'); ?>">
@@ -698,10 +698,10 @@
                            Rayos X
                         </li>
                      </a>
-                     <a class="link-categoria" href="<?php bloginfo('url'); ?>/sistemas-de-inspeccion/?_filter_inspeccion=imagen-quimica">
+                     <!-- <a class="link-categoria" href="<?php bloginfo('url'); ?>/sistemas-de-inspeccion/?_filter_inspeccion=imagen-quimica">
                         <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/imagen-quimica.svg">
                            Imagen Química</li>
-                     </a>
+                     </a> -->
                      <a class="link-categoria" href="<?php bloginfo('url'); ?>/sistemas-de-inspeccion/?_filter_inspeccion=detector-de-metales">
                         <li class="paint-li"><img class="icons-industria" src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/detector-metal1.svg">
                            Detector de Metales</li>

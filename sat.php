@@ -56,15 +56,15 @@
       <!-- Noticia Destacada -->
       <article class="wrapper-post-destacada-sat">
          <section class="content-img-destacada">
-            <img class="imagen-destacada" src="<?php bloginfo('url') ?>/wp-content/uploads/2025/10/detacada-sat2.jpg" alt="">
+            <img class="imagen-destacada" src="<?php bloginfo('url') ?>/wp-content/uploads/2025/12/destacada-lift1.jpg" alt="">
          </section>
          <section class="wrapper-txt-destacada">
             <div class="content-txt-destacada">
-               <p class="fecha-destacada">30 de octubre de 2025</p>
+               <p class="fecha-destacada">01 de diciembre de 2025</p>
                <hr class="line-destacada">
-               <h2 class="txt-title-destacada">Impulsando la excelencia técnica en la industria nacional</h2>
+               <h2 class="txt-title-destacada">Potenciamos nuestras competencias técnicas en intralogística automatizada</h2>
                <!-- <p>En Taglermaq, entendemos que la excelencia en el servicio comienza con un equipo altamente preparado.</p> -->
-               <a href="<?php bloginfo('url') ?>/contenido_noticias/jbt-marel-capacita-al-equipo-taglermaq-en-sistemas-de-etiquetado-automatizado/">
+               <a href="<?php bloginfo('url') ?>/modula-fortalece-al-sat-de-taglermaq/">
                   <button>Leer Más</button>
                </a>
                <div class="extracto-destacado">
@@ -77,6 +77,20 @@
 
       <!-- Grid Galeria -->
       <div class="grid-container-notice-sat">
+
+
+         <a href="<?php bloginfo('url') ?>/jbt-marel-capacita-al-equipo-taglermaq-en-sistemas-de-etiquetado-automatizado/">
+            <div class="grid-item-notice">
+               <img src="<?php bloginfo('url') ?>/wp-content/uploads/2025/10/detacada-sat2.jpg" alt="">
+               <div class="wrapper-txt-notice">
+                  <div class="content-txt-notice">
+                     <p class="fecha-publicada">30 de octubre de 2025</p>
+                     <hr class="line-separator">
+                     <h2 class="title-notice">Impulsando la excelencia técnica en la industria nacional</h2>
+                  </div>
+               </div>
+            </div>
+         </a>
 
 
          <a href="<?php bloginfo('url') ?>/contenido_noticias/fortaleciendo-nuestras-competencias-junto-a-ulma-packaging/">

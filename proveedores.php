@@ -116,12 +116,6 @@
             </a>
          </div>
 
-         <div class="grid-item">
-            <a href="<?php bloginfo('url'); ?>/?s=insort">
-               <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/insort.png" alt="">
-            </a>
-         </div>
-
          <!-- <div class="grid-item">
 				<a href="<?php bloginfo('url'); ?>/?s=intray">
 					<img src="<?php bloginfo('url'); ?>/wp-content/uploads/2024/07/intray1.png" alt="">
