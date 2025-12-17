@@ -6,167 +6,38 @@
 <?php @include("contactos.php"); ?>
 
 
-<div class="wrapper-mi-swiper">
-
-   <div class="swiper-carrusel-principal">
-      <div class="swiper-wrapper">
 
 
-         <!-- PORCIONADORA BF-804S -->
-         <div class="swiper-slide" style="overflow: hidden">
-            <div class="group-porcionadora-bf804s">
-               <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/11/banner-porcionadora1.jpg" alt="fondo">
-            </div>
-            <div class="content-img-porcionadora-bf804s">
-               <a class="center-image no-preload" href="<?php bloginfo('url'); ?>/embutidora-al-vacio-vf-804s/">
-                  <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/11/porcionadora-bf804s-1.png" alt="">
-               </a>
-            </div>
+<div class="overlay-navidad">
+
+   <canvas id="snow" style="position:absolute;top:0;left:0"></canvas>
+
+   <div class="group">
+      <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/12/tgm-navidad-1.png" alt="">
+
+
+
+
+      <a class="venobox vbox-item no-preload"
+         href="https://vimeo.com/1143160009?volume=1"
+         data-vbtype="video">
+
+         <div class="group-btn">
+            <button>VER VIDEO NAVIDEÑO</button>
+            <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/12/santa-hat.png" alt="">
          </div>
+      </a>
 
 
-         <!-- Banner HAWK -->
-         <div class="swiper-slide" style="overflow: hidden">
-            <div class="group-hawk">
-               <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/fondo-hawk.jpg" alt="fondo">
-            </div>
-            <div class="content-img-hawk">
-               <a href="<?php bloginfo('url'); ?>/porcionadora-transformativa-hawk/">
-                  <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/10/txt-hawk6.png" alt="">
-               </a>
-            </div>
-         </div>
 
 
-         <!-- Banner XR76 -->
-         <div class="swiper-slide" style="overflow: hidden">
-            <div class="group-fondo">
-               <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/fondo-rayos-xr76.jpg" alt="fondo">
-            </div>
-
-            <div class="group-xr76">
-               <div class="content-txt-izq">
-                  <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/img-xr76.png" alt="">
-               </div>
-
-               <div class="content-img-der">
-                  <a href="https://taglermaq.cl/rayos-x-serie-xr76/">
-                     <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/09/txt-xr76.png" alt="">
-                  </a>
-               </div>
-            </div>
-         </div>
-
-
-         <!-- Comics Maquito -->
-         <!-- <div class="swiper-slide">
-            <div class="wrapper-new-maq">
-               <img src="<?php bloginfo('url') ?>/wp-content/uploads/2025/10/new-banner-maq4.webp" alt="maq">
-            </div>
-
-            <div class="group-img-btn">
-               <div class="txt-btn-new-maq">
-                  <img class="img-txt" src="<?php bloginfo('url') ?>/wp-content/uploads/2025/10/txt-maq.png" alt="maq">
-
-                  <a href="https://taglermaq.cl/comics-maquito/">
-                     <img class="img-btn" src="<?php bloginfo('url') ?>/wp-content/uploads/2025/10/btn-conoceme.png" alt="maq">
-                  </a>
-               </div>
-            </div>
-         </div> -->
-
-
-         <!-- Hypernova -->
-         <div class="swiper-slide">
-            <div class="fondo-hypernova">
-               <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/08/fondo-hypernova.jpg" alt="banner">
-            </div>
-
-            <a href="https://taglermaq.cl/sistema-de-inspeccion-quimica-sherlock-hypernova/">
-               <div class="txt-hypernova">
-                  <img class="" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/08/txt-hypernova.png" alt="Texto">
-               </div>
-            </a>
-         </div>
-
-
-         <!-- Modula Flexibox -->
-         <div class="swiper-slide">
-            <div class="wrapper-banner-flexibox">
-               <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/banner-flexibox.jpg" alt="">
-
-               <a class="no-preload" href="https://taglermaq.cl/logisticmaq/modula/modula-flexibox/" target="_blank">
-                  <button>CONOCER MÁS</button>
-               </a>
-            </div>
-
-            <div class="wrapper-flexibox">
-               <img class="block-doble" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/block-doble.png" alt="">
-
-               <div class="content-flexibox">
-                  <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/modula-flexibox1.png" alt="">
-               </div>
-            </div>
-         </div>
-
-
-         <!-- Banner VC999 -->
-         <!-- <div class="swiper-slide" style="overflow: hidden">
-            <div class="wraper-banner-vc999">
-               <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/06/fondo-banner-vc999-3.jpg" alt="Banner VC999">
-            </div>
-
-            <div class="wrapper-izq-der">
-               <div class="content-txt-izq">
-                  <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/titulo-vc999-1.png" alt="">
-                  <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/06/sutitle-vc999.png" alt="">
-               </div>
-
-               <div class="content-img-der">
-                  <a href="https://taglermaq.cl/envasadora-al-vacio-de-doble-campana-k12-s/">
-                     <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/06/maquina-vc999.png" alt="">
-                  </a>
-               </div>
-            </div>
-         </div> -->
-
-         <!-- Taglermaq Experience -->
-         <!-- <div class="swiper-slide">
-            <section class="wrapper-tgm-experience">
-               <img class="img-banner-top" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/banner-experience.png" />
-               <img class="img-fondo" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/fondo-experience.jpg" />
-               <img class="wave" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/wave-experience.png" />
-               <div class="wrapper-experience">
-                  <div class="box-experience">
-                     <img class="txt-experience" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/logo-experience.svg" />
-                     <h1>TECNOLOGÍAS PARA LA INDUSTRIA CÁRNICA Y EMBUTIDOS</h1>
-                     <h2>07. - 08.08.2025 • SANTIAGO</h2>
-
-                     <div class="content-btn-experience">
-                        <a href="https://taglermaq.cl/tgm-experience/">
-                           <button class="btn-experience">IR AL SITIO WEB EXCLUSIVO</button>
-                        </a>
-                     </div>
-
-                     <img class="machines" src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/07/machines-experience.png" />
-                  </div>
-               </div>
-            </section>
-         </div> -->
-
-      </div>
-
-
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next" style="z-index: 3;"></div>
-
-      <!-- <div class="swiper-scrollbar"></div> -->
    </div>
 
-
-
+   <video class="video-navidad" muted="" loop="loop" autoplay="autoplay" controlslist="nodownload" playsinline="playsinline">
+      <source src="<?php bloginfo('template_url'); ?>/mp4/navidad2025-1.mp4" type="video/mp4">
+   </video>
 </div>
+
 
 
 
@@ -462,6 +333,23 @@
 
    <div class="wrapper-box-2024-feb">
 
+
+      <div class="content-box-2024-feb">
+         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/12/destacasa-inocuidad.jpg" alt="Imagen Destacada">
+         <div class="block-color-2024" style="background-color: #bd275c">
+            <div class="content-txt-notice-2024">
+               <h2>09 DICIEMBRE</h2>
+               <h3>PESCHL</h3>
+               <p>La clave tecnológica para proteger la fruta chilena en mercados exigentes</p>
+               <hr>
+               <a href="<?php bloginfo('url') ?>/inocuidad-preventiva-la-clave-tecnologica-para-proteger-la-fruta-chilena/">
+                  <button>Leer Noticia</button>
+               </a>
+            </div>
+         </div>
+      </div>
+
+
       <div class="content-box-2024-feb">
          <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/11/destacada-vts-100-8.jpg" alt="Imagen Destacada" />
          <div class="block-color-2024" style="background-color: #0393e5">
@@ -487,22 +375,6 @@
                <p>Escalabilidad inteligente: tecnología que crece al ritmo de tu producción</p>
                <hr>
                <a href="<?php bloginfo('url') ?>/escalabilidad-inteligente-tecnologia-que-crece-al-ritmo-de-tu-produccion/">
-                  <button>Leer Noticia</button>
-               </a>
-            </div>
-         </div>
-      </div>
-
-
-      <div class="content-box-2024-feb">
-         <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2025/11/destacada-hawk6.jpg" alt="Imagen Destacada">
-         <div class="block-color-2024" style="background-color: #002874">
-            <div class="content-txt-notice-2024">
-               <h2>13 OCTUBRE</h2>
-               <h3>HAWK</h3>
-               <p>Versatilidad y eficiencia para la producción industrial</p>
-               <hr>
-               <a href="<?php bloginfo('url') ?>/porcionadora-hawk-versatilidad-y-eficiencia-para-la-produccion-industrial/">
                   <button>Leer Noticia</button>
                </a>
             </div>

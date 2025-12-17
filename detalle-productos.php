@@ -158,7 +158,7 @@
    <div class="modal-content">
       <div class="wrapper-contact-form">
          <div class="box-img-form">
-            <img src="https://taglertesting.cl/taglermaq2024/wp-content/uploads/2024/05/sat.jpg" alt="">
+            <img src="https://taglermaq.cl/taglermaq2024/wp-content/uploads/2024/05/sat.jpg" alt="">
          </div>
          <div class="box-txt-form">
 
@@ -258,7 +258,14 @@
                <input type="hidden" name="url_referencia" id="url_referencia" value="">
 
 
-               <h5 style="margin: 1em 0;line-height: 1.3">No utilizar este canal para la promoción de servicios, productos o postulaciones laborales. Para estos fines, por favor escríbanos a taglermaq@taglermaq.cl</h5>
+               <h5 style=" margin: 1em 0;
+                           line-height: 1.3;
+                           background-color: #ffffe1;
+                           border: 1px solid #ecec00;
+                           color: #989800;
+                           padding: .5em;
+                           border-radius: 5px;
+                           font-weight: 500;">No utilizar este canal para la promoción de servicios, productos o postulaciones laborales. Para estos fines, por favor escríbanos a taglermaq@taglermaq.cl</h5>
 
                <!-- Llave HTML reCaptcha Google -->
                <div class="g-recaptcha" data-sitekey="6Ld5u3wqAAAAAHZ-I7ouhIXn7vMMzisfuUBBUaR-"></div>

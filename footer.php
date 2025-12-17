@@ -376,11 +376,77 @@
 
 
 
+<!-- Animación nieve navidad -->
+<script>
+   var canvas = document.getElementById("snow"),
+      ctx = canvas.getContext("2d"),
+      snowflakes = [],
+      SnowFlake = function X() {
+         this.x = 0;
+         this.y = 0;
+         this.vy = 0;
+         this.vx = 0;
+         this.r = 0;
+
+         this.reset();
+      };
+
+   canvas.style.pointerEvents = "none";
+
+   SnowFlake.prototype.reset = function() {
+      this.x = Math.random() * canvas.width;
+      this.y = Math.random() * canvas.height;
+      this.vy = 1 + Math.random() * 3;
+      this.vx = 0.5 - Math.random();
+      this.r = 1 + Math.random() * 2;
+      this.o = 0.5 + Math.random() * 0.5;
+   }
+
+   window.onresize = function() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      while (snowflakes.length < canvas.width / 4) {
+         snowflakes.push(new SnowFlake());
+      }
+   }
+
+   window.onresize();
+
+   window.requestAnimationFrame(function loop() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Cambia el color de relleno a blanco
+      ctx.fillStyle = 'white';
+
+      for (var i = 0; i < snowflakes.length; i++) {
+         var sf = snowflakes[i];
+         ctx.globalAlpha = sf.o;
+         ctx.beginPath();
+         ctx.arc(sf.x, sf.y, sf.r, 0, Math.PI * 2);
+         ctx.closePath();
+         ctx.fill();
+
+         sf.x += sf.vx;
+         sf.y += sf.vy;
+
+         if (sf.x > canvas.width || sf.x < 0 || sf.y > canvas.height) {
+            sf.reset();
+         }
+      }
+
+      window.requestAnimationFrame(loop);
+   });
+</script>
+
+
+
+
+
+
+
 
 
 <?php wp_footer(); ?>
-
-
-
 
 <?php require "script.php"; ?>
